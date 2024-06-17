@@ -1,0 +1,92 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:3767:0:0:0:0:0 with SMTP id a36csp11284771uae; Thu, 31
+ Dec 2020 00:59:53 -0800 (PST)
+X-Received: by 2002:a05:620a:22ad:: with SMTP id
+ p13mr57072366qkh.425.1609405193623; Thu, 31 Dec 2020 00:59:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1609405193; cv=none; d=google.com;
+ s=arc-20160816;
+ b=zvjxP3ogj23zz/EhTSvrGj6akNJ8awJ9xe1Yp6BQ3dPH83IyZH8qJewIhtqQ+Q9gW5
+ fTorX+681LO/+VLvkSG6/NmoEdgw6xDaFKv4I9pp59YGMS0pXktd2kYktpSwNjzSHmki
+ kLQki/dzdQze8Dg2G/qJsFr/EuUQKR3Yz3dH21ViZos7EBHyNq9LdVjCJlgDUKqM7x/h
+ owl7kEIQlSJEFnb1tnAJdxjC4oaSGG7FTKcuguS0bE7GeZKl1QzFA/uPcFCXJkesvLcH
+ yJZg8xLW8tzUzNep9ei7zWNgGtOZnSNXhvVim2cZAJvSvCwJ115oERSbbmclqcP1/tiI ATRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816; h=to:from:subject:message-id:feedback-id:date:mime-version
+ :dkim-signature; bh=CNPXDeRucNHw3LHy4wvwP52Kczr5JAFdwZh/Ubc7av0=;
+ b=rqEAqGcJlG7pfcWv2LBiN0lLvyaZRNK98TQAKAd24Qvt6KDnZ05eeoyEXH/urDfFWb
+ h8J/Ti523gYsgHv0Q/tIY0CEiA6H5MuOXhSmdR5IjILWmsNqBc517W9ig6I+q/JYoFGM
+ YjQlClzSug4J+1KvQpvdSpmC0pW21xjqOiNbmMSkHzZOjzoOvA1leIakQu4NSzKwaFR6
+ PXpwcFnK0tNnEAG3PdRLkava/N4RXPnQYM0TaulA5hmBZGUuahUYRwd2zB5W/jY1GbxX
+ guRg4AQKxcZBBRMeSSeXCLCvW4kjpxWc+IhVn7MQ4tESg4nKbatHFbkbXnAAvdlXuV+2 tkeQ==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@accounts.google.com header.s=20161025 header.b=Mn9ckq2z; spf=pass
+ (google.com: domain of
+ 3czptxwgtc-oza-dqbxkmooagzfe.saasxq.oayfadzmpanqftsymux.oay@gaia.bounces.google.com
+ designates 209.85.220.73 as permitted sender)
+ smtp.mailfrom=3CZPtXwgTC-oZa-dQbXkMOOagZfe.SaaSXQ.OaYfadZMPaNQfTSYMUX.OaY@gaia.bounces.google.com;
+ dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+Return-Path: <3CZPtXwgTC-oZa-dQbXkMOOagZfe.SaaSXQ.OaYfadZMPaNQfTSYMUX.OaY@gaia.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com.
+ [209.85.220.73]) by mx.google.com with SMTPS id
+ j20sor37260793qtp.61.2020.12.31.00.59.53 for <tornadobeth@gmail.com> (Google
+ Transport Security); Thu, 31 Dec 2020 00:59:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ 3czptxwgtc-oza-dqbxkmooagzfe.saasxq.oayfadzmpanqftsymux.oay@gaia.bounces.google.com
+ designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com; dkim=pass header.i=@accounts.google.com
+ header.s=20161025 header.b=Mn9ckq2z; spf=pass (google.com: domain of
+ 3czptxwgtc-oza-dqbxkmooagzfe.saasxq.oayfadzmpanqftsymux.oay@gaia.bounces.google.com
+ designates 209.85.220.73 as permitted sender)
+ smtp.mailfrom=3CZPtXwgTC-oZa-dQbXkMOOagZfe.SaaSXQ.OaYfadZMPaNQfTSYMUX.OaY@gaia.bounces.google.com;
+ dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=accounts.google.com;
+ s=20161025; h=mime-version:date:feedback-id:message-id:subject:from:to;
+ bh=CNPXDeRucNHw3LHy4wvwP52Kczr5JAFdwZh/Ubc7av0=;
+ b=Mn9ckq2zoKrTAUdYy3fTftiw7xU6PnCJq81oJGKtjhdLiaFLhiuTUngF70QIovQalj
+ EzCjuLAsAfJEgINLphD2329bhK/naQTrIP132d4OMINjO2JgkMRpVJgOgdZPVP2o9a/y
+ kvmhEx5+f4fjRydwpS/cDNObF2VWGOT87K7JWYMeIq8xdr+IIRn7zsvSc5U/tH1fvK64
+ enTRZpRR1+56nenjzevLXVrUkvguBVfCwT+sBIgdRl9IpnMHtv6Bj0PD2weN6UR2+dfs
+ 53RqKyqIESWzy9hoSJaS5lmqtHGftOF2jFmzJiiqozQ3M2/NCpkb9Bg9toXy4av/P9MM k3uw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+ s=20161025;
+ h=x-gm-message-state:mime-version:date:feedback-id:message-id:subject
+ :from:to; bh=CNPXDeRucNHw3LHy4wvwP52Kczr5JAFdwZh/Ubc7av0=;
+ b=MZODKYXNPDhQt2Ib9/lk4lD+MdRkplWqxg9FZtsvFy5O7X0qRGptui2tkmorlf+mno
+ KQ+wKOLmabJ7VAGxdOTzjV39Jum7ELz67zZkTJjZWqtTIsIovEW6B4ABLYXhAy26bo9W
+ QOuihvtG98GCeajP5kdfe86E09wForW43x71UINP14ILUtc8UEqLyVa/xSir3kBYymXX
+ 3Hw2YYulbZvpwo/xmiFh/v2kVMg4ctozAahuDsejGE49lgn5O/92g9UF+evb9wSZGrlb
+ xxRcC/sys14QrM6UI9tP+f4/pZ6KcQR/hZZ7ZFRiUSFJJ1yGSiiUYG/lJvlK3OXV7x16 Co0w==
+X-Gm-Message-State: AOAM530tTaIocM6EL+tqCpIieyDxMrrzEwBzxRVkPtNSZlxy7FZet2Sp
+ pyfwi4RBFb7UcUfQr3+3DXDc2xW7LLn8CykEElO8yQ==
+X-Google-Smtp-Source: ABdhPJwsUqikN9trFrLSJjKfHeONQ2lm1nbc9Yn9hDm/9G9cXaESoHulbrw1306JQ1vhecrtIJFTQSgaUcTeAr2d75hsDg==
+MIME-Version: 1.0
+X-Received: by 2002:ac8:5c95:: with SMTP id
+ r21mr56423750qta.152.1609405193229; Thu, 31 Dec 2020 00:59:53 -0800 (PST)
+Date: Thu, 31 Dec 2020 01:43:13 GMT
+X-Account-Notification-Type: 188-anexp#saphpraf-f1--sapef-a1--saprfsm-const
+Feedback-ID: 188-anexp#saphpraf-f1--sapef-a1--saprfsm-const:account-notifier
+X-Notifications: 4ee3aec29ac00000
+Message-ID: <2oKlKBKQhc5dfARm96qu3Q@notifications.google.com>
+Subject: Help strengthen the security of your Google Account
+From: Google <no-reply@accounts.google.com>
+To: tornadobeth@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000d7958405b7bed8d7"
+
+
+--000000000000d7958405b7bed8d7
+Content-Type: text/plain;
+	charset=UTF-8;
+	delsp=yes;
+	format=flowed
+Content-Transfer-Encoding: base64
+X-Apple-Content-Length: 1624
+
+
+--000000000000d7958405b7bed8d7
+Content-Type: text/html;
+	charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 6444
+
+
+--000000000000d7958405b7bed8d7--

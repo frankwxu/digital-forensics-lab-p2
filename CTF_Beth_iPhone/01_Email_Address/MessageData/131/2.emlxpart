@@ -1,0 +1,1064 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>
+Apple Card
+</title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+<meta http-equiv=3D"content-type" content=3D"text/html;charset=3Dutf-8" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<style type=3D"text/css">
+html,body{height:100%; width:100%}
+body { background-color:#f2f2f2;}
+strong {font-weight:600}
+a,a.appl-link,a.appl-link:link {text-decoration:none;}
+a.appl-link:hover,a:hover {text-decoration:underline!important;}
+a.appl_button, a.appl_button{text-decoration:none!important}
+a.appl_button:hover{text-decoration:none!important}
+.appl_lowbrow a,#appl-footer a,a {color:inherit;}
+span{font-family:inherit!important; font-size:inherit!important;line-height=
+:inherit!important}
+@media only screen and (max-device-width: 768px) {
+.appl_lowbrow,#appl-footer {-webkit-text-size-adjust:100%;}
+.appl_lowbrow a,#appl-footer a, a { color:inherit; }
+}
+* { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-rendering: optimizeleg=
+ibility; -webkit-font-smoothing: antialiased; }
+@media only screen and (min-device-width: 768px) {
+/* thai copy bug fix*/
+td.appl_app_title *{max-width:204px!important}
+}
+</style>
+<style type=3D"text/css">
+/* Mobile Styles */
+@media only screen and (max-width: 480px), only screen and (max-device-widt=
+h: 480px) {
+.appl_desktop{display:none!important;}
+* div.appl_mobile{
+height:auto!important; display:block!important;
+max-height:none!important; line-height:100%!important;=20
+overflow:visible!important; width:auto!important;
+max-width:none!important;
+background-color:#fff!important;=20
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hel=
+vetica Neue', Helvetica, Arial, sans-serif!important;=20
+max-width:414px!important;=20
+margin:0 auto;=20
+}
+div.appl_mobile *{
+box-sizing:border-box;=20
+text-align:center;
+-webkit-text-size-adjust:100%;=20
+}
+div.appl_mobile .appl_div{
+width:100%;=20
+margin:0 auto;
+padding:0 20px;
+text-rendering:optimizelegibility;
+}
+div.appl_mobile .appl_left, div.appl_mobile .appl_left * {text-align:left!i=
+mportant}
+div.appl_mobile br.appl_desktop {display:none}
+div.appl_mobile .appl_100 {padding:0;}
+div.appl_mobile .appl_pad{ width:100%; padding:0 20px; }
+div.appl_mobile img {margin:0!important;max-width:100%!important}
+div.appl_mobile .appl_apps img{ margin:0 auto!important; }
+div.appl_mobile h1, div.appl_mobile h2, div.appl_mobile h3, div.appl_mobile=
+ p{margin: 10px 0;}
+div.appl_mobile h1, div.appl_mobile h2 { font-weight:600; color:#111;}
+div.appl_mobile p, div.appl_mobile a, div.appl_mobile h3 { font-weight:400;=
+ color:#333}
+div.appl_mobile h3 > a:first-child {font-weight:600;}
+/* banner-less logo*/
+div.appl_mobile img.aapl_top_logo {width:auto!important;height:28px!importa=
+nt}
+div.appl_mobile img.appl_top_logo {width:auto!important;height:28px!importa=
+nt}
+div.appl_mobile div.aapl_top_logo {padding-top:20px;padding-bottom:10px}
+div.appl_mobile div.aapl_top_logo p {color:#111111!important;font-size:17px=
+;line-height:25px;letter-spacing:-0.022em; text-align:left;padding-top:0px;=
+margin-bottom:3px}
+div.appl_mobile div.aapl_top_logo {padding-top:20px;padding-bottom:15px}
+div.appl_mobile .aapl_logo_center {padding-top:35px;padding-bottom:10px;}
+div.appl_mobile .aapl_logo_center img {margin:0 auto!important}
+/*larger banner-less headline*/
+div.appl_mobile .appl_headline_large h1 {font-size:32px!important; line-hei=
+ght:36px!important; letter-spacing: -.018em; }
+div.appl_mobile .appl_headline_large p.appl_headline_txt {margin-bottom:5px=
+}
+div.appl_mobile .appl_headline_large p.appl_headline_txt, div.appl_mobile .=
+appl_headline_large p.appl_headline_link a { font-size:18px!important; line=
+-height:26px!important; letter-spacing: .016em!important;}
+div.appl_mobile .appl_headline_large p.appl_headline_link a img {width:12px=
+!important}
+/* Top Feature module */
+div.appl_mobile h1 { font-size:32px; line-height:36px; letter-spacing: 0.00=
+4em; margin:5px 0 10px;}
+div.appl_mobile .appl_hero h1 {=20
+font-size:27px; line-height:31px; letter-spacing: 0.008em; margin:15px 0 10=
+px;
+font-size:32px; line-height:36px; letter-spacing: 0.004em;
+}
+div.appl_mobile h1:only-child { margin:5px 0 10px;}
+div.appl_mobile h1 *{ font-weight:inherit; font-size:inherit; line-height:i=
+nherit;}
+div.appl_mobile .appl_headline{ padding-top:25px; padding-bottom:22px; }
+div.appl_mobile .aapl_logo + .appl_headline{ padding-top:5px; }
+div.appl_mobile p.appl_sub_headline span {display:block; font-size:1.2em!im=
+portant;line-height:1.2em!important;font-weight:600;margin-bottom:5px;}
+div.appl_mobile p.appl_sub_headline {padding-top:20px;padding-bottom:10px}
+div.appl_mobile p.appl_headline_txt{font-size:18px;line-height:26px; letter=
+-spacing: 0.012em;margin:10px 0;}
+div.appl_mobile p.appl_headline_txt:nth-child(2){}
+div.appl_mobile p.appl_headline_link a { font-size:18px;line-height:26px;pa=
+dding-top:5px; padding-bottom:0px;letter-spacing: 0.012em; display:block;}
+div.appl_mobile p.appl_headline_link a + a {padding-top:3px;}
+div.appl_mobile p.appl_headline_link a img{ width:11px}
+div.appl_mobile p.appl_headline_link a.appl_larger_cta { font-size:18px;}
+/* Blurb module */
+div.appl_mobile .appl_cat_header{ padding-top:5px;padding-bottom:25px;}
+div.appl_mobile .appl_cat_header_img{ padding-bottom:0px;}
+div.appl_mobile .appl_cat_header h2{ font-size:27px; line-height:31px;lette=
+r-spacing:0.008em;margin:0px 0px 10px 0px;}
+div.appl_mobile .appl_cat_header h2 *{ font-size:inherit; font-weight:inher=
+it; line-height:inherit;}
+div.appl_mobile .appl_cat_header p.appl_sub_headline span {display:block; f=
+ont-size:1.2em!important;line-height:1.2em!important;font-weight:600;margin=
+-bottom:5px;}
+div.appl_mobile .appl_cat_header p{font-size:17px;line-height:25px; letter-=
+spacing:-0.022em;}
+div.appl_mobile .appl_cat_header h2+p{margin-top:0px!important;}
+div.appl_mobile .appl_cat_header p.appl_headline_link > a { font-size:17px!=
+important; line-height:25px; letter-spacing:-0.022em;display:block; padding=
+-bottom:0px }
+div.appl_mobile .appl_cat_header p.appl_headline_link > a:first-child{paddi=
+ng-top:0px;}=20
+div.appl_mobile .appl_cat_header p.appl_headline_link a + a{padding-top:2px=
+;}=20
+div.appl_mobile .appl_cat_header p.appl_headline_link a img{ width:11px!imp=
+ortant}
+div.appl_mobile .appl_cat_header p.hero_legal { font-size:12px!important; c=
+olor:#888888; line-height:17px; letter-spacing:-0.022em;display:block; padd=
+ing-bottom:0px }
+/*lockers*/
+div.appl_mobile .appl_apps{padding-bottom:0px;}
+div.appl_mobile .appl_apps > h3{max-width:280px;margin-left:auto!important;=
+margin-right:auto!important}
+div.appl_mobile .appl_apps > p,
+div.appl_mobile .appl_apps > p + p{max-width:260px;margin-left:auto!importa=
+nt;margin-right:auto!important}
+div.appl_mobile h3, div.appl_mobile h3 a { font-size:19px; line-height:23px=
+; margin:0 0 6px 0!important}
+div.appl_mobile h3 a ~ a{ font-size:14px!important; line-height:18px!import=
+ant; margin:0 0 6px 0;}
+div.appl_mobile .appl_apps p {font-size:14px; color:#777777!important;line-=
+height:18px; margin:0 15px 5px 15px;}
+div.appl_mobile .appl_apps p + p {margin:15px 0 5px 0;}
+div.appl_mobile .appl_apps > div {padding-bottom:35px;}
+div.appl_mobile .appl_apps img { width:130px!important; height:auto; margin=
+:10px auto 17px!important;}
+div.appl_mobile .appl_cat_header + .appl_apps > div:first-child > div > a:f=
+irst-child img,
+div.appl_mobile .appl_apps + .appl_apps > div:first-child > div > a:first-c=
+hild img=20
+{/*margin-top:0!important*/}
+div.appl_mobile .appl_cat_header + .appl_apps > div:first-child > div > a:f=
+irst-child img
+{margin-top:0!important}
+div.appl_mobile div.app_mob_hairline + .appl_apps { margin-top: 40px}
+div.appl_mobile .appl_apps p img {width:9px!important;margin:0!important}
+div.appl_mobile .left *{margin-left:0!important;margin-right:0!important;te=
+xt-align:left;}
+div.appl_mobile .left p{margin-left:0!important;margin-right:0!important;}
+div.appl_mobile .left img {margin-left:0!important;margin-right:0!important=
+}
+div.appl_mobile .appl_apps.left div > a > img{margin-left:0!important;margi=
+n-right:0!important}
+div.appl_mobile span.appl_button a{
+white-space: nowrap;
+background-color:#000000;
+padding:0 15px!important; font-size:16px;
+font-weight:400; line-height:34px;color:#ffffff; text-decoration:none; disp=
+lay:inline-block;width:auto;=20
+border-radius:18px; border:1px solid #ffffff; box-sizing: border-box; min-w=
+idth:120px;text-align:center!important
+}
+div.appl_mobile span.appl_button a:hover {text-decoration:none}
+div.appl_mobile span.appl_button{ display:block; margin:20px auto 15px; }
+div.appl_mobile span.pink.appl_button a{background: none;background-color:#=
+FF2D55;border:0 }
+div.appl_mobile .appl_button ~ .appl_button {margin-top:15px!important;}
+div.appl_mobile span.appl_button + br {display:block!important;}
+div.appl_mobile .appl_headline span.appl_button a{font-size:17px;}
+/*app store only*/
+div.appl_mobile .appl_headline.appl_hero {padding-top:20px!important;paddin=
+g-bottom:35px!important;}
+div.appl_mobile .aapl_hero_img.appl_hero img {border-radius:5px;}
+div.appl_mobile .appl_hero h1, div.appl_mobile .appl_hero h2, div.appl_mobi=
+le .appl_story h3 a {font-weight:600!important; color:#111111!important}
+div.appl_mobile .appl_hero p.appl_badge {font-weight:400!important; color:#=
+333333!important;}
+div.appl_mobile .appl_headline.appl_hero p.appl_badge { font-size:19px!impo=
+rtant;line-height:23px!important;letter-spacing:.012em;margin-top:0px;margi=
+n-bottom:5px}
+div.appl_mobile .appl_headline.appl_hero h1 {margin-top:0px!important}
+div.appl_mobile .appl_headline.appl_hero h1 {font-size:30px!important;line-=
+height:34px;margin-bottom:0px;}
+div.appl_mobile .appl_hero .appl_headline_link{margin:0px!important;}
+div.appl_mobile .appl_hero .appl_headline_link p > a:first-of-type{padding:=
+0px!important;}
+div.appl_mobile .appl_headline.appl_hero {margin-top:5px!important}
+div.appl_mobile .appl_cat_header .appl_badge { font-size:19px!important;lin=
+e-height:23px!important;letter-spacing:0.012em;margin-top:0px;margin-bottom=
+:5px}
+div.appl_mobile .appl_story * {text-align:center}
+div.appl_mobile .appl_story p {font-size:17px; color:#333333!important;line=
+-height:25px; margin:7px 0 5px 0px;}
+div.appl_mobile .appl_story p + p {margin:15px 0 15px 0!important;}
+div.appl_mobile .appl_story p a img {width:11px!important}
+div.appl_mobile .app_mob_hairline + div.appl_cat_header {padding-top:35px!i=
+mportant;}
+div.appl_mobile .appl_story > div {padding-bottom:8px;}
+div.appl_mobile .appl_story > div:last-child {padding-bottom:25px;}
+div.appl_mobile .appl_story > a >img { width:100%!important; border:0!impor=
+tant;border-radius:5px!important;height:auto; margin:10px auto 25px!importa=
+nt;}
+div.appl_mobile .appl_story p.appl_badge {font-weight:400!important; color:=
+#333333!important;font-size:19px!important; line-height:24px!important;marg=
+in-bottom:3px!important;}
+div.appl_mobile .appl_story {}
+div.appl_mobile .appl_story h3 {margin-top:6px!important;margin-bottom:15px=
+!important;}
+div.appl_mobile .appl_story h3 a {font-size:27px!important;line-height:31px=
+!important; letter-spacing: .008em;}
+div.appl_mobile .appl_story + .appl_story > div:first-child > div > a:first=
+-child img,
+div.appl_mobile .appl_story + .appl_story > div:first-child > div > a:first=
+-child img=20
+{margin-top:0!important}
+div.appl_mobile div.app_mob_hairline + .appl_story { margin-top: 40px}
+div.appl_mobile .appl_story p img {width:9px!important;margin:0!important}
+div.appl_mobile .appl_story h3, div.appl_mobile .appl_hero h3 a { font-weig=
+ht:600;font-size:22px; line-height:26px; margin:0 0 6px 0!important}
+div.appl_mobile .appl_story .appl_apps p {font-size:17px!important; color:#=
+333333!important;line-height:25px; margin:0 15px 5px 15px;}
+div.appl_mobile .appl_story .appl_apps p + p {margin:15px 0 15px 0!importan=
+t;}
+div.appl_mobile .appl_cat_headline + .appl_story > div:first-child > div.ap=
+pl_story > a:first-child img {margin-top:0px!important}
+div.appl_mobile .appl_hero .appl_apps p img {width:11px!important;margin:0!=
+important}
+div.appl_mobile .appl_hero {}
+}=20
+/*** new categories mobile ***/
+div.appl_mobile .appl_apps div.appl_albums > a > img,
+div.appl_mobile .appl_apps div.appl_artists > a > img,
+div.appl_mobile .appl_apps div.appl_author > a > img,
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img,
+div.appl_mobile .appl_apps div.appl_playlists > a >img,
+div.appl_mobile .appl_apps div.appl_providers > a > img
+div.appl_mobile .appl_apps div.appl_tracks > a > img,
+div.appl_mobile .appl_apps div.appl_courses > a > img
+{ height:auto; margin:10px auto 17px!important; border:1px solid #eeeeee!im=
+portant}
+div.appl_mobile .appl_apps div.appl_courses > a > img {border:0!important}
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{ width:110px!important=
+; }
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{border:1px solid=
+ #eeeeee!important; max-width:270px!important;width:100%!important; height:=
+auto; margin:10px auto 17px!important;}
+/*footer*/
+div.appl_mobile .appl_footer{ margin-top:0px;padding-top:25px!important; pa=
+dding-bottom:20px!important; background-color:#f2f2f2;}
+div.appl_mobile .appl_footer * {font-size:11px;line-height:15px!important; =
+letter-spacing:-0.012em!important; font-weight:400;}
+div.appl_mobile .appl_footer p { margin:0 0 16px 0!important; text-align:ce=
+nter;color:#888!important;}
+div.appl_mobile .appl_footer a {color:#555555!important;text-decoration:non=
+e;}
+div.appl_footer p {margin:0 0 16px 0!important; text-align:center;color:#88=
+8!important;}
+div.appl_footer a {color:#555555!important;text-decoration:none;line-height=
+:1.45em;}
+div.appl_footer div.appl_lowbrow_1{text-align:center!important; padding-bot=
+tom:15px;}
+div.appl_footer div.appl_lowbrow_2{padding-top:10px; padding-bottom:30px;}
+div.appl_footer div.appl_lowbrow_1 a,
+div.appl_footer div.appl_lowbrow_2 a { white-space:nowrap}
+div.appl_footer div.appl_social {margin-bottom:12px}
+div.appl_footer div.appl_social a {display:inline-block;margin:0 5px 0 5px}
+div.appl_footer div.appl_social a img {margin:0; border:0; height:22px; wid=
+th:auto;}
+div.appl_footer div.appl_lowbrow_2{padding-top:10px; padding-bottom:10px;}
+div.appl_footer div.appl_lowbrow_2:last-child{padding-top:0px; padding-bott=
+om:20px;}
+/*
+.appl_footer ul {list-style: none;float:left;padding-left:0; margin-bottom:=
+10px;}
+.appl_footer ul {min-width:50%; padding-right:20px;}
+.appl_footer ul + ul {min-width:0;padding-right:0px;}
+.appl_footer ul li {text-align:left; padding-bottom: 2px;}
+div.appl_mobile .appl_lowbrow_1 {overflow:auto; border-top:1px solid #d7d7d=
+7;border-bottom:1px solid #d7d7d7; margin-bottom:15px;}
+div.appl_mobile .appl_lowbrow_1:first-child {margin-bottom:0px;}
+div.appl_mobile .appl_social {margin-bottom:12px}
+div.appl_mobile .appl_social a {display:inline-block;margin:0 6px 0 6px}
+div.appl_mobile .appl_social a img {margin:0; border:0; width:22px; height:=
+auto;}
+*/
+@media only screen and (max-width:480px) {
+div.appl_mobile .appl_pad{padding-left:6%;padding-right:6%;}
+div.appl_mobile .appl_apps div > a > img { width:130px!important; height:au=
+to; margin:10px auto 17px!important;}
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{ max-width:270px=
+!important;width:100%!important; height:auto;}
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{width:160px!important;=
+ height:auto; }
+}
+@media only screen and (max-width:375px) {
+div.appl_mobile .appl_apps div > a > img { width:125px!important; height:au=
+to; }
+div.appl_mobile .appl_music_videos div > a > img{ max-width:250px!important=
+;width:100%!important; height:auto; }
+div.appl_mobile .appl_books div > a > img,
+div.appl_mobile .appl_movies div > a > img{width:120px!important; height:au=
+to; }
+}
+@media only screen and (max-width: 320px) {
+div.appl_mobile .appl_apps div > a > img { width:120px!important; height:au=
+to; }
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{ max-width:210px=
+!important;width:100%!important; height:auto; }
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{ width:135px!important=
+; height:auto; }
+}
+</style>
+<!--[if gte mso 9]>
+<style type=3D"text/css">
+table,td,div,p {font-family:BlinkMacSystemFont, Segoe UI, Helvetica Neue, H=
+elvetica, Arial, sans-serif !important;line-height:normal !important}
+table,tr,td { border-collapse: collapse; }
+tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+</style>
+<![endif]-->
+</head>
+<body rightmargin=3D"0" leftmargin=3D"0" bgcolor=3D"#f2f2f2" style=3D"margi=
+n:0;padding:0;">
+<div style=3D"display:none; max-height:0; max-width:0;width:0;height:0; ove=
+rflow:hidden;font-size:0px;color:#f2f2f2;">
+Save on iPhone 12, MacBook Pro, iPad Air, and more. <img src=3D"https://c.a=
+pple.com/img/APPLE_EMAIL_LINK/spacer2.gif?v=3D2&a=3DNmAG7k6tdN8aYe5r34EyhJO=
+rjc6E7stVDazOQMsz1z7LbRyLKBDRc9DCFayib1ej6WeNQ8cs0w%2F%2F%2FMSPDIzSoVL8AQCj=
+t%2FT480c6EbEbfgniOfy6%2BsPNtaP%2FmcvJpww1zKAgVOQGk3XEt2Y5AWnriMt59Age%2FFK=
+RrtTEWsFvP2hTzfC7lwS%2F9Z02TorhyRzd" alt=3D"" width=3D"1" height=3D"1" >
+</div>
+<div class=3D"appl_desktop">
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"appl_body appl_container_full">
+<tr>
+<td bgcolor=3D"#f2f2f2" style=3D"padding-top:12px;padding-left:10px;padding=
+-right:10px;min-width:740px;" >
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto; border-radius:4px;overflow:hidden;">
+<tr>
+<td width=3D"740" valign=3D"top" align=3D"center" style=3D"background-color=
+:#ffffff;" class=3D"appl_content">
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" class=3D"aapl_top_logo">
+<tr>
+<td class=3D"appl_hero_img" valign=3D"top" align=3D"left" style=3D"padding:=
+26px;padding-bottom:15px"><img height=3D"28" width=3D"200" alt=3D"Apple Car=
+d" class=3D"appl_top_logo" style=3D"display:block; margin:0; border:0" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Features113/v4/d8/dd/16/d8dd16=
+39-ec0e-6af2-1d7e-d4b6a6da83d5/mza_6456481665381339156.png/400x56bb-100.png=
+" /></td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-left: 26px; padding-right: 26px;">
+<table cellspacing=3D"0" width=3D"620" border=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"appl_headline" style=3D"margin:0 auto">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:15px;padding-top:30px"><img sr=
+c=3D"https://static-its-images.apple.com/images/card/dm/DesktopHeroHeadline=
+_CenterAlign_3Rows_1240w_v02_onWhite.gif" width=3D"620" height=3D"160" alt=
+=3D"Save 6% at Apple with a new Apple Card through March." align=3D"middle"=
+ style=3D"display:block; margin:0 auto; border:0; width:100%; height:160; m=
+ax-width:620px; max-height:160;" /></td>
+</tr>
+</table>
+<p style=3D"margin-top:0px;margin-bottom:20px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:13px;color:#888888;line-height:18px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">Purchases made with =
+Apple&nbsp;Card Monthly Installments are&nbsp;excluded.<br>Additional exclu=
+sions and terms&nbsp;apply.*</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:5px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td style=3D"padding-left:20px; padding-right:20px; padding-bottom: 15px">
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" style=3D"display:in=
+line-block;border-spacing:0;border-collapse: separate; border:1px solid #ff=
+ffff; border-radius:18px; overflow:hidden; background-color:#000000; min-wi=
+dth:0;">
+<tr>
+<td height=3D"33" align=3D"center" valign=3D"middle">
+<a href=3D"https://wallet.apple.com/apple-card/setup/feature/ccs?referrer=
+=3Dcid%3Dapy-110-100195" class=3D"appl-link appl_desktop" style=3D"width:10=
+0%; display:block; font-size:17px;line-height:33px;font-family:system-ui, -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, =
+Arial, sans-serif; font-weight:400; color:#ffffff;text-decoration:none!impo=
+rtant; display:block;min-width:120px;">&nbsp;&nbsp;&nbsp;&nbsp;Apply Now&nb=
+sp;&nbsp;&nbsp;&nbsp;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">See if you&rsquo;re =
+approved with no impact to your credit&nbsp;score.<sup style=3D"line-height=
+: 0; font-size: 60%;">1</sup></p>
+</td>
+</tr>
+<tr>
+<td class=3D"appl_hero_img" valign=3D"top" align=3D"center" style=3D"paddin=
+g-bottom:0;"><a style=3D"text-decoration: none;"><img align=3D"middle" widt=
+h=3D"740" alt=3D"Apple Card and devices" class=3D"appl_hero_img1" style=3D"=
+display:block; margin:0 auto; border:0;" src=3D"https://is5-ssl.mzstatic.co=
+m/image/thumb/Features114/v4/b3/36/cd/b336cd35-831d-706a-8109-e6ff9d4dda02/=
+mza_883181514677596800.jpg/1480x1144bb-90.jpg" /></a></td>
+</tr>
+<tr>
+<td style=3D"padding-left: 75px; padding-right: 75px;">
+<table cellspacing=3D"0" width=3D"100%" border=3D"0" cellpadding=3D"0" alig=
+n=3D"left" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"left" style=3D"padding-bottom:35px;padding-top:40px">
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">If your credit card =
+is not Apple&nbsp;Card, you likely tolerate things you shouldn&rsquo;t. Lik=
+e fees and confusing reward systems. But Apple&nbsp;Card has no fees.<sup s=
+tyle=3D"line-height: 0; font-size: 60%;">2</sup> Plus, it gives you unlimit=
+ed Daily&nbsp;Cash back on everything you buy. And when you get a new Apple=
+&nbsp;Card this March, you&rsquo;ll get 6% Daily&nbsp;Cash back when you us=
+e it to pay in full at Apple, in-store and online, until March&nbsp;31.</p>
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial=
+, sans-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:=
+-0.021em; font-weight:400;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2Bp=
+ZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGP=
+plHiQB3&ct=3Dac6A8L7Q2Y" class=3D"appl-link appl_desktop" style=3D"color:#0=
+070c9;text-decoration:none">Learn more about <nobr>Apple&nbsp;Card<img widt=
+h=3D"11" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0; border:0" =
+src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/012=
+7c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.pn=
+g" /></nobr></a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:0px;"><a style=3D"text-decoration: none;"><img =
+align=3D"middle" width=3D"740" alt=3D"Daily Cash screen" class=3D"appl_cat_=
+img1" style=3D"display:block; margin:0 auto; border:0; width:100%;" src=3D"=
+https://is5-ssl.mzstatic.com/image/thumb/Features124/v4/38/9f/1e/389f1e23-b=
+341-5425-87a2-2ccd9105a16b/mza_12342423759351211749.png/1480x800fe-90.jpg" =
+/></a></td>
+</tr>
+<tr>
+<td style=3D"padding-left: 75px; padding-right: 75px;">
+<table cellspacing=3D"0" width=3D"100%" border=3D"0" cellpadding=3D"0" alig=
+n=3D"left" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"left" style=3D"padding-bottom:35px;padding-top:40px">
+<img src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/69/04/d=
+9/6904d9f4-2f1b-49f8-d81a-3200f1285ca6/mza_11354712886501546489.png/1240x32=
+1bb-90.png" width=3D"590" alt=3D"Unlimited Daily Cash. No points. No gimmic=
+ks." align=3D"middle" style=3D"display:block; margin:0; border:0" />
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">Hello, Daily&nbsp;Ca=
+sh. Goodbye, confusing points and rewards. When you buy something using App=
+le&nbsp;Card, you always get a percentage of your purchase back in Daily&nb=
+sp;Cash &mdash; up to 3%. It&rsquo;s real cash you can use right away on an=
+ything you&nbsp;want.<sup style=3D"line-height: 0; font-size: 60%;">3</sup>=
+</p>
+</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"padding-bottom:35px;padding-top:0px">
+<img src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features114/v4/c5/c7/7=
+5/c5c77551-cdfb-127a-80d9-e62d99a0af86/mza_12036132654772085783.png/1240x22=
+9bb-90.png" width=3D"590" alt=3D"No fees. Not even hidden ones." align=3D"m=
+iddle" style=3D"display:block; margin:0; border:0" />
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">While other cards ha=
+ve annual fees, late fees,<sup style=3D"line-height: 0; font-size: 60%;">4<=
+/sup> foreign transaction fees, and hidden fees, Apple&nbsp;Card doesn&rsqu=
+o;t have a single&nbsp;one.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:0px;"><a style=3D"text-decoration: none;"><img =
+align=3D"middle" width=3D"740" alt=3D"Person holding iPhone" class=3D"appl_=
+cat_img1" style=3D"display:block; margin:0 auto; border:0; width:100%;" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/db/2e/ed/db2eed=
+88-195e-5d5c-09fa-bfbe68d2283e/mza_7612841437858236245.png/1480x800fe-90.jp=
+g" /></a></td>
+</tr>
+<tr>
+<td style=3D"padding-left: 75px; padding-right: 75px;">
+<table cellspacing=3D"0" width=3D"100%" border=3D"0" cellpadding=3D"0" alig=
+n=3D"left" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"left" style=3D"padding-bottom:35px;padding-top:40px">
+<img src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features114/v4/34/fc/b=
+4/34fcb434-f74f-a197-e1fd-871a5d4d89df/mza_18093167415932192887.png/1240x22=
+9bb-90.png" width=3D"590" alt=3D"Every credit card should be this private."=
+ align=3D"middle" style=3D"display:block; margin:0; border:0;" />
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">Apple&nbsp;Card is d=
+esigned with all the advanced security you can expect from Apple. Like Face=
+&nbsp;ID, Touch&nbsp;ID, and unique transaction codes that keep your purcha=
+ses private. And the titanium card doesn&rsquo;t have any numbers on it. So=
+ Apple&nbsp;Card is secure &mdash; in the Wallet app and your&nbsp;wallet.<=
+/p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:0px;"><a style=3D"text-decoration: none;"><img =
+align=3D"middle" width=3D"740" alt=3D"iPhone next to contactless reader" cl=
+ass=3D"appl_cat_img1" style=3D"display:block; margin:0 auto; border:0; widt=
+h:100%;" src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/da/=
+5f/da/da5fda53-3918-62c0-937f-e68463a04c81/mza_17040040551541922589.png/148=
+0x800fe-90.jpg" /></a></td>
+</tr>
+<tr>
+<td style=3D"padding-left: 75px; padding-right: 75px;">
+<table cellspacing=3D"0" width=3D"100%" border=3D"0" cellpadding=3D"0" alig=
+n=3D"left" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"left" style=3D"padding-bottom:35px;padding-top:40px">
+<img src=3D"https://is2-ssl.mzstatic.com/image/thumb/Features124/v4/ab/45/d=
+6/ab45d645-3f3e-a04a-fd03-ad9fad8192c1/mza_13026626346564667462.png/1240x13=
+7bb-90.png" width=3D"590" alt=3D"Get started with Apple Card." align=3D"mid=
+dle" style=3D"display:block; margin:0; border:0" />
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px=
+;letter-spacing:-0.022em;" class=3D"appl_headline_txt">See if you&rsquo;re =
+approved with no impact to your credit&nbsp;score.</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"left" style=3D"padding-bottom: 0px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td style=3D"padding-left:0px; padding-right:0px; padding-bottom: 15px">
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" style=3D"display:in=
+line-block;border-spacing:0;border-collapse: separate; border:1px solid #ff=
+ffff; border-radius:18px; overflow:hidden; background-color:#000000; min-wi=
+dth:0;">
+<tr>
+<td height=3D"33" align=3D"center" valign=3D"middle">
+<a href=3D"https://wallet.apple.com/apple-card/setup/feature/ccs?referrer=
+=3Dcid%3Dapy-110-100195" class=3D"appl-link appl_desktop" style=3D"width:10=
+0%; display:block; font-size:17px;line-height:33px;font-family:system-ui, -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, =
+Arial, sans-serif; font-weight:400; color:#ffffff;text-decoration:none!impo=
+rtant; display:block;min-width:120px;">&nbsp;&nbsp;&nbsp;&nbsp;Apply Now&nb=
+sp;&nbsp;&nbsp;&nbsp;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial=
+, sans-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:=
+-0.021em; font-weight:400;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2Bp=
+ZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGP=
+plHiQB3&ct=3Dac6A9c2I8p" class=3D"appl-link appl_desktop" style=3D"color:#0=
+070c9;text-decoration:none">Learn more about saving <nobr>at&nbsp;Apple<img=
+ width=3D"11" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; =
+border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01=
+/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x=
+26bb-90.png" /></nobr></a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;" class=3D"">
+<tr>
+<td align=3D"center" style=3D"padding-top:25px;">
+<table align=3D"center" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" st=
+yle=3D"display:inline-block">
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-bottom:60px;">
+<table width=3D"100%" align=3D"center" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center" id=3D"appl-footer">
+<tr>
+<td align=3D"center" style=3D"padding-top:21px;padding-bottom:14px;padding-=
+left:50px;padding-right:50px" class=3D"appl_footer_text1 appl_footer_text a=
+ppl_center">
+<div style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#888888;font=
+-size:11px;line-height:15px;max-width:680px;text-align:left;">
+*Subject to credit approval. Valid only on qualifying purchases in the U.S.=
+ for new Apple&nbsp;Card customers who open an account and use it between 3=
+/1/2021 and 3/31/2021 at Apple&nbsp;Store locations, apple.com, Apple&nbsp;=
+Store App, or by calling <nobr>1&#8209;800&#8209;MY&#8209;APPLE.</nobr> Acc=
+ounts opened prior to 3/1/2021 or after 3/31/2021 do not qualify. 6% is the=
+ total amount of Daily&nbsp;Cash that can be earned for qualifying Apple pu=
+rchases using Apple&nbsp;Card. <b><span style=3D"font-family: system-ui, -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, A=
+rial, sans-serif!important;color:#888888!important;font-size:11px!important=
+;font-weight:600!important;">The following purchases with Apple&nbsp;Card a=
+re ineligible to earn 6% back, but will still earn 3% back: monthly financi=
+ng through Apple&nbsp;Card Monthly Installments, Apple iPhone Payments, iPh=
+one Upgrade Program, and wireless carrier financing plans; <a href=3D"https=
+://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsd=
+HYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2Bz=
+HCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y3w2n2p" style=3D"color:#007=
+0c9;text-decoration:none;white-space:nowrap;">Apple Media Services</a>; App=
+leCare+ monthly payments.</span></b> Returning qualified items that were pu=
+rchased during the offer period may impact your cash back. 6% savings is ea=
+rned as Daily&nbsp;Cash and is transferred to your Apple&nbsp;Cash card whe=
+n transactions post to your Apple&nbsp;Card account. If you do not have an =
+Apple&nbsp;Cash card, Daily&nbsp;Cash can be applied by you as a credit on =
+your statement balance. See the <a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCM=
+pN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdm=
+lL1lGPplHiQB3&ct=3Dac6y6L8y4P" style=3D"color:#0070c9;text-decoration:none;=
+white-space:nowrap;">Apple&nbsp;Card Customer Agreement</a> for more detail=
+s on Daily&nbsp;Cash and qualifying transactions.
+<br><br>
+1. Accepting an Apple&nbsp;Card after your application is approved will res=
+ult in a hard inquiry, which may impact your credit score. Subject to credi=
+t&nbsp;approval.
+<br><br>
+2. Variable APRs range from 10.99% to 21.99% based on creditworthiness. Rat=
+es as of April&nbsp;1,&nbsp;2020.
+<br><br>
+3. An Apple&nbsp;Cash card is required. The Apple&nbsp;Cash card is issued =
+by Green Dot Bank, Member FDIC. See <a href=3D"https://c.apple.com/r?v=3D2&=
+la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5o=
+CMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZ=
+dmlL1lGPplHiQB3&ct=3Dac6A1c6r1N" style=3D"color:#0070c9;text-decoration:non=
+e;white-space:nowrap;">apple.com/apple-pay</a> for more information. If you=
+ do not have an Apple&nbsp;Cash account, Daily&nbsp;Cash can be applied by =
+you as a credit on your statement balance. Daily&nbsp;Cash is subject to ex=
+clusions, and additional details apply. See the <a href=3D"https://c.apple.=
+com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTF=
+CJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2=
+hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y6L8y4P" style=3D"color:#0070c9;text-de=
+coration:none;white-space:nowrap;">Apple&nbsp;Card Customer Agreement</a> f=
+or more&nbsp;information.=20
+<br><br>
+4. Late or missed payments will result in additional interest accumulating =
+toward your&nbsp;balance.
+<br><br>
+Learn more about how Apple&nbsp;Card applications are evaluated at <a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBn=
+kEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w=
+5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y7E5P7h" style=3D"c=
+olor:#0070c9;text-decoration:none;white-space:nowrap;">support.apple.com/kb=
+/HT209218</a>.=20
+<br><br>
+To access and use all the features of Apple&nbsp;Card, you must add Apple&n=
+bsp;Card to Wallet on an iPhone or iPad with iOS or iPadOS&nbsp;13.2 or lat=
+er. Update to the latest version of iOS or iPadOS by going to Settings&nbsp=
+;> General&nbsp;> Software Update. Tap Download and&nbsp;Install.
+<br><br>
+Available for qualifying applicants in the United&nbsp;States.
+<br><br>
+Apple&nbsp;Card is issued by Goldman Sachs Bank USA, Salt Lake City&nbsp;Br=
+anch.
+<br><br>
+If you reside in the US territories, please call Goldman Sachs at <nobr>877=
+&#8209;255&#8209;5923</nobr> with questions about Apple&nbsp;Card.
+</div>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:0;padding-bottom:15px;padding-lef=
+t:50px;padding-right:50px" class=3D"appl_center appl_footer_text appl_foote=
+r_text2">
+<div style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#888888;font=
+-size:11px;line-height:14px;text-align:left;">
+All rights reserved. Copyright &copy; 2021 Apple Inc. One Apple Park Way, C=
+upertino, CA 95014
+</div>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center">
+<tr>
+<td align=3D"center" style=3D"font-family:Helvetica Neue,Helvetica,Lucida G=
+rande,Arial,sans-serif;color:#999999;font-size:9px;line-height:1.32em;paddi=
+ng:0" class=3D"appl_lowbrow">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y9V4u3p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">Privacy Policy</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y0n0u4Y" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">Terms & Conditions</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6A3b8D6Y" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">My Apple ID</a>
+&nbsp;|&nbsp;
+<a href=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DobGR=
+m6f%2F1wIFLyQ5jPKiMkkIwHxqZ6GJQhvW3LhiGsASUwGwPBrzUaco9PE3rWFNbEF5TiPQLjE4j=
+kB7xLd2LrHtKQh%2BIkJ2lUaYbNek%2FZ%2BXbqL7nxAInft8NAYQi%2Bm%2FCJVDddDz346N2r=
+295nuYfuxuPwP1wgtoBENja%2F%2Bv4SFMZZUuiaQ9awpc9DZVyGSGwCBCR4BP0qiHXMefM4gpK=
+qjpyB1oTHVu8wRmfMSRzYM%3D" class=3D"appl-link" style=3D"color:#555555;font-=
+family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetic=
+a Neue', Helvetica, Arial, sans-serif; font-size:11px;line-height:14px;whit=
+e-space:nowrap;text-decoration:none;">Unsubscribe</a>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center">
+<tr>
+<td align=3D"center" style=3D"font-family: system-ui, -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;co=
+lor:#888888;font-size:11px;line-height:line-height:15px;padding:0" class=3D=
+"appl_lowbrow">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br />
+</div>
+<!-- mobile -->
+<!--[if !mso]><!-->
+<div style=3D"background-color:#f2f2f2;">
+<div class=3D"appl_mobile" style=3D"display:none; max-height:0; max-width:0=
+;width:0;height:0; font-size:0;overflow:hidden;">
+<div class=3D"aapl_top_logo appl_pad">
+<img height=3D"28" alt=3D"Apple Card" class=3D"appl_top_logo" style=3D"disp=
+lay:block; margin:0; border:0" src=3D"https://is3-ssl.mzstatic.com/image/th=
+umb/Features113/v4/d8/dd/16/d8dd1639-ec0e-6af2-1d7e-d4b6a6da83d5/mza_645648=
+1665381339156.png/400x56bb-100.png" />
+</div>
+<div class=3D"appl_headline appl_pad">
+<div class=3D"appl_cat_header" style=3D"padding-bottom:0px!important;">
+<img src=3D"https://static-its-images.apple.com/images/card/dm/MobileHeroHe=
+adline_CenterAlign_3Rows_728w_v02_OnWhite.gif" width=3D"364" alt=3D"Save 6%=
+ at Apple with a new Apple Card through March." align=3D"middle" style=3D"d=
+isplay:block; margin:0 auto!important; border:0; padding-bottom:10px!import=
+ant;" />
+<p class=3D"hero_legal">Purchases made with Apple&nbsp;Card Monthly Install=
+ments are excluded. Additional exclusions and terms&nbsp;apply.*</p>
+<p style=3D"" class=3D"appl_headline_link">
+<span class=3D"appl_button"><a href=3D"https://wallet.apple.com/apple-card/=
+setup/feature/ccs?referrer=3Dcid%3Dapy-110-100195" class=3D"appl-link" styl=
+e=3D"color: #FFFFFF; text-decoration:none">Apply Now</a></span>
+</p>
+<p>See if you&rsquo;re approved with no impact to your credit&nbsp;score.<s=
+up style=3D"line-height: 0; font-size: 60%;">1</sup></p>
+</div>
+</div>
+<div class=3D"aapl_hero_img appl_100">
+<a style=3D"text-decoration: none;"><img width=3D"100%" alt=3D"Apple Card a=
+nd devices" class=3D"appl_hero_img1" style=3D"display:block; margin:0; bord=
+er:0" src=3D"https://is5-ssl.mzstatic.com/image/thumb/Features114/v4/b3/36/=
+cd/b336cd35-831d-706a-8109-e6ff9d4dda02/mza_883181514677596800.jpg/1480x114=
+4bb-90.jpg" /></a>
+</div>
+<div class=3D"appl_pad appl_cat_headline appl_left">
+<div class=3D"appl_cat_header" style=3D"padding-top:20px!important;">
+<p>If your credit card is not Apple&nbsp;Card, you likely tolerate things y=
+ou shouldn&rsquo;t. Like fees and confusing reward systems. But Apple&nbsp;=
+Card has no fees.<sup style=3D"line-height: 0; font-size: 60%;">2</sup> Plu=
+s, it gives you unlimited Daily&nbsp;Cash back on everything you buy. And w=
+hen you get a new Apple&nbsp;Card this March, you&rsquo;ll get 6% Daily&nbs=
+p;Cash back when you use it to pay in full at Apple, in-store and online, u=
+ntil March&nbsp;31.</p>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6A8L7Q2Y" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Learn more ab=
+out <nobr>Apple&nbsp;Card<img width=3D"8" alt=3D"" border=3D"0" class=3D"mo=
+re" style=3D"margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/i=
+mage/thumb/Features124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza=
+_9624361562589445119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</div>
+<div class=3D"appl_100 appl_cat_header_img">
+<a style=3D"text-decoration: none;"><img width=3D"100%" alt=3D"Daily Cash s=
+creen" class=3D"appl_hero_img1" style=3D"display:block; margin:0; border:0"=
+ src=3D"https://is5-ssl.mzstatic.com/image/thumb/Features124/v4/38/9f/1e/38=
+9f1e23-b341-5425-87a2-2ccd9105a16b/mza_12342423759351211749.png/1480x800fe-=
+90.jpg" /></a>
+</div>
+<div class=3D"appl_pad appl_cat_headline appl_left">
+<div class=3D"appl_cat_header" style=3D"padding-top:35px!important;">
+<img src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/9e/7f/f=
+3/9e7ff3ec-9af1-670d-3523-69fa9f5d6f12/mza_9048948914763508221.png/728x220b=
+b-90.png" width=3D"364" alt=3D"Unlimited Daily Cash back. No points. No gim=
+micks." align=3D"middle" style=3D"display:block; margin:0; border:0" />
+<p>Hello, Daily&nbsp;Cash. Goodbye, confusing points and rewards. When you =
+buy something using Apple&nbsp;Card, you always get a percentage of your pu=
+rchase back in Daily&nbsp;Cash &mdash; up to 3%. It&rsquo;s real cash you c=
+an use right away on anything you&nbsp;want.<sup style=3D"line-height: 0; f=
+ont-size: 60%;">3</sup></p>
+</div>
+</div>
+<div class=3D"appl_pad appl_cat_headline appl_left">
+<div class=3D"appl_cat_header">
+<img src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/e2/b1/e=
+d/e2b1ed8b-dfb8-7352-f20d-40592cd6a394/mza_10094982799616237751.png/728x153=
+bb-90.png" width=3D"364" alt=3D"No fees. Not even hidden ones." align=3D"mi=
+ddle" style=3D"display:block; margin:0; border:0" />
+<p>While other cards have annual fees, late fees,<sup style=3D"line-height:=
+ 0; font-size: 60%;">4</sup> foreign transaction fees, and hidden fees, App=
+le&nbsp;Card doesn&rsquo;t have a single&nbsp;one.</p>
+</div>
+</div>=20
+<div class=3D"appl_100 appl_cat_header_img">
+<a style=3D"text-decoration: none;"><img width=3D"100%" alt=3D"Person holdi=
+ng iPhone" class=3D"appl_hero_img1" style=3D"display:block; margin:0; borde=
+r:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/db/2e/e=
+d/db2eed88-195e-5d5c-09fa-bfbe68d2283e/mza_7612841437858236245.png/1480x800=
+fe-90.jpg" /></a>
+</div>
+<div class=3D"appl_pad appl_cat_headline appl_left">
+<div class=3D"appl_cat_header" style=3D"padding-top:35px!important;">
+<img src=3D"https://is5-ssl.mzstatic.com/image/thumb/Features124/v4/10/96/d=
+e/1096de2d-a131-42a8-8d24-b73ea63be30f/mza_15869600038500713741.png/728x153=
+bb-90.png" width=3D"364" alt=3D"Every credit card should be this private." =
+align=3D"middle" style=3D"display:block; margin:0; border:0" />
+<p>Apple&nbsp;Card is designed with all the advanced security you can expec=
+t from Apple. Like Face&nbsp;ID, Touch&nbsp;ID, and unique transaction code=
+s that keep your purchases private. And the titanium card doesn&rsquo;t hav=
+e any numbers on it. So Apple&nbsp;Card is secure &mdash; in the Wallet app=
+ and your&nbsp;wallet.</p>
+</div>
+</div>=20
+<div class=3D"appl_100 appl_cat_header_img">
+<a style=3D"text-decoration: none;"><img width=3D"100%" alt=3D"iPhone next =
+to contactless reader" class=3D"appl_hero_img1" style=3D"display:block; mar=
+gin:0; border:0" src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features12=
+4/v4/da/5f/da/da5fda53-3918-62c0-937f-e68463a04c81/mza_17040040551541922589=
+.png/1480x800fe-90.jpg" /></a>
+</div>
+<div class=3D"appl_pad appl_cat_headline appl_left">
+<div class=3D"appl_cat_header" style=3D"padding-top:35px!important;">
+<img src=3D"https://is4-ssl.mzstatic.com/image/thumb/Features124/v4/33/18/9=
+1/3318919d-4250-98f0-344f-4139749f3142/mza_17315957556689314747.png/728x153=
+bb-90.png" width=3D"364" alt=3D"Get started with Apple Card." align=3D"midd=
+le" style=3D"display:block; margin:0; border:0" />
+<p>See if you&rsquo;re approved with no impact to your credit&nbsp;score.</=
+p>
+<p style=3D"" class=3D"appl_headline_link">
+<span class=3D"appl_button"><a href=3D"https://wallet.apple.com/apple-card/=
+setup/feature/ccs?referrer=3Dcid%3Dapy-110-100195" class=3D"appl-link" styl=
+e=3D"color: #FFFFFF; text-decoration:none">Apply Now</a></span>
+</p>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6A9c2I8p" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Learn more ab=
+out saving <nobr>at&nbsp;Apple<img width=3D"8" alt=3D"" border=3D"0" class=
+=3D"more" style=3D"margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic=
+.com/image/thumb/Features124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d=
+58/mza_9624361562589445119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</div>=20
+<div class=3D"appl_pad appl_footer">
+<div class=3D"appl_social">
+</div>
+<p style=3D"text-align:left;">
+*Subject to credit approval. Valid only on qualifying purchases in the U.S.=
+ for new Apple&nbsp;Card customers who open an account and use it between 3=
+/1/2021 and 3/31/2021 at Apple&nbsp;Store locations, apple.com, Apple&nbsp;=
+Store App, or by calling <nobr>1&#8209;800&#8209;MY&#8209;APPLE.</nobr> Acc=
+ounts opened prior to 3/1/2021 or after 3/31/2021 do not qualify. 6% is the=
+ total amount of Daily&nbsp;Cash that can be earned for qualifying Apple pu=
+rchases using Apple&nbsp;Card. <b><span style=3D"font-family: system-ui, -a=
+pple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, A=
+rial, sans-serif!important;color:#888888!important;font-size:11px!important=
+;font-weight:600!important;">The following purchases with Apple&nbsp;Card a=
+re ineligible to earn 6% back, but will still earn 3% back: monthly financi=
+ng through Apple&nbsp;Card Monthly Installments, Apple iPhone Payments, iPh=
+one Upgrade Program, and wireless carrier financing plans; <a href=3D"https=
+://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsd=
+HYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2Bz=
+HCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y3w2n2p" style=3D"color:#007=
+0c9;text-decoration:none;white-space:nowrap;">Apple Media Services</a>; App=
+leCare+ monthly payments.</span></b> Returning qualified items that were pu=
+rchased during the offer period may impact your cash back. 6% savings is ea=
+rned as Daily&nbsp;Cash and is transferred to your Apple&nbsp;Cash card whe=
+n transactions post to your Apple&nbsp;Card account. If you do not have an =
+Apple&nbsp;Cash card, Daily&nbsp;Cash can be applied by you as a credit on =
+your statement balance. See the <a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCM=
+pN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdm=
+lL1lGPplHiQB3&ct=3Dac6y6L8y4P" style=3D"color:#0070c9;text-decoration:none;=
+white-space:nowrap;">Apple&nbsp;Card Customer Agreement</a> for more detail=
+s on Daily&nbsp;Cash and qualifying transactions.
+<br><br>
+1. Accepting an Apple&nbsp;Card after your application is approved will res=
+ult in a hard inquiry, which may impact your credit score. Subject to credi=
+t&nbsp;approval.
+<br><br>
+2. Variable APRs range from 10.99% to 21.99% based on creditworthiness. Rat=
+es as of April&nbsp;1,&nbsp;2020.
+<br><br>
+3. An Apple&nbsp;Cash card is required. The Apple&nbsp;Cash card is issued =
+by Green Dot Bank, Member FDIC. See <a href=3D"https://c.apple.com/r?v=3D2&=
+la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5o=
+CMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZ=
+dmlL1lGPplHiQB3&ct=3Dac6A1c6r1N" style=3D"color:#0070c9;text-decoration:non=
+e;white-space:nowrap;">apple.com/apple-pay</a> for more information. If you=
+ do not have an Apple&nbsp;Cash account, Daily&nbsp;Cash can be applied by =
+you as a credit on your statement balance. Daily&nbsp;Cash is subject to ex=
+clusions, and additional details apply. See the <a href=3D"https://c.apple.=
+com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTF=
+CJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2=
+hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y6L8y4P" style=3D"color:#0070c9;text-de=
+coration:none;white-space:nowrap;">Apple&nbsp;Card Customer Agreement</a> f=
+or more&nbsp;information.=20
+<br><br>
+4. Late or missed payments will result in additional interest accumulating =
+toward your&nbsp;balance.
+<br><br>
+Learn more about how Apple&nbsp;Card applications are evaluated at <a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBn=
+kEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w=
+5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y7E5P7h" style=3D"c=
+olor:#0070c9;text-decoration:none;white-space:nowrap;">support.apple.com/kb=
+/HT209218</a>.=20
+<br><br>
+To access and use all the features of Apple&nbsp;Card, you must add Apple&n=
+bsp;Card to Wallet on an iPhone or iPad with iOS or iPadOS&nbsp;13.2 or lat=
+er. Update to the latest version of iOS or iPadOS by going to Settings&nbsp=
+;> General&nbsp;> Software Update. Tap Download and&nbsp;Install.
+<br><br>
+Available for qualifying applicants in the United&nbsp;States.
+<br><br>
+Apple&nbsp;Card is issued by Goldman Sachs Bank USA, Salt Lake City&nbsp;Br=
+anch.
+<br><br>
+If you reside in the US territories, please call Goldman Sachs at <nobr>877=
+&#8209;255&#8209;5923</nobr> with questions about Apple&nbsp;Card.
+</p>
+<p style=3D"text-align:left;">All rights reserved. Copyright &copy; 2021 Ap=
+ple Inc. One Apple Park Way, Cupertino, CA 95014</p>
+<div class=3D"appl_lowbrow_1">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y9V4u3p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">Privacy Policy</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6y0n0u4Y" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">Terms & Conditions</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac6A3b8D6Y" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap;text-decoration=
+:none;">My Apple ID</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DobGR=
+m6f%2F1wIFLyQ5jPKiMkkIwHxqZ6GJQhvW3LhiGsASUwGwPBrzUaco9PE3rWFNbEF5TiPQLjE4j=
+kB7xLd2LrHtKQh%2BIkJ2lUaYbNek%2FZ%2BXbqL7nxAInft8NAYQi%2Bm%2FCJVDddDz346N2r=
+295nuYfuxuPwP1wgtoBENja%2F%2Bv4SFMZZUuiaQ9awpc9DZVyGSGwCBCR4BP0qiHXMefM4gpK=
+qjpyB1oTHVu8wRmfMSRzYM%3D" class=3D"appl-link" style=3D"color:#555555;font-=
+family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetic=
+a Neue', Helvetica, Arial, sans-serif; font-size:11px;line-height:14px;whit=
+e-space:nowrap;text-decoration:none;">Unsubscribe</a>
+</div>
+<div class=3D"appl_lowbrow_2">
+</div>
+</div>
+</div>
+</div>
+<!--<![endif]-->
+</body>
+</html>

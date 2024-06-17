@@ -1,0 +1,89 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:238d:0:0:0:0:0 with SMTP id 13csp1276168uao; Wed, 10 Feb
+ 2021 05:55:27 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJzAm9hZzWIyAOKeTfrzZI1NSUSTxYyXX0Kar5whX16lNDIzQxnRLmTcc0YazFW3WKU0+l6v
+X-Received: by 2002:a05:6602:2e8c:: with SMTP id
+ m12mr1028309iow.19.1612965326981; Wed, 10 Feb 2021 05:55:26 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1612965326; cv=none; d=google.com;
+ s=arc-20160816;
+ b=CxIEIAnXXNkxY7M4bOSpKUobUSoFWWGj1Qooztb8eof8SL45yDob/YKG60xiKr+tZl
+ 12YlE7zraW/o5kqoGf6aGsiSG9ZJTQWWblDy9/diukjx96SZzrRuEBqOjKVIyvuoqDDt
+ Jtm5ZDmmcEWVEDM+oruOPOs3k48nk9pMxaQH665kS0Au7DmHurnFqdBwAWBoYfb4qclz
+ r866UioYtZ8us2bJhQZ9Y+0nfLoWE0JusA+6lVFkIyHYMfnJ6MHKph1AUxA/h9xtafcA
+ GN4R//dtLIihgU4tieLwFpKXXeZqk35WHCgIxv9P5NlkDIbUwMN76AqboDDrXJvMGyes gLUw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=h/4INVF/X/XgVSDMUQke/2vljPANzf7qiYEH3sgw/aw=;
+ b=nAOJ3N2h4fS9PraF2YVDkdMZg9M2p9ZRRb2kRXLpwKXJZJ9GVyJzcH/bz8f8Laj/WL
+ 2yYoLKgHFdaf1eDZsbEBd1/un3cWUKZZmN7Mf9htgCvYdU6zhwhRGtFU5lzVUBckMDFz
+ rNeTSx81RtiqrdMJix3vvC3b5OfQg1BvArFnJwQc0O3rOW5GXUHHj1OW0ROzPRBVrWFm
+ 93YtefidE0764LxH28wqbXihzwOVXmAe4Xs3EXSsouUtYcRB68Dxp27tZ5LPcSucOCv5
+ FLBJ2cJ69ZopzUFPJ+h0iOAJxyAaHE6Qs0/j3YxNLffuJora2TSV7G0AttGw02ueiqWu xk2w==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=icTdbrBw;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.102 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger06107.apple.com (rn2-msbadger06107.apple.com.
+ [17.179.250.102]) by mx.google.com with ESMTPS id
+ w6si1907910ill.19.2021.02.10.05.55.26 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Wed, 10
+ Feb 2021 05:55:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of n_i_bounces@insideapple.apple.com
+ designates 17.179.250.102 as permitted sender) client-ip=17.179.250.102;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=icTdbrBw;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.102 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1612965323;
+ bh=h/4INVF/X/XgVSDMUQke/2vljPANzf7qiYEH3sgw/aw=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=icTdbrBwyfXm10T9RN9RSAYesUB9YikWhSZatJs2b+gYt3dPDChsbOBcp2G4zq0bR
+ 8GK1ISj/Fitoiy1tZm1UA66gveVj9C+rT5kQnyaT/jveFW4tYs5dD/4IFo3gfpm8O2
+ UvvDAtckYVj8K6swF+A/QqAfN4KItvb4LlT+RSjqADWSsb7fzWWEFX9AJDdgzV48Nx
+ qAYZAu76rErh3rvpvOyKKsH2Y+g5SVqXg8f2Gn5QZf9lyHdeP/aMaYFaF+0aKm3wK2
+ 1BA/pWPjwYa9SGkOa+07OhFKaPATWHjODL0UUQApn6Qu4KK8T0HMOSGRYt55f38DV3
+ Z6AMoLf+c4I7w==
+Date: Wed, 10 Feb 2021 13:55:23 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <417298709.176704562.1612965323495@Insideapple.apple.com>
+Subject: =?UTF-8?Q?Last_chance_to_get_the_perfect_gift_for_=E2=9D=A4=EF=B8=8F_Day.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_176704560_434646164.1612965323495"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,9aIOoU5cJedvFRgp%2Fa5PsTbWgvXiPEXaTkWnEsPCeU%2BlYbxSi8y0koyNC6DMsOpTSZ60ge54JD63C%2FhNRb7Fz4fwnJBBMIe0GGZQo8mG8a7Ciwo2L2b9G73xZwRew4Ut%2BySWkr2dmxgVdSkzfsWE71AwuPtDBccZu8dYJlfCQq3EVNYFtt%2FdGtImwUg0bCReZ8t8WeuTzaT8QfMHkmMDPg%3D%3D
+X-TXN_ID: 4f11ee66-eeab-40ee-9b9d-28f76f381ec0
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 2064362
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2064362
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=ePRdiIcPhA1Ap7SvFS%2FxsMZlTulHvOoDbZn4gdD8tpCxUUUgjgk3exbqcqd56bkdYgPTEOUqCUXxN4FaOa9A%2BZUCqw8E4FxSXcofTo5NkXyV%2BfEzJaabZcVFW67AM2S%2BiOwofos3i6xpOxS7j7LIM08FvkeL3JAfUkST%2ByGSP8Z2zESadve1r%2BiZaKVDPahC5LolgsAG%2Bwvp7UEj7bMRD4mC45BVBL25hi%2BooY1P5PI%3D>
+X-mp: d
+
+
+------=_Part_176704560_434646164.1612965323495
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 10943
+
+
+------=_Part_176704560_434646164.1612965323495
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 92761
+
+
+------=_Part_176704560_434646164.1612965323495--

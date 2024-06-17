@@ -1,0 +1,82 @@
+<html class="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no, minimal-ui">
+    <style>
+      * {
+        margin: 0;
+        font-family: Helvetica;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;      
+      }
+      html.ar {
+        direction: rtl;
+      }
+      html.ar input {
+        text-align: right;
+      }
+      .unbind_email {
+        padding-top: 20px;
+        font-size: 17px;
+        line-height: 20px;
+      }
+      .link {
+        color: rgb(0, 91, 158);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body style="display: flex; justify-content: center;">
+    <div style="width:100%;max-width: 440px;" >
+        <div style="width: 100%; padding: 40px 16px;">
+            <img style="width: 150px;" src="http://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/f70f9d0dc867d6c71ce2cd684a0ffff0" style="margin: 40px 12px 40px 12px; width: 150px; height: 40px;">
+        </div>
+        <div style="max-width:100%;background-color: #f1f1f1; padding: 20px 16px; font-weight: bold;font-size: 20px;color: rgb(22,24, 35)">
+            Hi user156314810284
+        </div>
+         <div style="max-width:100%;background-color: #f8f8f8; padding: 24px 16px;font-size: 17px;color: rgba(22,24, 35, 0.75)line-height: 20px;">
+            <p style="margin-bottom:20px;">Thanks for joining TikTok! TikTok is not only a destination for instantly entertaining, short-form mobile video, it&#39;s also a place where it&#39;s safe to be authentic and real.</p>
+            <p style="margin-bottom:20px;">To complete account sign-up: verify your email address to keep your account secure and provide a way to recover your password.</p>
+            <a href="https://m.tiktok.com/passport/email/authentication/index/?aid=1233&amp;email=tornadobeth%40gmail.com&amp;language=en&amp;locale=en&amp;object_id=6826616874046983431&amp;object_type=1&amp;token=49YR84TK95BRN6UN7J9D5NCDDYF4FFJ7&amp;type=14" style="color: #FFFFFF;font-size: 15px;">
+                <div style="font-weight: bold;background-color: #FE2C55;border-radius: 2px;text-align: center;height: 44px;line-height: 44px;">
+                    Verify your email address
+                </div>
+            </a>
+            
+            
+            <div class="unbind_email">
+              <p>Not your account?</p>
+              <a class="link" href="https://m.tiktok.com/passport/email/unbind/index/?unbind_ticket=vwrKxYymTSgZQwzKhpthkqGwtdmyReBj&amp;aid=1233&amp;locale=en&amp;language=en">Remove your email address</a>
+            </div>
+            
+            
+         </div>
+         <div style="max-width:100%;padding: 40px 16px;font-size: 15px;color: rgba(22, 24, 35, 0.5);line-height:18px;">
+            <div>Have a question?</div>
+            <div style="margin-bottom:20px;">Check out our help center or contact us in the app using&nbsp;<span style="color: rgb(0, 91, 158);font-weight: bold;">Settings &gt; Report a Problem.</span></div>
+            <div>TikTok Support Team</div>
+            <div style="margin-bottom:20px;">TikTok Help Center:  <a style="color: rgba(22, 24, 35, 0.5);" href="http://support.tiktok.com/">http://support.tiktok.com/</a></div>
+            <div>This is an automatically generated email. Replies to this email address aren&#39;t monitored.</div>
+         </div>
+         <div style="border: 0; background-color: rgba(0, 0, 0, 0.12); height: 1px;margin-bottom:16px;" ></div>
+         <div style="color: rgba(22, 24, 35, 0.5); margin: 20px 16px 40px 16px;font-size: 12px;line-height:18px;">
+            <div>
+               This email was generated for user156314810284.
+            </div>
+            <div>
+                <a style="color: rgba(22, 24, 35, 0.5);text-decoration:underline;" href="https://www.tiktok.com/en/privacy-policy?lang=en">Privacy Policy</a>
+            </div>
+            <div>TikTok, 10100 Venice Bivd, Culver City, CA 90232</div>
+        </div>
+    </div>
+    </div>
+  
+<img src="http://url7709.account.tiktok.com/wf/open?upn=OEsAPZ6iIlG5THiDeL1l0OQCVndy2UgQNPwy3Eev-2FFJP3GqYwWFEpfr8XqYHfzssYAieFiwwQ6Z-2BCZWjIrTXvWSl8qXcJB4wNHIHSogMYQn66l8KfpUOJnDRMcZ0atmgDI9WXwXnjObFRe4J9K9Xi7-2BQjEhX5pucN4wi9Epy3uM-2BTQ0jm8hLCssV48moshSdztzZdd6es1Qaoy6Le6t3oPYPrG4gXUkliv6YgZGLdoE-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+

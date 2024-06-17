@@ -1,0 +1,619 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>P0021184-478670</title>
+<meta http-equiv=3D"content-type" content=3D"text/html;charset=3Dutf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+
+<style type=3D"text/css">
+a, a:link, p a, p a:link { color: #0066cc; }
+a, a:link {text-decoration:none;}
+a:hover { color: #0066cc; text-decoration: underline; }
+a[x-apple-data-detectors],
+a[x-apple-data-detectors]:link,
+a[x-apple-data-detectors]:hover { color: inherit !important; text-decoratio=
+n: none !important; }
+.preheader-hide { display: none !important; mso-hide: all !important; }
+a[x-apple-data-detectors-type=3D"calendar-event"] { color: inherit !importa=
+nt; -webkit-text-decoration-color: inherit !important; text-decoration: non=
+e !important;}
+.address a {color: inherit!important; text-decoration: none!important}
+b { font-weight: 600; }
+td {
+=09font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', '=
+Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: normal; text-re=
+ndering: optimizelegibility; -webkit-font-smoothing: antialiased;-moz-osx-f=
+ont-smoothing: grayscale; font-size:17px; line-height:25px; color: #1d1d1f;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: 600; border: none; margin:0; }
+img { -webkit-touch-callout: none; }
+sup { font-size: .6em; line-height: 0; position: relative; }
+p, ul { margin: 0; padding: 0; }
+ul li { list-style-type: none; }
+.cta { margin-top: 14px; }
+.f-complete { color: #86868b; font-size: 12px; line-height: 16px;}
+.f-complete p, .aapl-footer p { margin-bottom: 9px; }
+.f-links-shop { border-bottom: 1px solid #d2d2d7; color: #d2d2d7; font-size=
+: 14px; line-height: 18px; text-align: center; padding: 17px 0 16px 0; }
+.f-links-shop a,.f-links-shop a:link, .f-links-shop a:visited, .f-legal a, =
+.f-legal a:visited, .f-complete a, .f-complete a:visited, .f-links-legal a,=
+ .f-links-legal a:visited { color: #515154; }
+.f-links-legal { color: #d2d2d7; }
+.f-links-shop a:hover, .f-legal a:hover { text-decoration: underline; }
+.f-footnotes p{ color: #86868b; font-size: 12px; line-height: 16px; margin-=
+bottom:9px; }
+
+@media only screen and (max-device-width: 568px) {
+=09* {
+=09=09font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: normal; text=
+-rendering: optimizelegibility; -webkit-font-smoothing: antialiased;
+=09}
+=09* {box-sizing: border-box;}
+=09sup { font-size:.55em; }
+=09body, .m-bgcolor {background:#ffffff;}
+=09.desktop { display: none; }
+=09.mobile {
+=09=09display: block !important;
+=09=09font-size: 17px; font-weight: normal;
+=09=09line-height: 25px; margin: 0 auto;
+=09=09max-height: inherit !important; overflow: visible;
+=09=09width: 100% !important; color:#1d1d1f;
+=09=09background-color: #ffffff; text-align: center;
+=09}
+=09.m-grey-banner {max-width:none;}
+=09h1 {font-size:32px; line-height:36px;}
+=09h2 {font-size:28px; line-height:31px;}
+=09h3 {font-size:28px; line-height:31px;}
+=09h4 {font-size:24px; line-height:28px;}
+=09h5 {font-size:17px; line-height:21px;}
+=09h1,h2,h3,h4,h5, h1 img, h2 img, h3 img, h4 img{margin: 0;}
+=09h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .color_inherit a { color: inherit!im=
+portant; font-weight:inherit!important; }
+=09h2 span, h3 span{ font-weight:inherit!important; }
+=09a.m-button { display: inline-block; }
+=09a:hover {text-decoration: none}
+=09a.m-img {display:block;}
+=09.button img {display: inline-block !important;}
+=09.m-gutter { margin: 0 6.25%; max-width:414px; }
+=09.m-gutter-centered {max-width:414px; padding: 0 6.25%;}
+=09.cta { margin: 13px 0 0; }
+=09.m-corners {border-radius: 9px;}
+=09.m-padding { padding:0 6.25%;}
+=09.m-center { text-align:center; margin:0 auto;}
+=09.m-center img { margin:0 auto;}
+=09.m-width {max-width:375px; padding:0 6.25%; margin:0 auto;}
+=09.m-center .m-width {text-align:center;}
+=09.m-hero { margin: 15px auto 0;; max-width: 350px;}
+=09.m-hero .m-img { height: 542px; background: no-repeat bottom center url(=
+'https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2EB/i/m=
+_hero_2x.png'); background-size: 414px 542px;}
+=09.m-hero img {width:100%;height:542px;}
+
+=09.m-value .m-width {max-width: 350px}
+=09.m-value .m-width h2 {margin: 35px 0 14px}
+=09.m-value .m-width p {margin: 0 0 23px; }
+=09.m-value .m-tile {display:block; width:100%; max-width: 414px; margin: 0=
+ auto 15px;}
+=09.m-tradein { height: 373px; background: #ffffff no-repeat bottom center =
+url('https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2EB=
+/i/m_tradein_2x.png'); background-size: 414px 373px;}
+=09.m-tradein img {width:100%;height:373px;}
+
+=09.m-applecare { height: 296px; background: #ffffff no-repeat bottom cente=
+r url('https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2=
+EB/i/m_applecare_2x.png'); background-size: 414px 296px;}
+=09.m-applecare img {width:100%;height:296px;}
+
+=09.m-engraving { height: 296px; background: #ffffff no-repeat bottom cente=
+r url('https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2=
+EB/i/m_engraving_2x.png'); background-size: 414px 296px;}
+=09.m-engraving img {width:100%;height:296px;}
+
+=09.m-value .m-assist {max-width:414px;}
+=09.m-assist { height: 491px; background: #ffffff no-repeat bottom center u=
+rl('https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2EB/=
+i/m_assistance_2x.png'); background-size: 414px 491px;}
+=09.m-assist img {width:100%;height:491px;}
+=09.m-footer { max-width:100%; padding: 0 0 16px; font-size: 12px; line-hei=
+ght: 16px; color: #86868b; background-color: #f5f5f7; }
+=09.m-footer .m-gutter { margin:0 auto; padding: 0 6.25%; }
+=09.f-complete a, .f-complete a:visited { color: #515154 !important; }
+=09.m-footer p { text-align: left; margin-bottom: 9px; }
+=09ul.m-bnav {
+=09=09color: #515154; margin: 2px 0 14px;
+=09=09padding-bottom: 1px; text-align:center;
+=09=09border-top: 0px;
+=09}
+=09ul.m-bnav li {
+=09=09border-bottom: 1px solid #d2d2d7;
+=09=09font-size: 12px; font-weight: normal; line-height: 16px; margin: 0; p=
+adding: 12px 0 12px 0;
+=09}
+=09ul.m-bnav li a, ul.m-bnav li a:visited, ol li a, ol li a:visited { color=
+:#515154; }
+=09ol { text-align: left; margin:0;list-style-type:decimal; padding:0 0 0 1=
+9px; }
+=09ol li { margin-bottom: 9px;}
+}
+@media only screen and (max-width: 340px) {
+=09.m-hero {margin-top: 0}
+=09.m-corners {border-radius:0;}
+=09.m-prod-grid .m-tile {max-width: none;}
+}
+@media only screen and (max-device-width: 414px) {
+}
+</style>
+
+<!--[if gte mso 9]>
+<style type=3D"text/css">
+table,td,tr{line-height:normal !important; mso-line-height-rule: exactly;}
+sup { font-size: 100% !important }
+h1, h2, h3, h4, h5, .eyebrow {line-height: 85% !important; font-family: 'Se=
+goe UI Semibold', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-seri=
+f; font-weight: 400 !important }
+</style>
+<![endif]-->
+<!--[if mso 15]>
+<style type=3D"text/css">
+h3, h4, h5, .eyebrow {line-height: 100% !important}
+</style>
+<![endif]-->
+</head>
+<body style=3D"margin:0; padding:0;" class=3D"m-bgcolor">
+<div style=3D"position:absolute; max-height:0; font-size:0; overflow:hidden=
+;"></div>
+<!--[if !mso]><!-->
+<div style=3D"width:0;max-height:0;overflow:hidden;display:none;" class=3D"=
+mobile m-container">
+=09<div style=3D"display:none !important;position: absolute; font-size:0; l=
+ine-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden; color:=
+ #ffffff" class=3D"preheader-hide">Save even more with education pricing. A=
+nd make this year yours.=09=09&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;=
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zw=
+nj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;=
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb=
+sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+=09</div>
+=09<div class=3D"m-hero m-center">
+=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxxPLGq=
+GvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UUyC4q=
+OfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh5LaR=
+m0cD%2Fj2zT5l70%3D&ct=3Dac0W0u6B5N" class=3D"m-img"><img src=3D"https://ima=
+ges.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B10606EA2EB/i/i.png" width=
+=3D"72" height=3D"72" style=3D"display:block;" border=3D"0" alt=3D"Buy a Ma=
+c or iPad for college. Get AirPods.* Save with education pricing. And prote=
+ct your purchase with 20% off AppleCare+.(1) Shop now"></a>
+=09</div>
+=09<div class=3D"m-value m-center">
+=09=09<div class=3D"m-width">
+=09=09=09<h2>Extra credit.</h2>
+=09=09=09<p>Get even more when you buy&nbsp;from&nbsp;Apple.</p>
+=09=09</div>
+=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxxPLGq=
+GvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UUyC4q=
+OfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh5LaR=
+m0cD%2Fj2zT5l70%3D&ct=3Dac0Q6d0C6k" class=3D"m-tile m-center m-tradein">
+=09=09=09<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A=
+3F4-3B10606EA2EB/i/i.png" width=3D"72" height=3D"72" style=3D"display:block=
+;" class=3D"m-img" border=3D"0" alt=3D"Apple Trade In. Trade in and save. T=
+hat&rsquo;s just Econ 101.(2) Learn more">
+=09=09</a>
+=09=09<div class=3D"m-tile m-center m-applecare">
+=09=09=09<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A=
+3F4-3B10606EA2EB/i/i.png" width=3D"72" height=3D"72" style=3D"display:block=
+;" class=3D"m-img" border=3D"0" alt=3D"Get 20% off AppleCare+.(1) Work hard=
+. Play hard. Rest easy.">
+=09=09</div>
+=09=09<div class=3D"m-tile m-center m-engraving">
+=09=09=09<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A=
+3F4-3B10606EA2EB/i/i.png" width=3D"72" height=3D"72" style=3D"display:block=
+;" class=3D"m-img" border=3D"0" alt=3D"Free Engraving. Mark it up. Make it =
+yours.">
+=09=09</div>
+=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxxPLGq=
+GvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UUyC4q=
+OfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh5LaR=
+m0cD%2Fj2zT5l70%3D&ct=3Dac0Q6E5e3N" class=3D"m-tile m-center m-img m-assist=
+">
+=09=09=09<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A=
+3F4-3B10606EA2EB/i/i.png" width=3D"72" height=3D"72" style=3D"display:block=
+;" border=3D"0" alt=3D"Shopping Assistance. Chat with Specialists. And more=
+. Get help">
+=09=09</a>
+=09</div>
+
+</div>
+<div style=3D"width:0;max-height:0;overflow:hidden;display:none;" class=3D"=
+mobile m-footer">
+=09<div class=3D"m-gutter">
+=09=09<ul class=3D"m-bnav">
+=09=09<li><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2B=
+nb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxx=
+PLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UU=
+yC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh=
+5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q4I2k9P">Shop Online</a></li>
+=09=09<li><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2B=
+nb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxx=
+PLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UU=
+yC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh=
+5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q8x0g6C">Find a Store</a></li>
+=09=09<li class=3D"color_inherit">1-800-MY-APPLE</li>
+=09=09<li><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2=
+FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%=
+2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0Q0=
+I1t6C">Get the Apple Store App</a></li>
+=09=09</ul>
+=09=09<div class=3D"f-complete">
+=09=09=09<p>* Qualified Purchasers receive Promotion Savings when they purc=
+hase an eligible Mac or eligible iPad with eligible AirPods at a Qualifying=
+ Location. Only one Promotion Product per eligible Mac or eligible iPad per=
+ Qualified Purchaser. Offer subject to availability. While supplies last. Q=
+ualified Purchasers selecting Apple&nbsp;Card Monthly Installments (&ldquo;=
+ACMI&rdquo;) as payment type at checkout shall receive a discount equal to =
+the value of the eligible AirPods off the price of the eligible Mac or iPad=
+. This will result in one ACMI installment plan over 12 months for the elig=
+ible iPad or Mac discounted by the instant credit, and a second ACMI instal=
+lment plan over 6 months for the full price of the eligible AirPods. Qualif=
+ied Purchasers will be charged for all items in their cart, including the e=
+ligible AirPods plus any additional Upgrade Cost. If you choose the pay&#82=
+09;in&#8209;full or one&#8209;time&#8209;payment option for an ACMI eligibl=
+e purchase instead of choosing ACMI as the payment option at checkout, that=
+ purchase will be subject to the variable APR assigned to your Apple&nbsp;C=
+ard. Taxes and shipping are not included in ACMI transactions and are subje=
+ct to your standard purchase APR. ACMI is subject to credit approval and cr=
+edit limit. Variable APRs for Apple&nbsp;Card other than ACMI range from 10=
+.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. See th=
+e Apple&nbsp;Card Customer Agreement for more information. Apple&nbsp;Card =
+is issued by Goldman&nbsp;Sachs Bank USA, Salt&nbsp;Lake City Branch. Avail=
+able for qualifying applicants in the United States. If you reside in the U=
+.S. territories, please call Goldman Sachs at 877&#8209;255&#8209;5923 with=
+ questions about accessing this offer or applying for Apple&nbsp;Card. This=
+ offer cannot be combined with the Apple Employee Purchase Plan or business=
+ loyalty pricing. Availability of in&#8209;store promotion offerings may be=
+ limited by Apple Store location closures as a result of COVID&#8209;19. Ad=
+ditional restrictions apply. View full terms and conditions of offer&nbsp;<=
+a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy=
+2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmr=
+l6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0Q5i3p1k" clas=
+s=3D"link-body" style=3D"color:#515154; white-space:nowrap">here</a>.</p>
+
+=09=09=09<ol>
+=09=09=09<li><p>This promotional Apple Education Pricing on AppleCare+ is a=
+vailable for eligible products during the promotional period only and canno=
+t be combined with non-promotional Apple Education Pricing. AppleCare+ atta=
+ched to eligible products outside of the promotional period is not eligible=
+ for this promotional&nbsp;rate.</p><p>Apple Education Pricing. Available t=
+o current and newly accepted university students and their parents, as well=
+ as teachers and staff at all levels. Quantity limits&nbsp;apply.</p></li>
+=09=09=09<li><p>Trade-in values will vary based on the condition, year, and=
+ configuration of your eligible trade&#8209;in device. Not all devices are =
+eligible for credit. You must be at least 18 years old to be eligible to tr=
+ade in for credit or for an Apple Gift Card. Trade&#8209;in value may be ap=
+plied toward qualifying new device purchase, or added to an Apple Gift Card=
+. Actual value awarded is based on receipt of a qualifying device matching =
+the description provided when estimate was made. Sales tax may be assessed =
+on full value of a new device purchase. In&#8209;store trade&#8209;in requi=
+res presentation of a valid photo ID (local law may require saving this inf=
+ormation). Offer may not be available in all stores, and may vary between i=
+n&#8209;store and online trade&#8209;in. Some stores may have additional re=
+quirements. Apple or its trade&#8209;in partners reserve the right to refus=
+e or limit quantity of any trade&#8209;in transaction for any reason. More =
+details are available from Apple&rsquo;s trade&#8209;in partner for trade&#=
+8209;in and recycling of eligible devices. Restrictions and limitations may=
+&nbsp;apply.</p></li>
+=09=09=09</ol>
+=09=09=09<p>TM and &copy; 2021 Apple&nbsp;Inc. One Apple Park Way, <span st=
+yle=3D"white-space:nowrap;">MS 96-DM,</span> Cupertino, CA&nbsp;95014.</p>
+=09=09=09<p class=3D"f-links-legal">
+=09=09=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI=
+%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4F=
+z%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0=
+W0a2L0h" class=3D"link-body">All Rights Reserved</a>&nbsp;&nbsp;|&nbsp; <a =
+href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2z=
+XzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6=
+yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0W2a3v4v" class=
+=3D"link-body" style=3D"color:#515154; white-space:nowrap">Privacy Policy</=
+a>&nbsp;&nbsp;|&nbsp; <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Du=
+sa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2=
+FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB=
+3&ct=3Dac0W2L1M9N" class=3D"link-body" style=3D"color:#515154; white-space:=
+nowrap">My Apple ID</a>
+=09=09=09</p>
+=09=09=09<p>If you prefer not to receive commercial email from Apple, or if=
+ you&rsquo;ve changed your email address, please&nbsp;<a href=3D"https://my=
+news.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DeyJTjM7DqnNRH879zdFO0LUHm=
+jrxblSrGKb9ydvJNHaqhhY8mMl99KOyScZmTFiD54MD0ZKoiz5NvlfbnA%2Fysfj3KnYAcT3S%2=
+BxcYRhtdeWnwalX7MAFe2dQ49IYzs8nSsm56kds7D6bHanO4pVnnRPEsyz2guqaj3ve%2B%2B9c=
+CBXVDQRI%2FpjDhgEJ9LnZmGJk7ftaoNM%2F%2FN%2FcesAPJMQQ6J%2FBbmktqw5LH4KAJgIx0=
+3JM%3D" class=3D"link-body" style=3D"color:#515154; white-space:nowrap">cli=
+ck&nbsp;here</a>.</p>
+=09=09</div>
+=09</div>
+</div>
+<!-- <![endif]-->
+<table role=3D"presentation" width=3D"100%" bgcolor=3D"#f5f5f7" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" class=3D"desktop">
+<tr>
+=09<td align=3D"center" style=3D"padding:0;">
+=09=09<table role=3D"presentation" bgcolor=3D"#ffffff" width=3D"736" cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center">
+=09=09<tr>
+=09=09=09<td align=3D"left" style=3D"padding:40px 0 20px 21px;">
+=09=09=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%=
+2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDR=
+xxPLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8=
+UUyC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7=
+sh5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q9i9A9k"><picture>
+<source media=3D"(max-device-width: 568px)" srcset=3D"data:">
+<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B106=
+06EA2EB/i/hero_2x.png" width=3D"693" height=3D"438" style=3D"display:block;=
+" border=3D"0" alt=3D"Buy a Mac or iPad for college. Get AirPods.* Save wit=
+h education pricing. And protect your purchase with 20% off AppleCare+.(1) =
+Shop now">
+</picture></a>
+=09=09=09</td>
+=09=09</tr>
+=09=09</table>
+=09</td>
+</tr>
+<tr>
+=09<td align=3D"center" style=3D"padding:0;">
+=09=09<table role=3D"presentation" bgcolor=3D"#ffffff" width=3D"736" cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center">
+=09=09<tr>
+=09=09=09<td align=3D"center" style=3D"padding:26px 0 10px;">
+=09=09=09=09<h2 style=3D"font-weight:600; font-size: 40px;line-height:44px;=
+margin:0">Extra credit.</h2>
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td align=3D"center" style=3D"padding:0;font-size:21px; line-heigh=
+t:29px">
+=09=09=09=09Get even more when you buy&nbsp;from&nbsp;Apple.
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td align=3D"center">
+=09=09=09=09<table role=3D"presentation" width=3D"656" cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" align=3D"center">
+=09=09=09=09<tr>
+=09=09=09=09=09<td align=3D"center" colspan=3D"3" style=3D"padding:15px 0 1=
+7px;">
+=09=09=09=09=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVN=
+oHtFDRxxPLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjT=
+MwxEo8UUyC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZ=
+UlGHI7sh5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q0l1L6P">
+=09=09=09=09=09=09=09<picture>
+<source media=3D"(max-device-width: 568px)" srcset=3D"data:">
+<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B106=
+06EA2EB/i/tradein_2x.png" width=3D"656" height=3D"281" style=3D"display:blo=
+ck;" border=3D"0" alt=3D"Apple Trade In. Trade in and save. That&rsquo;s ju=
+st Econ 101.(2) Learn more">
+</picture>
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" width=3D"319">
+
+=09=09=09=09=09=09=09<picture>
+<source media=3D"(max-device-width: 568px)" srcset=3D"data:">
+<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B106=
+06EA2EB/i/applecare_2x.png" width=3D"319" height=3D"317" style=3D"display:b=
+lock;" border=3D"0" alt=3D"Get 20% off AppleCare+.(1) Work hard. Play hard.=
+ Rest easy.">
+</picture>
+
+=09=09=09=09=09</td>
+=09=09=09=09=09<td width=3D"18">&nbsp;</td>
+=09=09=09=09=09<td valign=3D"top" width=3D"319">
+
+=09=09=09=09=09=09=09<picture>
+<source media=3D"(max-device-width: 568px)" srcset=3D"data:">
+<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B106=
+06EA2EB/i/engraving_2x.png" width=3D"319" height=3D"317" style=3D"display:b=
+lock;" border=3D"0" alt=3D"Free Engraving. Mark it up. Make it yours.">
+</picture>
+
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td align=3D"center" colspan=3D"3" style=3D"padding:68px 0 3=
+9px;">
+=09=09=09=09=09=09<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVN=
+oHtFDRxxPLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjT=
+MwxEo8UUyC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZ=
+UlGHI7sh5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q6c9C3C">
+=09=09=09=09=09=09=09<picture>
+<source media=3D"(max-device-width: 568px)" srcset=3D"data:">
+<img src=3D"https://images.apple.com/dm/us/21/7ECC4F51-FA91-4049-A3F4-3B106=
+06EA2EB/i/assistance_2x.png" width=3D"656" height=3D"291" style=3D"display:=
+block;" border=3D"0" alt=3D"Shopping Assistance. Chat with Specialists. And=
+ more. Get help">
+</picture>
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09=09</table>
+=09</td>
+</tr>
+<tr>
+=09<td align=3D"center" bgcolor=3D"#f5f5f7" style=3D"padding:0 20px 0 20px"=
+ >
+=09=09<table role=3D"presentation" width=3D"660" cellspacing=3D"0" cellpadd=
+ing=3D"0" border=3D"0">
+=09=09<tr>
+=09=09=09<td align=3D"center" style=3D"padding: 0">
+=09=09=09=09<table role=3D"presentation" width=3D"660" cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"f-links-shop" align=3D"center" style=3D"border-=
+bottom: 1px solid #d2d2d7;border-top: 0px solid #d2d2d7;padding: 18px 0 16p=
+x">
+=09=09=09=09=09=09<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dus=
+a&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5=
+lVNoHtFDRxxPLGqGvEuXrgb6MAgU7A7%2B2OUvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbg=
+tjTMwxEo8UUyC4qOfncSWROb5yiOVLvQbMZRT6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0=
+YCZUlGHI7sh5LaRm0cD%2Fj2zT5l70%3D&ct=3Dac0Q4I2k9P" style=3D"color:#515154;"=
+>Shop Online</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href=3D"http=
+s://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA=
+12xbGoofYjHA7%2FoHjjvntBQwB34hgaa9Bcci5lVNoHtFDRxxPLGqGvEuXrgb6MAgU7A7%2B2O=
+UvFOrypek65TYBS7MI3Av%2Fx6u9PuBD7VPmfbgtjTMwxEo8UUyC4qOfncSWROb5yiOVLvQbMZR=
+T6McN%2BuwweS7%2FEqVpSEkWTTDu8TzgnVntd0YCZUlGHI7sh5LaRm0cD%2Fj2zT5l70%3D&ct=
+=3Dac0Q8x0g6C" style=3D"color:#515154;">Find a Store</a>&nbsp;&nbsp;&nbsp;&=
+nbsp;|&nbsp;&nbsp;&nbsp; <span style=3D"color:#515154;text-decoration:none!=
+important;white-space:nowrap" class=3D"color_inherit">1-800-MY-APPLE</span>=
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href=3D"https://c.apple.com/=
+r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5Y=
+V%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudU=
+qsTdcluZdmlL1lGPplHiQB3&ct=3Dac0Q0I1t6C" style=3D"color:#515154;">Get&nbsp;=
+the&nbsp;Apple&nbsp;Store&nbsp;App</a></p>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td align=3D"left" class=3D"f-complete" style=3D"padding:19p=
+x 0 0; color: #86868b">
+=09=09=09=09=09=09<div class=3D"f-legal">
+=09=09=09=09=09=09=09<p>* Qualified Purchasers receive Promotion Savings wh=
+en they purchase an eligible Mac or eligible iPad with eligible AirPods at =
+a Qualifying Location. Only one Promotion Product per eligible Mac or eligi=
+ble iPad per Qualified Purchaser. Offer subject to availability. While supp=
+lies last. Qualified Purchasers selecting Apple&nbsp;Card Monthly Installme=
+nts (&ldquo;ACMI&rdquo;) as payment type at checkout shall receive a discou=
+nt equal to the value of the eligible AirPods off the price of the eligible=
+ Mac or iPad. This will result in one ACMI installment plan over 12 months =
+for the eligible iPad or Mac discounted by the instant credit, and a second=
+ ACMI installment plan over 6 months for the full price of the eligible Air=
+Pods. Qualified Purchasers will be charged for all items in their cart, inc=
+luding the eligible AirPods plus any additional Upgrade Cost. If you choose=
+ the pay&#8209;in&#8209;full or one&#8209;time&#8209;payment option for an =
+ACMI eligible purchase instead of choosing ACMI as the payment option at ch=
+eckout, that purchase will be subject to the variable APR assigned to your =
+Apple&nbsp;Card. Taxes and shipping are not included in ACMI transactions a=
+nd are subject to your standard purchase APR. ACMI is subject to credit app=
+roval and credit limit. Variable APRs for Apple&nbsp;Card other than ACMI r=
+ange from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, =
+2020. See the Apple&nbsp;Card Customer Agreement for more information. Appl=
+e&nbsp;Card is issued by Goldman&nbsp;Sachs Bank USA, Salt&nbsp;Lake City B=
+ranch. Available for qualifying applicants in the United States. If you res=
+ide in the U.S. territories, please call Goldman Sachs at 877&#8209;255&#82=
+09;5923 with questions about accessing this offer or applying for Apple&nbs=
+p;Card. This offer cannot be combined with the Apple Employee Purchase Plan=
+ or business loyalty pricing. Availability of in&#8209;store promotion offe=
+rings may be limited by Apple Store location closures as a result of COVID&=
+#8209;19. Additional restrictions apply. View full terms and conditions of =
+offer&nbsp;<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%=
+2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz=
+%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0Q=
+5i3p1k" class=3D"link-body" style=3D"color:#515154; white-space:nowrap">her=
+e</a>.</p>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td align=3D"left" class=3D"f-complete" style=3D"color: #868=
+68b">
+=09=09=09=09=09=09<div class=3D"f-legal">
+=09=09=09=09=09=09<table role=3D"presentation" width=3D"660" cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" class=3D"f-footnotes">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td width=3D"15" align=3D"left" valign=3D"top"><p styl=
+e=3D"color: #86868b; margin-bottom:9px;">1.&nbsp;</p></td>
+=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<p style=3D"color: #86868b; margin-bottom:9px;">Thi=
+s promotional Apple Education Pricing on AppleCare+ is available for eligib=
+le products during the promotional period only and cannot be combined with =
+non-promotional Apple Education Pricing. AppleCare+ attached to eligible pr=
+oducts outside of the promotional period is not eligible for this promotion=
+al&nbsp;rate.</p><p style=3D"color: #86868b; margin-bottom:9px;">Apple Educ=
+ation Pricing. Available to current and newly accepted university students =
+and their parents, as well as teachers and staff at all levels. Quantity li=
+mits&nbsp;apply.</p>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td width=3D"15" align=3D"left" valign=3D"top"><p styl=
+e=3D"color: #86868b; margin-bottom:9px;">2.&nbsp;</p></td>
+=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<p style=3D"color: #86868b; margin-bottom:9px;">Tra=
+de-in values will vary based on the condition, year, and configuration of y=
+our eligible trade&#8209;in device. Not all devices are eligible for credit=
+. You must be at least 18 years old to be eligible to trade in for credit o=
+r for an Apple Gift Card. Trade&#8209;in value may be applied toward qualif=
+ying new device purchase, or added to an Apple Gift Card. Actual value awar=
+ded is based on receipt of a qualifying device matching the description pro=
+vided when estimate was made. Sales tax may be assessed on full value of a =
+new device purchase. In&#8209;store trade&#8209;in requires presentation of=
+ a valid photo ID (local law may require saving this information). Offer ma=
+y not be available in all stores, and may vary between in&#8209;store and o=
+nline trade&#8209;in. Some stores may have additional requirements. Apple o=
+r its trade&#8209;in partners reserve the right to refuse or limit quantity=
+ of any trade&#8209;in transaction for any reason. More details are availab=
+le from Apple&rsquo;s trade&#8209;in partner for trade&#8209;in and recycli=
+ng of eligible devices. Restrictions and limitations may&nbsp;apply.</p>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09</div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr>
+=09=09=09=09=09<td align=3D"left" class=3D"f-complete" style=3D"padding:0 0=
+ 15px; color: #86868b">
+=09=09=09=09=09=09<div class=3D"f-legal">
+=09=09=09=09=09=09=09<p>TM and &copy; 2021 Apple&nbsp;Inc. One Apple Park W=
+ay, <span style=3D"white-space:nowrap;">MS 96-DM,</span> Cupertino, CA&nbsp=
+;95014.</p>
+=09=09=09=09=09=09=09<p class=3D"f-links-legal"><a href=3D"https://c.apple.=
+com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTF=
+CJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2=
+hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0W0a2L0h" class=3D"link-body" style=3D"c=
+olor:#515154; white-space:nowrap">All Rights Reserved</a>&nbsp;&nbsp;&nbsp;=
+|&nbsp;&nbsp; <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4=
+aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F=
+4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Da=
+c0W2a3v4v" class=3D"link-body" style=3D"color:#515154; white-space:nowrap">=
+Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href=3D"https://c.appl=
+e.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSm=
+TFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349y=
+M2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0W2L1M9N" class=3D"link-body" style=3D=
+"color:#515154; white-space:nowrap">My Apple ID</a></p>
+=09=09=09=09=09=09=09<p>If you prefer not to receive commercial email from =
+Apple, or if you&rsquo;ve changed your email address, please&nbsp;<a href=
+=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DeyJTjM7DqnN=
+RH879zdFO0LUHmjrxblSrGKb9ydvJNHaqhhY8mMl99KOyScZmTFiD54MD0ZKoiz5NvlfbnA%2Fy=
+sfj3KnYAcT3S%2BxcYRhtdeWnwalX7MAFe2dQ49IYzs8nSsm56kds7D6bHanO4pVnnRPEsyz2gu=
+qaj3ve%2B%2B9cCBXVDQRI%2FpjDhgEJ9LnZmGJk7ftaoNM%2F%2FN%2FcesAPJMQQ6J%2FBbmk=
+tqw5LH4KAJgIx03JM%3D" class=3D"link-body" style=3D"color:#515154; white-spa=
+ce:nowrap">click&nbsp;here</a>.</p>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09=09</table>
+
+=09</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,89 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:384d:0:0:0:0:0 with SMTP id q13csp550390uad; Thu, 25 Feb
+ 2021 06:55:53 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJw8C1x8GldXtstk5WQL7smfX0kvGoSNvQHf4ar7V3Ur40C9o7evlndoI8u04CeIUbfvKOLF
+X-Received: by 2002:a9d:7457:: with SMTP id p23mr2489604otk.315.1614264953297;
+ Thu, 25 Feb 2021 06:55:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1614264953; cv=none; d=google.com;
+ s=arc-20160816;
+ b=T1p5eqUdZU+USstGfP8XsuWRJ/dY7+Bv2swXVWy8pMw6/lJvL0UpVoOQCuyHrINgsj
+ c/oHtF8/7T1OIT4J41ZjUGytHKh9179SMPQhPAZkFhUwPZHEidRIVuqdaoqzasT7lUry
+ VRgpvZkpHtkGrXNJvp9+xeeMuUSqucpsAaJzyNwhadoSnzIEhPBWFw9KkqFU9WEEc3Oq
+ OKfUAbmiH+R1bQu975DwOx7cFv1fu/v5dP7KhmX0An2pUPiRimFgd6j8kKyzs8TfR/h+
+ DHXUFrhM+dNEGw5SD/6EuNS8PbOwRIh2BeFLdqvQ/+Xhs+gwyUD1umUGE4I49QPw+YC8 q8lg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=VOaZ4NdG20H23cpGJsmhsV11Byv3xobicNyVeGaxdfU=;
+ b=ilKbN9T+G8wRHdgzIu/qm8j5gSXodL0ThirZQTnvFfOkEMfQL6mng4MTyEe2PBY03B
+ iJdy6mPTSLImNZEHJRzU29R296f1F44e9mKBusMuhEWYuUrO/6JkuwBYMTbElrVg45Kf
+ jE4Q2cs26MRvlbk8JYMsWOlyFyu7feqpl2QJlMnmR2hUrNOPcKYTkB9BX/ELpbGzx3jo
+ xZ1wPZ60E0G1evVyG9gOQuHj5HxDicMIm+awzpPAC7S/G4ak3pfRs+0FoT993cafEjOb
+ 1uIdwyMXpVF3yVxJwvMDHB7MDkBTLqkaLTc4U9qVE/lsaK9aHDs6jIIIb5nZEAT1+XyS uC2A==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=tOnyLEFM;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.155 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger11105.apple.com (rn2-msbadger11105.apple.com.
+ [17.179.250.155]) by mx.google.com with ESMTPS id
+ 18si3983685oir.34.2021.02.25.06.55.52 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Thu, 25
+ Feb 2021 06:55:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of n_i_bounces@insideapple.apple.com
+ designates 17.179.250.155 as permitted sender) client-ip=17.179.250.155;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=tOnyLEFM;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.155 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1614264951;
+ bh=VOaZ4NdG20H23cpGJsmhsV11Byv3xobicNyVeGaxdfU=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=tOnyLEFMAHD3XwKQ+mtmhqGGEGB2Zt8cmXNAUIUXg0+6t1gd6HycDxMGAiTKUf4Gw
+ iHtf0kqGf/mFMyG2XsY+xkwPv/QNYkR8ipf0Kg1+ANTEOJ+lzYqQNnKCKC8G1CSF98
+ gm4LFqKuqvIjkRICKAxcIoIomHRcVEr7rqzOZCwa/NmhNcV4nGBP6YKNxfPL6c3mxo
+ 8Eo8v75vkSeL8Smz8gBI7Ray1s3a6/zD080WmmJXt84Mlp+kE4RG2LePB2AMjitsW6
+ 42VqN9DP2eAIjCG0D9R/M5AWfmtsZAJ8wtTlH2SgbL+X9QQhs9JC+NIsabS3vwjcV1
+ VOSdVeR4goZkg==
+Date: Thu, 25 Feb 2021 14:55:51 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <753625730.15080624.1614264951566@Insideapple.apple.com>
+Subject: Let Apple Watch take you beyond Heart Month.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_15080620_413619279.1614264951566"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,Bjf2bIYfF2eCg3dgZ8Wp9ykRyp47kX0n5U5VQAf8MT2whz41Oaq0b0DPpTJlsxq%2Favg4KcnAl11NnJ%2BiZ3KWngsrq7bBEXbXsmtThGE3KMnBPW2SaxCsX2k2GxF3r7L%2F8g6ULtvYlyHTBxNy629nfnbeBus4z%2BPZazUIkHtJXuEsmrdMVNbhNXIzrlu3TUZNbnt3TYm4WaHoonjtqawqmw%3D%3D
+X-TXN_ID: 9da68f72-a2b7-40e6-ba0c-b0bd2cf42e75
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 2064502
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2064502
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=yCb34dhc8rBUjRQENaJPYh95tB06TMmHE8Cq5w%2FvCN%2BIqcjisTrF2jS1UsJfRujBcX24gmQodAy%2FtDblh1hZTJO7zJmkbkoLGRLzyQqa%2FqMcYzHJYGabLtfJ3y4gwI%2BlQ3oT3HFTXQqNUbudM5Ce8WroxR8u4fKHGAR6jEkd%2FWBIosumnCFc6%2FkpdjIieEBR3Oc5kJYahLlSvZZQ0HLI0NOQ%2BY5P%2FWTcnAs02BJDOLQ%3D>
+X-mp: d
+
+
+------=_Part_15080620_413619279.1614264951566
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 10672
+
+
+------=_Part_15080620_413619279.1614264951566
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 84164
+
+
+------=_Part_15080620_413619279.1614264951566--

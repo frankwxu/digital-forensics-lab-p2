@@ -1,0 +1,91 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:ab0:2648:0:0:0:0:0 with SMTP id q8csp504075uao; Wed, 9 Jun
+ 2021 06:38:12 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJwJAooJzF/Pgg4lLtyXd2B6kJR1YS7EseTEqZmKM5kmZdeezO5QaRqF7gEtHLinT+NzFZSS
+X-Received: by 2002:a92:c989:: with SMTP id y9mr25069812iln.228.1623245892453;
+ Wed, 09 Jun 2021 06:38:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1623245892; cv=none; d=google.com;
+ s=arc-20160816;
+ b=cFYPHtA2oliJcptxajRAFaKRT1db6ytRGiSNUrHO3yNkTzshuaFwbU3BVoKrcMYpbT
+ C9ZJLVAqaA5uGgOluZtw4xh4M+yuDCN/LNZqnbbQsnj1CdhyhsSZxaxAO7Sl0MJvkdLO
+ b9HVFlwGnXxVmULriOPbEw9HDDUdCrJqjwg1uQz+j9SSni1SDd+zTcJS8+efq6rC+Ngh
+ bnLubmW9HbUYXYJZM0tpldaCpULvL+v/NBn6YQ+9IrtKNlxBtdDOEAc6H0UKPBFplHy7
+ 28JPMmXAdr+znHIM7zYxeor86zc1FUXkIF9TAigD3rdpJd5JTppiVhij95RqlzVmmjqx dAIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=JXaU8GTJzhCZYYs0EsrNpYlzUSIW53RTHKB2hYvHJU8=;
+ b=MAfBK1wEkm8/ZWjX06M5cL5kH39XXKdf7t41ZJjzYInusLv7U0sAKP2x9d40VYZjHO
+ m1edmm9lbtMFPvmVi98mE0L4Hjc2eDWvUGsarAqwrOHx43blU/0YeiGwgu2pJUgrvycN
+ 681TeyBVLw+rM7x4wlG9UrOIzjCBM2EiH03nbq+MNoYUrDn1d6NWtmxZG5xK0I8KzM9j
+ rEFo5V51bIIlDmbX84KtNtkol6ut8+oAw8LUjrBnFGrWOMrpmkiYfa1y9aZCR9L5+/qb
+ R0RsWt7vl63reWHkWXFiPddIsjmFXvIt+HZy5vsRhXu+VNRksIfGeeQMdl2XJVujoYYn i9kg==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=Ha5jjyN7;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.186 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <newsdigest_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger14105.apple.com (msbadger14105.apple.com.
+ [17.179.250.186]) by mx.google.com with ESMTPS id
+ b21si2049170jat.59.2021.06.09.06.38.11 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Wed, 09
+ Jun 2021 06:38:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of
+ newsdigest_i_bounces@insideapple.apple.com designates 17.179.250.186 as
+ permitted sender) client-ip=17.179.250.186;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=Ha5jjyN7;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.186 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1623245891;
+ bh=JXaU8GTJzhCZYYs0EsrNpYlzUSIW53RTHKB2hYvHJU8=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=Ha5jjyN7zhBYgCntXk/JM0PGE0Xjaeov8UpF4RMB0jp9MI1VKV8pyUEHCu0z1KlJ5
+ IncItqHylp3pAd0Cb1ONU5AT9ggEMh0mm0LtoD8Fy2Kyj+xV5Hf8wymqH66+uB03jY
+ zMVga7tpbcoAt7IK2NGrVwSTwne50eCjzwD6amWB05SxrlK0eSUsTtqF/T325L35oZ
+ FgnVKs9E5opPtdNtE211Ban78xAZLtjZ0TxLZkp4HGOBmT8loUJgh2DALxyDyHtUcB
+ qu0TvlMNDq8kJ7RLugII5XIQugb04a/WOtPGCRpD43ANpxw5sv9hzv+CN6vq2QPfcc
+ AhL5+zqNEtQlg==
+Date: Wed, 9 Jun 2021 13:38:11 +0000 (GMT)
+From: Apple News <newsdigest@insideapple.apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <867872837.8918326.1623245891826@email.apple.com>
+Subject: The world has a new ocean, how the wealthiest avoid U.S. income tax,
+ and more
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_8918324_1065559168.1623245891826"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7N%2B99zEgNuXBOWdv2Yekz%2FmKFmO1rejVWVQSOSkEk0iTjk7LTGzYteK2LPLucsqsywcSXmR04hma9ciTGRRUayOEcpYPjC9Xei0DOxj272Wb%2FaWAEy%2FEmG4SrfWNOQfwQjIT%2FJxEAqphOqD3o69JQ69qFeSwFI7pzaXiSvX9LloC0VUvCsg62bGGuKlBmQnyM8g%3D%3D
+X-TXN_ID: fec1fc38-d47a-404f-a036-f4fe05ef83ea
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 1953881
+X-Business-Group: Apple News US
+X-Broadcast-Id: 1953881
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=EN_US&a=NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7N%2B99zEgNuXBOWdv2Yekz%2FmKFmO1rejVWVQSOSkEk0iTjk7LTGzYteK2LPLucsqsywcSXmR04hma9ciTGRRUayOEcpYPjC9Xei0DOxj272Wb%2FaWAEy%2FEmG4SrfWNOQfwQjIT%2FJxEAqphOqD3o69JQ69qFeSwFI7pzaXiSvX9LloC0VUvCsg62bGGuKlBmQnyM8g%3D%3D>
+X-mp: d
+
+
+------=_Part_8918324_1065559168.1623245891826
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 5678
+
+
+------=_Part_8918324_1065559168.1623245891826
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 111703
+
+
+------=_Part_8918324_1065559168.1623245891826--

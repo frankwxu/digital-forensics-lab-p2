@@ -1,0 +1,1883 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>
+It&rsquo;s an exciting time to try Apple TV+.
+</title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+<meta http-equiv=3D"content-type" content=3D"text/html;charset=3Dutf-8" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<style type=3D"text/css">
+html,body{height:100%; width:100%}
+body { background-color:#f2f2f2;}
+strong {font-weight:600}
+a,a.appl-link,a.appl-link:link {text-decoration:none;}
+a.appl-link:hover,a:hover {text-decoration:underline!important;}
+a.appl_button, a.appl_button{text-decoration:none!important}
+a.appl_button:hover{text-decoration:none!important}
+.appl_lowbrow a,#appl-footer a,a {color:inherit;}
+span{font-family:inherit!important; font-size:inherit!important;line-height=
+:inherit!important}
+@media only screen and (max-device-width: 768px) {
+.appl_lowbrow,#appl-footer {-webkit-text-size-adjust:100%;}
+.appl_lowbrow a,#appl-footer a, a { color:inherit; }
+}
+* { font-family: system-ui, -apple-system,BlinkMacSystemFont, Segoe UI, Hel=
+vetica Neue, Helvetica, Arial, sans-serif; text-rendering: optimizelegibili=
+ty;-webkit-font-smoothing: antialiased; }
+@media only screen and (min-device-width: 768px) {
+/* thai copy bug fix*/
+td.appl_app_title *{max-width:204px!important}
+}
+</style>
+<style type=3D"text/css">
+/* Mobile Styles */
+@media only screen and (max-width: 480px), only screen and (max-device-widt=
+h: 480px) {
+.appl_desktop{display:none!important;}
+* div.appl_mobile{
+height:auto!important; display:block!important;
+max-height:none!important; line-height:100%!important;=20
+overflow:visible!important; width:auto!important;
+max-width:none!important;
+background-color:#fff!important;=20
+font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvet=
+ica Neue, Helvetica, Arial, sans-serif!important;=20
+max-width:414px!important;=20
+margin:0 auto;=20
+}
+div.appl_mobile *{
+box-sizing:border-box;=20
+text-align:center;
+-webkit-text-size-adjust:100%;=20
+}
+div.appl_mobile .appl_div{
+width:100%;=20
+margin:0 auto;
+padding:0 20px;
+text-rendering:optimizelegibility;
+}
+div.appl_mobile .appl_left, div.appl_mobile .appl_left * {text-align:left!i=
+mportant}
+div.appl_mobile br.appl_desktop {display:none}
+div.appl_mobile .appl_100 {padding:0;}
+div.appl_mobile .appl_pad{ width:100%; padding:0 20px; }
+div.appl_mobile img {margin:0!important;max-width:100%!important}
+div.appl_mobile .appl_apps img{ margin:0 auto!important; }
+div.appl_mobile h1, div.appl_mobile h2, div.appl_mobile h3, div.appl_mobile=
+ p{margin: 10px 0;}
+div.appl_mobile h1, div.appl_mobile h2 { font-weight:600; color:#111;}
+div.appl_mobile p, div.appl_mobile a, div.appl_mobile h3 { font-weight:400;=
+ color:#333}
+div.appl_mobile h3 > a:first-child {font-weight:600;}
+/* banner-less logo*/
+div.appl_mobile img.aapl_top_logo {width:auto!important;height:28px!importa=
+nt}
+div.appl_mobile img.appl_top_logo {width:auto!important;height:28px!importa=
+nt}
+div.appl_mobile div.aapl_top_logo {padding-top:20px;padding-bottom:10px}
+div.appl_mobile div.aapl_top_logo p {color:#111111!important;font-size:17px=
+;line-height:25px;letter-spacing:-0.022em; text-align:left;padding-top:0px;=
+margin-bottom:3px}
+div.appl_mobile div.aapl_top_logo {padding-top:20px;padding-bottom:15px}
+div.appl_mobile .aapl_logo_center {padding-top:35px;padding-bottom:10px;}
+div.appl_mobile .aapl_logo_center img {margin:0 auto!important}
+/*larger banner-less headline*/
+div.appl_mobile .appl_headline_large h1 {font-size:32px!important; line-hei=
+ght:36px!important; letter-spacing: -.018em; }
+div.appl_mobile .appl_headline_large p.appl_headline_txt {margin-bottom:5px=
+}
+div.appl_mobile .appl_headline_large p.appl_headline_txt, div.appl_mobile .=
+appl_headline_large p.appl_headline_link a { font-size:18px!important; line=
+-height:26px!important; letter-spacing: .016em!important;}
+div.appl_mobile .appl_headline_large p.appl_headline_link a img {width:12px=
+!important}
+/* Top Feature module */
+div.appl_mobile h1 { font-size:32px; line-height:36px; letter-spacing: 0.00=
+4em; margin:5px 0 10px;}
+div.appl_mobile .appl_hero h1 {=20
+font-size:27px; line-height:31px; letter-spacing: 0.008em; margin:15px 0 10=
+px;
+font-size:32px; line-height:36px; letter-spacing: 0.004em;
+}
+div.appl_mobile h1:only-child { margin:5px 0 10px;}
+div.appl_mobile h1 *{ font-weight:inherit; font-size:inherit; line-height:i=
+nherit;}
+div.appl_mobile .appl_headline{ padding-top:25px; padding-bottom:22px; }
+div.appl_mobile .aapl_logo + .appl_headline{ padding-top:5px; }
+div.appl_mobile p.appl_sub_headline span {display:block; font-size:1.2em!im=
+portant;line-height:1.2em!important;font-weight:600;margin-bottom:5px;}
+div.appl_mobile p.appl_sub_headline {padding-top:20px;padding-bottom:10px}
+div.appl_mobile p.appl_headline_txt{font-size:18px;line-height:26px; letter=
+-spacing: 0.012em;margin:10px 0;}
+div.appl_mobile p.appl_headline_txt:nth-child(2){}
+div.appl_mobile p.appl_headline_link a { font-size:18px;line-height:26px;pa=
+dding-top:5px; padding-bottom:0px;letter-spacing: 0.012em; display:block;}
+div.appl_mobile p.appl_headline_link a + a {padding-top:3px;}
+div.appl_mobile p.appl_headline_link a img{ width:11px}
+div.appl_mobile p.appl_headline_link a.appl_larger_cta { font-size:18px;}
+/* Blurb module */
+div.appl_mobile .appl_cat_header{ padding-top:35px;padding-bottom:25px;}
+div.appl_mobile .appl_cat_header_img{ padding-bottom:0px;}
+div.appl_mobile .appl_cat_header h2{ font-size:27px; line-height:31px;lette=
+r-spacing:0.008em;margin:0px 0px 10px 0px;}
+div.appl_mobile .appl_cat_header h2 *{ font-size:inherit; font-weight:inher=
+it; line-height:inherit;}
+div.appl_mobile .appl_cat_header p.appl_sub_headline span {display:block; f=
+ont-size:1.2em!important;line-height:1.2em!important;font-weight:600;margin=
+-bottom:5px;}
+div.appl_mobile .appl_cat_header p{font-size:17px;line-height:25px; letter-=
+spacing:-0.022em;}
+div.appl_mobile .appl_cat_header h2+p{margin-top:0px!important;}
+div.appl_mobile .appl_cat_header p.appl_headline_link > a { font-size:17px!=
+important; line-height:25px; letter-spacing:-0.022em;display:block; padding=
+-bottom:0px }
+div.appl_mobile .appl_cat_header p.appl_headline_link > a:first-child{paddi=
+ng-top:0px;}=20
+div.appl_mobile .appl_cat_header p.appl_headline_link a + a{padding-top:2px=
+;}=20
+div.appl_mobile .appl_cat_header p.appl_headline_link a img{ width:11px!imp=
+ortant}
+/*lockers*/
+div.appl_mobile .appl_apps{padding-bottom:0px;}
+div.appl_mobile .appl_apps > h3{max-width:280px;margin-left:auto!important;=
+margin-right:auto!important}
+div.appl_mobile .appl_apps > p,
+div.appl_mobile .appl_apps > p + p{max-width:260px;margin-left:auto!importa=
+nt;margin-right:auto!important}
+div.appl_mobile h3, div.appl_mobile h3 a { font-size:19px; line-height:23px=
+; margin:0 0 6px 0!important}
+div.appl_mobile h3 a ~ a{ font-size:14px!important; line-height:18px!import=
+ant; margin:0 0 6px 0;}
+div.appl_mobile .appl_apps p {font-size:14px; color:#777777!important;line-=
+height:18px; margin:0 15px 5px 15px;}
+div.appl_mobile .appl_apps p + p {margin:15px 0 5px 0;}
+div.appl_mobile .appl_apps > div {padding-bottom:35px;}
+div.appl_mobile .appl_apps img { width:130px!important; height:auto; margin=
+:10px auto 17px!important;}
+div.appl_mobile .appl_cat_header + .appl_apps > div:first-child > div > a:f=
+irst-child img,
+div.appl_mobile .appl_apps + .appl_apps > div:first-child > div > a:first-c=
+hild img=20
+{/*margin-top:0!important*/}
+div.appl_mobile .appl_cat_header + .appl_apps > div:first-child > div > a:f=
+irst-child img
+{margin-top:0!important}
+div.appl_mobile div.app_mob_hairline + .appl_apps { margin-top: 40px}
+div.appl_mobile .appl_apps p img {width:9px!important;margin:0!important}
+div.appl_mobile .left *{margin-left:0!important;margin-right:0!important;te=
+xt-align:left;}
+div.appl_mobile .left p{margin-left:0!important;margin-right:0!important;}
+div.appl_mobile .left img {margin-left:0!important;margin-right:0!important=
+}
+div.appl_mobile .appl_apps.left div > a > img{margin-left:0!important;margi=
+n-right:0!important}
+div.appl_mobile span.appl_button a{
+white-space: nowrap;
+background-color:#0070c9; background: linear-gradient(#42a1ec, #0070c9);
+padding:0 15px!important; font-size:16px;
+font-weight:400; line-height:34px;color:#ffffff; text-decoration:none; disp=
+lay:inline-block;width:auto;=20
+border-radius:4px; border:1px solid #007aca; box-sizing: border-box; min-wi=
+dth:120px;text-align:center!important
+}
+div.appl_mobile span.appl_button a:hover {text-decoration:none}
+div.appl_mobile span.appl_button{ display:block; margin:20px auto 15px; }
+div.appl_mobile span.pink.appl_button a{background: none;background-color:#=
+FA233B;border:0 }
+div.appl_mobile .appl_button ~ .appl_button {margin-top:15px!important;}
+div.appl_mobile span.appl_button + br {display:block!important;}
+div.appl_mobile .appl_headline span.appl_button a{font-size:17px;}
+/*app store only*/
+div.appl_mobile .appl_headline.appl_hero {padding-top:20px!important;paddin=
+g-bottom:35px!important;}
+div.appl_mobile .aapl_hero_img.appl_hero img {border-radius:5px;}
+div.appl_mobile .appl_hero h1, div.appl_mobile .appl_hero h2, div.appl_mobi=
+le .appl_story h3 a {font-weight:600!important; color:#111111!important}
+div.appl_mobile .appl_hero p.appl_badge {font-weight:400!important; color:#=
+333333!important;}
+div.appl_mobile .appl_headline.appl_hero p.appl_badge { font-size:19px!impo=
+rtant;line-height:23px!important;letter-spacing:.012em;margin-top:0px;margi=
+n-bottom:5px}
+div.appl_mobile .appl_headline.appl_hero h1 {margin-top:0px!important}
+div.appl_mobile .appl_headline.appl_hero h1 {font-size:30px!important;line-=
+height:34px;margin-bottom:0px;}
+div.appl_mobile .appl_hero .appl_headline_link{margin:0px!important;}
+div.appl_mobile .appl_hero .appl_headline_link p > a:first-of-type{padding:=
+0px!important;}
+div.appl_mobile .appl_headline.appl_hero {margin-top:5px!important}
+div.appl_mobile .appl_cat_header .appl_badge { font-size:19px!important;lin=
+e-height:23px!important;letter-spacing:0.012em;margin-top:0px;margin-bottom=
+:5px}
+div.appl_mobile .appl_story * {text-align:center}
+div.appl_mobile .appl_story p {font-size:17px; color:#333333!important;line=
+-height:25px; margin:7px 0 5px 0px;}
+div.appl_mobile .appl_story p + p {margin:15px 0 15px 0!important;}
+div.appl_mobile .appl_story p a img {width:11px!important}
+div.appl_mobile .app_mob_hairline + div.appl_cat_header {padding-top:35px!i=
+mportant;}
+div.appl_mobile .appl_story > div {padding-bottom:8px;}
+div.appl_mobile .appl_story > div:last-child {padding-bottom:25px;}
+div.appl_mobile .appl_story > a >img { width:100%!important; border:0!impor=
+tant;border-radius:5px!important;height:auto; margin:10px auto 25px!importa=
+nt;}
+div.appl_mobile .appl_story p.appl_badge {font-weight:400!important; color:=
+#333333!important;font-size:19px!important; line-height:24px!important;marg=
+in-bottom:3px!important;}
+div.appl_mobile .appl_story {}
+div.appl_mobile .appl_story h3 {margin-top:6px!important;margin-bottom:15px=
+!important;}
+div.appl_mobile .appl_story h3 a {font-size:27px!important;line-height:31px=
+!important; letter-spacing: .008em;}
+div.appl_mobile .appl_story + .appl_story > div:first-child > div > a:first=
+-child img,
+div.appl_mobile .appl_story + .appl_story > div:first-child > div > a:first=
+-child img=20
+{margin-top:0!important}
+div.appl_mobile div.app_mob_hairline + .appl_story { margin-top: 40px}
+div.appl_mobile .appl_story p img {width:9px!important;margin:0!important}
+div.appl_mobile .appl_story h3, div.appl_mobile .appl_hero h3 a { font-weig=
+ht:600;font-size:22px; line-height:26px; margin:0 0 6px 0!important}
+div.appl_mobile .appl_story .appl_apps p {font-size:17px!important; color:#=
+333333!important;line-height:25px; margin:0 15px 5px 15px;}
+div.appl_mobile .appl_story .appl_apps p + p {margin:15px 0 15px 0!importan=
+t;}
+div.appl_mobile .appl_cat_headline + .appl_story > div:first-child > div.ap=
+pl_story > a:first-child img {margin-top:0px!important}
+div.appl_mobile .appl_hero .appl_apps p img {width:11px!important;margin:0!=
+important}
+div.appl_mobile .appl_hero {}
+}=20
+/*** new categories mobile ***/
+div.appl_mobile .appl_apps div.appl_albums > a > img,
+div.appl_mobile .appl_apps div.appl_artists > a > img,
+div.appl_mobile .appl_apps div.appl_author > a > img,
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img,
+div.appl_mobile .appl_apps div.appl_playlists > a >img,
+div.appl_mobile .appl_apps div.appl_providers > a > img
+div.appl_mobile .appl_apps div.appl_tracks > a > img,
+div.appl_mobile .appl_apps div.appl_courses > a > img
+{ height:auto; margin:10px auto 17px!important; border:1px solid #eeeeee!im=
+portant}
+div.appl_mobile .appl_apps div.appl_courses > a > img {border:0!important}
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{ width:110px!important=
+; }
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{border:1px solid=
+ #eeeeee!important; max-width:270px!important;width:100%!important; height:=
+auto; margin:10px auto 17px!important;}
+/*footer*/
+div.appl_mobile .appl_footer{ margin-top:0px;padding-top:25px!important; pa=
+dding-bottom:20px!important; background-color:#f2f2f2;}
+div.appl_mobile .appl_footer * {font-size:11px;line-height:15px!important; =
+letter-spacing:-0.012em!important; font-weight:400;}
+div.appl_mobile .appl_footer p { margin:0 0 16px 0!important; text-align:ce=
+nter;color:#888!important;}
+div.appl_mobile .appl_footer a {color:#555555!important;text-decoration:non=
+e;}
+div.appl_footer p {margin:0 0 16px 0!important; text-align:center;color:#88=
+8!important;}
+div.appl_footer a {color:#555555!important;text-decoration:none;line-height=
+:1.45em;}
+div.appl_footer div.appl_lowbrow_1{text-align:center!important; padding-bot=
+tom:15px;}
+div.appl_footer div.appl_lowbrow_2{padding-top:10px; padding-bottom:30px;}
+div.appl_footer div.appl_lowbrow_1 a,
+div.appl_footer div.appl_lowbrow_2 a { white-space:nowrap}
+div.appl_footer div.appl_social {margin-bottom:12px}
+div.appl_footer div.appl_social a {display:inline-block;margin:0 5px 0 5px}
+div.appl_footer div.appl_social a img {margin:0; border:0; height:22px; wid=
+th:auto;}
+div.appl_footer div.appl_lowbrow_2{padding-top:10px; padding-bottom:10px;}
+div.appl_footer div.appl_lowbrow_2:last-child{padding-top:0px; padding-bott=
+om:20px;}
+/*
+.appl_footer ul {list-style: none;float:left;padding-left:0; margin-bottom:=
+10px;}
+.appl_footer ul {min-width:50%; padding-right:20px;}
+.appl_footer ul + ul {min-width:0;padding-right:0px;}
+.appl_footer ul li {text-align:left; padding-bottom: 2px;}
+div.appl_mobile .appl_lowbrow_1 {overflow:auto; border-top:1px solid #d7d7d=
+7;border-bottom:1px solid #d7d7d7; margin-bottom:15px;}
+div.appl_mobile .appl_lowbrow_1:first-child {margin-bottom:0px;}
+div.appl_mobile .appl_social {margin-bottom:12px}
+div.appl_mobile .appl_social a {display:inline-block;margin:0 6px 0 6px}
+div.appl_mobile .appl_social a img {margin:0; border:0; width:22px; height:=
+auto;}
+*/
+@media only screen and (max-width:480px) {
+div.appl_mobile .appl_pad{padding-left:6%;padding-right:6%;}
+div.appl_mobile .appl_apps div > a > img { width:300px!important; height:au=
+to; margin:10px auto 17px!important;} /* was 130px wide */
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{ max-width:300px=
+!important;width:100%!important; height:auto;}  /* was 270px wide */
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{width:300px!important;=
+ height:auto; }  /* was 160px wide */
+}
+@media only screen and (max-width:375px) {
+div.appl_mobile .appl_apps div > a > img { width:300px!important; height:au=
+to; } /* was 125px wide */
+div.appl_mobile .appl_music_videos div > a > img{ max-width:300px!important=
+;width:100%!important; height:auto; } /* was 250px wide */
+div.appl_mobile .appl_books div > a > img,
+div.appl_mobile .appl_movies div > a > img{width:300px!important; height:au=
+to; } /* was 120px wide */
+}
+@media only screen and (max-width: 320px) {
+div.appl_mobile .appl_apps div > a > img { width:250px!important; height:au=
+to; }  /* was 120px wide */
+div.appl_mobile .appl_apps div.appl_music_videos > a > img{ max-width:250px=
+!important;width:100%!important; height:auto; }  /* was 210px wide */
+div.appl_mobile .appl_apps div.appl_books > a > img,
+div.appl_mobile .appl_apps div.appl_movies > a > img{ width:250px!important=
+; height:auto; }  /* was 135px wide */
+}
+</style>
+<!--[if gte mso 9]>
+<style type=3D"text/css">
+table,td,div,p {font-family:BlinkMacSystemFont, Segoe UI, Helvetica Neue, H=
+elvetica, Arial, sans-serif !important;line-height:normal !important}
+</style>
+<![endif]-->
+</head>
+<body rightmargin=3D"0" leftmargin=3D"0" bgcolor=3D"#f2f2f2" style=3D"margi=
+n:0;padding:0;">
+<div style=3D"display:none; max-height:0; max-width:0;width:0;height:0; ove=
+rflow:hidden;font-size:0px;color:#f2f2f2;">
+Stream new highly anticipated Apple Originals and returning favorites all s=
+ummer long&mdash;and beyond.=20
+</div>
+<div class=3D"appl_desktop">
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"appl_body appl_container_full">
+<tr>
+<td bgcolor=3D"#f2f2f2" style=3D"padding-top:12px;padding-left:10px;padding=
+-right:10px;min-width:740px;" >
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto; border-radius:4px;overflow:hidden;">
+<tr>
+<td width=3D"740" valign=3D"top" align=3D"center" style=3D"background-color=
+:#ffffff;" class=3D"appl_content">
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" class=3D"aapl_top_logo">
+<tr>
+<td class=3D"appl_hero_img" valign=3D"top" align=3D"left" style=3D"padding:=
+26px;padding-bottom:15px">
+<img height=3D"28" alt=3D"Apple TV" class=3D"appl_top_logo" style=3D"displa=
+y:block; margin:0; border:0" src=3D"https://is3-ssl.mzstatic.com/image/thum=
+b/Features113/v4/ff/b6/a0/ffb6a09e-57c7-e3aa-5b12-29318487711c/mza_73943803=
+80094146399.png/400x56bb-100.png" />
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"aapl_hero_img">
+<tr>
+<td class=3D"appl_hero_img" valign=3D"top" align=3D"center" style=3D"paddin=
+g-bottom:0;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5x5l6C" sty=
+le=3D"text-decoration: none;"><img align=3D"middle" width=3D"740" height=3D=
+"400" alt=3D"All New. All Original." class=3D"appl_hero_img1" style=3D"disp=
+lay:block; margin:0 auto; border:0; width:100%; height:400; max-width:740px=
+; max-height:400px;" src=3D"https://static-its-images.apple.com/images/appl=
+etv/plus/USEN_IGN_GIF_1480x800_IGN_ANAO_NO_DISC.gif" /></a>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td style=3D"padding-left: 26px; padding-right: 26px;">
+<table cellspacing=3D"0" width=3D"620" border=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"appl_headline" style=3D"margin:0 auto">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:35px;padding-top:40px">
+<p style=3D"margin-top:0; margin-bottom:15px;font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;color:#111111; font-weight:600;font-size:40px;line-height:44px;let=
+ter-spacing:0;border-bottom:0;">
+&ldquo;Standout originals give Apple&nbsp;TV+ its strength.&rdquo;<br><I>&#=
+8209;The Boston&nbsp;Globe</I>
+</p>
+<p style=3D"margin-top:0px; margin-bottom:15px; font-family: system-ui, -ap=
+ple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial,=
+ sans-serif;color:#333333; font-size:19px;line-height:27px; font-weight:400=
+;letter-spacing:0.012em" class=3D"appl_headline_txt">
+Welcome to a world of original series and films from the best storytellers.=
+ Exclusive new Apple&nbsp;Originals premiere on Apple&nbsp;TV+ every month.=
+ All ad&#8209;free and available on demand. Apple&nbsp;TV+ has won over 100=
+ awards for hit shows like <i>The Morning Show</i>, starring Jennifer Anist=
+on and Reese Witherspoon, and <i>Ted Lasso</i> with Jason Sudeikis &mdash; =
+and this is just the start. Check out a special preview of what&rsquo;s nex=
+t, and sign up today so you don&rsquo;t miss a&nbsp;moment.
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom: 0px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td style=3D"padding-left:20px; padding-right:20px; padding-bottom: 15px">
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" style=3D"display:in=
+line-block;border-spacing:0;border-collapse: separate; border:1px solid #00=
+70c9; border-radius:4px; overflow:hidden; background-color:#0070c9; backgro=
+und: linear-gradient(#42a1ec, #0070c9); min-width:0;">
+<tr>
+<td height=3D"33" align=3D"center" valign=3D"middle">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4G9x6k" cla=
+ss=3D"appl-link appl_desktop" style=3D"width:100%; display:block; font-size=
+:17px;line-height:33px;font-family:system-ui, -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weig=
+ht:400; color:#ffffff;text-decoration:none!important; display:block;min-wid=
+th:120px;">&nbsp;&nbsp;&nbsp;&nbsp;Watch the Preview&nbsp;&nbsp;&nbsp;&nbsp=
+;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"688" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;"><tr><td style=3D"border-top:1px solid =
+#dfdfdf; font-size:1px;line-height:2px;padding-bottom:0px">&nbsp;</td></tr>=
+</table>
+<table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:20px; padding-top:35px;">
+<p style=3D"margin-top:0px; margin-bottom:15px;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#111111; font-weight:600;font-size:32px;line-height:36px;l=
+etter-spacing:0.004em;">
+New Releases You Can Watch&nbsp;Now
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:10px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td align=3D"center" style=3D"padding-left:17px;padding-right:17px;">
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:-0.0=
+21em; font-weight:400;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0J0c9m2v" cla=
+ss=3D"appl-link appl_desktop" style=3D"color:#0070c9;text-decoration:none">=
+Explore <nobr>more<img width=3D"11" alt=3D"" border=3D"0" class=3D"more" st=
+yle=3D"margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/t=
+humb/Features124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_96243=
+61562589445119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"680" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" style=3D"margin:0 auto" class=3D"">
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5l6D6N" sty=
+le=3D"text-decoration: none;"><img alt=3D"Physical" width=3D"200" height=3D=
+"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Features115/v4/ee/d6/2c/eed62c=
+31-c388-813c-fe70-8aa495b2c22c/mza_6940656716037448450.jpg/600x338bb-90.jpg=
+" /></a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1K1C" sty=
+le=3D"text-decoration: none;"><img alt=3D"Lisey&rsquo;s Story" width=3D"200=
+" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #d=
+ddddd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/31/8=
+2/db/3182db38-1c4f-3864-49ad-6b54fc412cf4/mza_9091927349151429882.png/600x3=
+38bb-90.jpg" /></a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9G3T8C" sty=
+le=3D"text-decoration: none;"><img alt=3D"Mythic Quest, Season 2" width=3D"=
+200" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid=
+ #dddddd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2=
+4/d8/74/24d87493-9d8a-dceb-4e0a-f55c66f18ccb/mza_5719173320835605506.jpg/60=
+0x338bb-90.jpg" /></a>
+</td>
+</tr>
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5l6D6N" sty=
+le=3D"text-decoration:none; color:#333333;">Physical</a><br/><a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZ=
+sdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2=
+BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l2a3N" style=3D"text-dec=
+oration: none;color:#333333; font-weight:400;font-size:14px; line-height:18=
+px;letter-spacing:-0.016em;">New Series</a>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1K1C" sty=
+le=3D"text-decoration:none; color:#333333;">Lisey&rsquo;s Story</a><br/><a =
+href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2z=
+XzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6=
+yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d7k1k" style=
+=3D"text-decoration: none;color:#333333; font-weight:400;font-size:14px; li=
+ne-height:18px;letter-spacing:-0.016em;">New Series</a>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9G3T8C" sty=
+le=3D"text-decoration:none; color:#333333;">Mythic Quest, Season&nbsp;2</a>=
+<br/><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxY=
+pulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJ=
+Y%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m1d6c8M=
+" style=3D"text-decoration: none;color:#333333; font-weight:400;font-size:1=
+4px; line-height:18px;letter-spacing:-0.016em;">New Episodes</a>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l2a3N" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nobr>n=
+ow<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 a=
+uto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/=
+v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.pn=
+g/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d7k1k" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nobr>n=
+ow<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 a=
+uto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/=
+v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.pn=
+g/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m1d6c8M" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nobr>n=
+ow<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 a=
+uto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/=
+v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.pn=
+g/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" styl=
+e=3D"margin:0 auto" class=3D"appl_desktop">
+<tr>
+<td style=3D"padding-bottom:0px;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l4b9v" sty=
+le=3D"text-decoration: none;"><img align=3D"middle" width=3D"740" alt=3D"Te=
+d Lasso" class=3D"appl_cat_img1" style=3D"display:block; margin:0 auto; bor=
+der:0" src=3D"https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/11/b6=
+/50/11b65072-df4f-64eb-10d1-e9fcd12fc938/mza_3800507918903284300.jpg/1480x4=
+95fe-90.jpg" /></a>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td style=3D"padding-left: 26px; padding-right: 26px;">
+<table cellspacing=3D"0" width=3D"600" border=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"appl_cat_headline" style=3D"margin:0 auto">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:35px;padding-top:40px">
+<p style=3D"margin-top:0px; margin-bottom:15px;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#111111; font-weight:600;font-size:32px;line-height:36px;l=
+etter-spacing:0.004em;">
+Ted Lasso: Season&nbsp;2 Premieres July&nbsp;23
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:0px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td style=3D"padding-left:17px; padding-right:17px;">=20
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:-0.0=
+21em; font-weight:400;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7B1q2M" cla=
+ss=3D"appl-link appl_desktop" style=3D"color:#0070c9;text-decoration:none">=
+Catch up on Season&nbsp;1 and watch the <nobr>new&nbsp;trailer<img width=3D=
+"11" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0"=
+ src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/01=
+27c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.p=
+ng" /></nobr></a>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+=20
+<table width=3D"688" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;"><tr><td style=3D"border-top:1px solid =
+#dfdfdf; font-size:1px;line-height:2px;padding-bottom:0px">&nbsp;</td></tr>=
+</table>
+<table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:20px; padding-top:35px;">
+<p style=3D"margin-top:0px; margin-bottom:15px;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#111111; font-weight:600;font-size:32px;line-height:36px;l=
+etter-spacing:0.004em;">
+New Seasons of Series That Started It&nbsp;All
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:10px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td align=3D"center" style=3D"padding-left:17px;padding-right:17px;">
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:-0.0=
+21em; font-weight:400;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0x9m9P" cla=
+ss=3D"appl-link appl_desktop" style=3D"color:#0070c9;text-decoration:none">=
+Explore <nobr>more<img width=3D"11" alt=3D"" border=3D"0" class=3D"more" st=
+yle=3D"margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/t=
+humb/Features124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_96243=
+61562589445119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"680" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" style=3D"margin:0 auto" class=3D"">
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6a8k8v" sty=
+le=3D"text-decoration: none;"><img alt=3D"The Morning Show" width=3D"200" h=
+eight=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddd=
+dd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/76/cc/1=
+f/76cc1fa0-ecf2-ed05-5357-bddf02b28b19/mza_9862231587602393950.png/600x338b=
+b-90.jpg" /></a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6L8L3M" sty=
+le=3D"text-decoration: none;"><img alt=3D"See" width=3D"200" height=3D"113"=
+ style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=3D"h=
+ttps://is2-ssl.mzstatic.com/image/thumb/Features125/v4/e0/8e/29/e08e29b9-81=
+34-2faf-abe5-e980b5e5606f/mza_11016505404233050386.jpg/600x338bb-90.jpg" />=
+</a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1b4r0h" sty=
+le=3D"text-decoration: none;"><img alt=3D"Truth Be Told" width=3D"200" heig=
+ht=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;=
+" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/c9/58/60/c=
+9586045-6926-09d5-964f-bbf28008a047/mza_15599707938252280686.jpg/600x338bb-=
+90.jpg" /></a>
+</td>
+</tr>
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6a8k8v" sty=
+le=3D"text-decoration:none; color:#333333;">The Morning Show</a><br/><a hre=
+f=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzB=
+nkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1=
+w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9w6k8N" style=3D"=
+text-decoration: none;color:#333333; font-weight:400;font-size:14px; line-h=
+eight:18px;letter-spacing:-0.016em;">Premieres September&nbsp;17</a>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6L8L3M" sty=
+le=3D"text-decoration:none; color:#333333;">See</a><br/><a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYK=
+sXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCe=
+C5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1d0x7T" style=3D"text-decorati=
+on: none;color:#333333; font-weight:400;font-size:14px; line-height:18px;le=
+tter-spacing:-0.016em;">Premieres August&nbsp;27</a>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1b4r0h" sty=
+le=3D"text-decoration:none; color:#333333;">Truth Be Told</a><br/><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBn=
+kEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w=
+5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0I7I3C" style=3D"t=
+ext-decoration: none;color:#333333; font-weight:400;font-size:14px; line-he=
+ight:18px;letter-spacing:-0.016em;">Premieres August&nbsp;20</a>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9w6k8N" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up on S=
+eason&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"9" =
+alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127c3=
+17-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png" =
+/></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1d0x7T" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up on S=
+eason&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"9" =
+alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127c3=
+17-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png" =
+/></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0I7I3C" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up on S=
+eason&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"9" =
+alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127c3=
+17-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png" =
+/></nobr></a>
+</p>
+</div>
+</td>
+</tr>
+</table>
+<table width=3D"688" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;"><tr><td style=3D"border-top:1px solid =
+#dfdfdf; font-size:1px;line-height:2px;padding-bottom:0px">&nbsp;</td></tr>=
+</table>
+<table width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto" class=3D"appl_cat_headline">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:20px; padding-top:35px;">
+<p style=3D"margin-top:0px; margin-bottom:15px;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#111111; font-weight:600;font-size:32px;line-height:36px;l=
+etter-spacing:0.004em;">
+New Series Coming Later This&nbsp;Year
+</p>
+<p style=3D"margin-top:0;margin-bottom:15px;font-family: system-ui, -apple-=
+system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, san=
+s-serif;font-weight:400;font-size:17px;color:#333333;line-height:26px;lette=
+r-spacing:-0.022em;color:#333333" class=3D"appl_headline_txt">
+The most anticipated series, from mind-bending sci-fi<br>to surprising dram=
+as and&nbsp;beyond.
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:10px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td align=3D"center" style=3D"padding-left:17px;padding-right:17px;">
+<p style=3D"margin-top:0; margin-bottom:2px; font-family: system-ui, -apple=
+-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;color:#333333; font-size:17px;line-height:26px;letter-spacing:-0.0=
+21em; font-weight:400;">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1e5Y" cla=
+ss=3D"appl-link appl_desktop" style=3D"color:#0070c9;text-decoration:none">=
+Explore <nobr>more<img width=3D"11" alt=3D"" border=3D"0" class=3D"more" st=
+yle=3D"margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/t=
+humb/Features124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_96243=
+61562589445119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=3D"680" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" style=3D"margin:0 auto" class=3D"">
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4n6v7P" sty=
+le=3D"text-decoration: none;"><img alt=3D"Invasion" width=3D"200" height=3D=
+"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/55/cd/48/55cd48=
+7e-7abd-eec2-a900-e014a05bf9e8/mza_5819829361784993318.png/600x338bb-90.jpg=
+" /></a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5d9j1p" sty=
+le=3D"text-decoration: none;"><img alt=3D"The Shrink Next Door" width=3D"20=
+0" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #=
+dddddd;" src=3D"https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/b1/=
+05/5f/b1055f20-ef3e-fc04-41de-c6a848da9c27/mza_9507566974198868318.png/600x=
+338bb-90.jpg" /></a>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" class=3D"appl_app_icon" s=
+tyle=3D"padding-bottom:20px;">=20
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9a4X9N" sty=
+le=3D"text-decoration: none;"><img alt=3D"Foundation" width=3D"200" height=
+=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" =
+src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bb/98/f6/bb9=
+8f643-133c-8f62-e873-88717388a6a3/mza_8239338349291594212.jpg/600x338bb-90.=
+jpg" /></a>
+</td>
+</tr>
+<tr>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4n6v7P" sty=
+le=3D"text-decoration:none; color:#333333;">Invasion</a><br/><a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZ=
+sdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2=
+BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7d3Q6v" style=3D"text-dec=
+oration: none;color:#333333; font-weight:400;font-size:14px; line-height:18=
+px;letter-spacing:-0.016em;">Premieres October&nbsp;22</a>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5d9j1p" sty=
+le=3D"text-decoration:none; color:#333333;">The Shrink Next&nbsp;Door</a><b=
+r/><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4w6v7v" =
+style=3D"text-decoration: none;color:#333333; font-weight:400;font-size:14p=
+x; line-height:18px;letter-spacing:-0.016em;">Premieres November&nbsp;12</a=
+>
+</p>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" valign=3D"top" align=3D"center" style=3D"padding-bottom:4=
+px" class=3D"appl_app_title">=20
+<p style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, Sego=
+e UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight:600; color:=
+#333333; font-size:17px; line-height:22px; letter-spacing:-0.022em; margin-=
+top:0;margin-bottom:8px;border-bottom:0; text-align:center; width:100%;padd=
+ing:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9a4X9N" sty=
+le=3D"text-decoration:none; color:#333333;">Foundation</a><br/><a href=3D"h=
+ttps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJ=
+OZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV=
+%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l9T5v" style=3D"text-d=
+ecoration: none;color:#333333; font-weight:400;font-size:14px; line-height:=
+18px;letter-spacing:-0.016em;">Premieres this&nbsp;fall</a>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7d3Q6v" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the <no=
+br>teaser<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"mar=
+gin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Featu=
+res124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258944=
+5119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4w6v7v" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the <no=
+br>teaser<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"mar=
+gin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Featu=
+res124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258944=
+5119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+<td width=3D"34">&nbsp;</td>
+<td width=3D"204" align=3D"center" class=3D"appl_app_txt" style=3D"padding-=
+bottom:28px;">=20
+<div style=3D"text-align:center; margin:0 auto;font-family: system-ui, -app=
+le-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, =
+sans-serif;color:#333333;font-size:14px;line-height:18px;letter-spacing:-0.=
+016em;margin:0 auto;">
+<p style=3D"margin-top:0">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l9T5v" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the <no=
+br>teaser<img width=3D"9" alt=3D"" border=3D"0" class=3D"more" style=3D"mar=
+gin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Featu=
+res124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258944=
+5119.png/26x26bb-90.png" /></nobr></a>
+</p>
+</div>
+</td>
+</tr>
+</table>
+<table width=3D"688" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;"><tr><td style=3D"border-top:1px solid =
+#dfdfdf; font-size:1px;line-height:2px;padding-bottom:0px">&nbsp;</td></tr>=
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td style=3D"padding-left: 26px; padding-right: 26px;">
+<table cellspacing=3D"0" width=3D"600" border=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"appl_cat_headline" style=3D"margin:0 auto">
+<tr>
+<td align=3D"center" style=3D"padding-bottom:35px;padding-top:40px">
+<p style=3D"margin-top:0px;margin-bottom:15px;font-family: system-ui, -appl=
+e-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, s=
+ans-serif;font-weight:400;font-size:17px;color:#333333;line-height:25px;let=
+ter-spacing:-0.022em;margin-top:0 auto;color:#333333" class=3D"appl_headlin=
+e_txt">
+Watch exclusively on the Apple&nbsp;TV app, available&nbsp;on:<br>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l5N5h" sty=
+le=3D"text-decoration: none;"><img src=3D"https://is3-ssl.mzstatic.com/imag=
+e/thumb/Features125/v4/ed/06/6e/ed066efc-0a44-5397-ba51-d8aef5925187/mza_81=
+88290829943183503.jpg/1200x327bb-90.jpg" alt=3D"Apple TV | Roku | Amazon Fi=
+re TV | Android TV | Google TV | Samsung Smart TVs | Vizio | LG Smart TV | =
+Sony | PlayStation | Xbox" width=3D"600" border=3D"0"></a>
+<br>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8E6V7h" sty=
+le=3D"text-decoration: none;"><img src=3D"https://is3-ssl.mzstatic.com/imag=
+e/thumb/Features114/v4/90/ad/00/90ad006d-69b5-da09-3e9c-53bea212e4fa/mza_13=
+505067950637199411.png/240x240bb-90.png" alt=3D"Apple TV app icon" width=3D=
+"100" border=3D"0"></a>
+</p>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr>
+<td align=3D"center" style=3D"padding-bottom: 0px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"display:in=
+line-block">
+<tr>
+<td style=3D"padding-left:20px; padding-right:20px; padding-bottom: 15px">
+<table cellspacing=3D"0" border=3D"0" cellpadding=3D"0" style=3D"display:in=
+line-block;border-spacing:0;border-collapse: separate; border:1px solid #00=
+70c9; border-radius:4px; overflow:hidden; background-color:#0070c9; backgro=
+und: linear-gradient(#42a1ec, #0070c9); min-width:0;">
+<tr>
+<td height=3D"33" align=3D"center" valign=3D"middle">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5V8q7C" cla=
+ss=3D"appl-link appl_desktop" style=3D"width:100%; display:block; font-size=
+:17px;line-height:33px;font-family:system-ui, -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weig=
+ht:400; color:#ffffff;text-decoration:none!important; display:block;min-wid=
+th:120px;">&nbsp;&nbsp;&nbsp;&nbsp;Watch Now&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+=20
+</td>
+</tr>
+</table>
+<table width=3D"740" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" style=3D"margin:0 auto;" class=3D"">
+<tr>
+<td align=3D"center" style=3D"padding-top:25px;">
+<table align=3D"center" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" st=
+yle=3D"display:inline-block">
+<tr>
+<td>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d6N9P" sty=
+le=3D"text-decoration: none;"><img height=3D"22" alt=3D"Facebook" style=3D"=
+display:block; margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com=
+/image/thumb/Features113/v4/27/3a/5f/273a5ff1-03ef-10c3-03ad-95e7715f5021/m=
+za_11943878494838960814.png/44x44bb-90.png" /></a>
+</td>
+<td width=3D"12"></td>
+<td>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9u1u8P" sty=
+le=3D"text-decoration: none;"><img height=3D"22" alt=3D"Twitter" style=3D"d=
+isplay:block; margin:0 auto; border:0" src=3D"https://is4-ssl.mzstatic.com/=
+image/thumb/Features128/v4/95/f7/38/95f738ee-92f1-9a3c-f68a-c3dfc88b423e/mz=
+a_1314635978973327631.png/44x44bb-90.png" /></a>
+</td>
+<td width=3D"12"></td>
+<td>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0x9G4p" sty=
+le=3D"text-decoration: none;"><img height=3D"22" alt=3D"YouTube" style=3D"d=
+isplay:block; margin:0 auto; border:0" src=3D"https://is3-ssl.mzstatic.com/=
+image/thumb/Features113/v4/2e/72/31/2e7231c0-2af8-3518-4361-2bdcda3fc991/mz=
+a_1576913678387322906.png/44x44bb-90.png" /></a>
+</td>
+<td width=3D"12"></td>
+<td>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8n0l5N" sty=
+le=3D"text-decoration: none;"><img height=3D"22" alt=3D"Instagram" style=3D=
+"display:block; margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.co=
+m/image/thumb/Features123/v4/d7/75/8a/d7758a56-7703-dd86-5471-2507a1fac5b7/=
+mza_7092787299653719094.png/44x44bb-90.png" /></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-bottom:60px;">
+<table width=3D"100%" align=3D"center" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center" id=3D"appl-footer">
+<tr>
+<td align=3D"center" style=3D"padding-top:21px;padding-bottom:14px;padding-=
+left:50px;padding-right:50px" class=3D"appl_footer_text1 appl_footer_text a=
+ppl_center">
+<div style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#888888;font=
+-size:11px;line-height:15px;max-width:680px;">
+Apple&nbsp;TV+ requires a&nbsp;subscription.
+<br><br>
+The Apple&nbsp;TV app is available on iOS&nbsp;12.3 or later, Apple&nbsp;TV=
+&nbsp;4K or Apple&nbsp;TV&nbsp;HD with tvOS&nbsp;12.3 or later, Apple&nbsp;=
+TV (3rd generation) with Apple&nbsp;TV Software Update 7.3 or later, macOS&=
+nbsp;Catalina or later, and on eligible smart TVs and streaming&nbsp;device=
+s.
+<br><br>
+Some content requires specific hardware or software. Internet access requir=
+ed; data fees may apply. Content prices and availability are subject to cha=
+nge.
+</div>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding-top:0;padding-bottom:15px;padding-lef=
+t:50px;padding-right:50px" class=3D"appl_center appl_footer_text appl_foote=
+r_text2">
+<div style=3D"font-family: system-ui, -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#888888;font=
+-size:11px;line-height:14px">
+All rights reserved. Copyright &copy; 2021 Apple Inc. One Apple Park Way, C=
+upertino, CA 95014
+</div>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center">
+<tr>
+<td align=3D"center" style=3D"font-family:Helvetica Neue,Helvetica,Lucida G=
+rande,Arial,sans-serif;color:#999999;font-size:9px;line-height:1.32em;paddi=
+ng:0" class=3D"appl_lowbrow">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8n2t3p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Privacy Policy=
+</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6V5N5k" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Terms & Condit=
+ions</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1I7e0p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Support</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7c3W3h" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Account</a>
+&nbsp;|&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5i9Q3M" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Subscribe</a>
+&nbsp;|&nbsp;
+<a href=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3D1S7Z=
+pjhzjoZ6H0QdQS79xBG8P9H8B7i4Au8%2BH9begcJ%2ByiA3EgLnh81aZCCSYMz5afoVQJqlT%2=
+FYqiteMwnkODWcMcDcwCc0tIXqhkALYfXuB5wQ9WExcGjRRT%2FriZxX5vLyvHhjQWWr2h6xW2y=
+suPdJigq3I0fMWK4bH3Cux999PWVRI7y%2BA2obTD%2BTu35tURebfV3RW2H21Dh2alqAGfkK7Z=
+g0VCN73qDt9Aw3Je8Q%3D" class=3D"appl-link" style=3D"color:#555555;font-fami=
+ly: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Ne=
+ue', Helvetica, Arial, sans-serif; font-size:11px;line-height:14px;white-sp=
+ace:nowrap">Unsubscribe</a>
+</td>
+</tr>
+</table>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center">
+<tr>
+<td align=3D"center" style=3D"font-family: system-ui, -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;co=
+lor:#888888;font-size:11px;line-height:line-height:15px;padding:0" class=3D=
+"appl_lowbrow">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br />
+</div>
+<div class=3D"appl_mobile" style=3D"display:none; max-height:0; max-width:0=
+;width:0;height:0; font-size:0;overflow:hidden;">
+<div class=3D"aapl_top_logo appl_pad">
+<img height=3D"28" alt=3D"Apple TV" class=3D"appl_top_logo" style=3D"displa=
+y:block; margin:0; border:0" src=3D"https://is3-ssl.mzstatic.com/image/thum=
+b/Features113/v4/ff/b6/a0/ffb6a09e-57c7-e3aa-5b12-29318487711c/mza_73943803=
+80094146399.png/400x56bb-100.png" />
+</div>
+<div class=3D"aapl_hero_img appl_100">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5x5l6C" sty=
+le=3D"text-decoration: none;"><img width=3D"100%" alt=3D"All New. All Origi=
+nal." class=3D"appl_hero_img1" style=3D"display:block; margin:0; border:0" =
+src=3D"https://static-its-images.apple.com/images/appletv/plus/USEN_IGN_GIF=
+_1480x800_IGN_ANAO_NO_DISC.gif" /></a>
+</div>
+<div class=3D"appl_headline appl_pad">
+<h1 style=3D"">&ldquo;Standout originals give Apple&nbsp;TV+ its&nbsp;stren=
+gth.&rdquo;<br><I>&#8209;The Boston Globe</I></h1>
+<p style=3D"" class=3D"appl_headline_txt">Welcome to a world of original se=
+ries and films from the best storytellers. Exclusive new Apple&nbsp;Origina=
+ls premiere on Apple&nbsp;TV+ every month. All ad&#8209;free and available =
+on demand. Apple&nbsp;TV+ has won over 100 awards for hit shows like <i>The=
+ Morning Show</i>, starring Jennifer Aniston and Reese Witherspoon, and <i>=
+Ted Lasso</i> with Jason Sudeikis &mdash; and this is just the start. Check=
+ out a special preview of what&rsquo;s next, and sign up today so you don&r=
+squo;t miss a&nbsp;moment.</p>
+<p style=3D"" class=3D"appl_headline_link">
+<span class=3D"appl_button"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2Bp=
+ZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGP=
+plHiQB3&ct=3Dac0m4G9x6k" class=3D"appl-link" style=3D"color: #FFFFFF; text-=
+decoration:none">Watch the Preview</a></span>
+</p>
+</div>
+<div class=3D"app_mob_hairline" style=3D"background-color:#E3E3E3;height:1p=
+x;"></div>
+<div class=3D"appl_pad appl_cat_header appl_locker">
+<h2>New Releases You Can Watch&nbsp;Now</h2>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0J0c9m2v" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Explore <nobr=
+>more<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a>
+</div>
+<div class=3D"appl_pad appl_apps">
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5l6D6N" sty=
+le=3D"text-decoration: none;"><img alt=3D"Physical" width=3D"200" height=3D=
+"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Features115/v4/ee/d6/2c/eed62c=
+31-c388-813c-fe70-8aa495b2c22c/mza_6940656716037448450.jpg/600x338bb-90.jpg=
+" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5l6D6N" sty=
+le=3D"text-decoration:none; color:#333333;">Physical</a><br/><a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZ=
+sdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2=
+BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l2a3N" style=3D"text-dec=
+oration: none;color:#333333; font-weight:400;font-size:14px; line-height:18=
+px;letter-spacing:-0.016em;">New Series</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l2a3N" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nob=
+r>now<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1K1C" sty=
+le=3D"text-decoration: none;"><img alt=3D"Lisey&rsquo;s Story" width=3D"200=
+" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #d=
+ddddd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/31/8=
+2/db/3182db38-1c4f-3864-49ad-6b54fc412cf4/mza_9091927349151429882.png/600x3=
+38bb-90.jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1K1C" sty=
+le=3D"text-decoration:none; color:#333333;">Lisey&rsquo;s Story</a><br/><a =
+href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2z=
+XzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6=
+yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d7k1k" style=
+=3D"text-decoration: none;color:#333333; font-weight:400;font-size:14px; li=
+ne-height:18px;letter-spacing:-0.016em;">New Series</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d7k1k" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nob=
+r>now<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9G3T8C" sty=
+le=3D"text-decoration: none;"><img alt=3D"Mythic Quest, Season 2" width=3D"=
+200" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid=
+ #dddddd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2=
+4/d8/74/24d87493-9d8a-dceb-4e0a-f55c66f18ccb/mza_5719173320835605506.jpg/60=
+0x338bb-90.jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9G3T8C" sty=
+le=3D"text-decoration:none; color:#333333;">Mythic Quest, Season&nbsp;2</a>=
+<br/><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxY=
+pulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJ=
+Y%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m1d6c8M=
+" style=3D"text-decoration: none;color:#333333; font-weight:400;font-size:1=
+4px; line-height:18px;letter-spacing:-0.016em;">New Episodes</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m1d6c8M" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch <nob=
+r>now<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+</div>
+<div class=3D"appl_100 appl_cat_header_img">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l4b9v" sty=
+le=3D"text-decoration: none;"><img width=3D"100%" alt=3D"Ted Lasso" class=
+=3D"appl_hero_img1" style=3D"display:block; margin:0; border:0" src=3D"http=
+s://is2-ssl.mzstatic.com/image/thumb/Features125/v4/11/b6/50/11b65072-df4f-=
+64eb-10d1-e9fcd12fc938/mza_3800507918903284300.jpg/1480x495fe-90.jpg" /></a=
+>
+</div>
+<div class=3D"appl_pad appl_cat_headline">
+<div class=3D"appl_cat_header">
+<h2>Ted Lasso: Season&nbsp;2 Premieres July&nbsp;23</h2>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7B1q2M" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up on S=
+eason&nbsp;1 and watch the <nobr>new&nbsp;trailer<img width=3D"8" alt=3D"" =
+border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" src=3D"https:=
+//is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127c317-7e3e-d2=
+a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png" /></nobr><=
+/a>
+</p>
+</div>
+</div>=20
+<div class=3D"app_mob_hairline" style=3D"background-color:#E3E3E3;height:1p=
+x;"></div>
+<div class=3D"appl_pad appl_cat_header appl_locker">
+<h2>New Seasons of Series That Started It&nbsp;All</h2>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0x9m9P" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Explore <nobr=
+>more<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a>
+</div>
+<div class=3D"appl_pad appl_apps">
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6a8k8v" sty=
+le=3D"text-decoration: none;"><img alt=3D"The Morning Show" width=3D"200" h=
+eight=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddd=
+dd;" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/76/cc/1=
+f/76cc1fa0-ecf2-ed05-5357-bddf02b28b19/mza_9862231587602393950.png/600x338b=
+b-90.jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6a8k8v" sty=
+le=3D"text-decoration:none; color:#333333;">The Morning Show</a><br/><a hre=
+f=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzB=
+nkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1=
+w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9w6k8N" style=3D"=
+text-decoration: none;color:#333333; font-weight:400;font-size:14px; line-h=
+eight:18px;letter-spacing:-0.016em;">Premieres September&nbsp;17</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R9w6k8N" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up o=
+n Season&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"=
+8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" s=
+rc=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127=
+c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png=
+" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6L8L3M" sty=
+le=3D"text-decoration: none;"><img alt=3D"See" width=3D"200" height=3D"113"=
+ style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=3D"h=
+ttps://is2-ssl.mzstatic.com/image/thumb/Features125/v4/e0/8e/29/e08e29b9-81=
+34-2faf-abe5-e980b5e5606f/mza_11016505404233050386.jpg/600x338bb-90.jpg" />=
+</a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6L8L3M" sty=
+le=3D"text-decoration:none; color:#333333;">See</a><br/><a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYK=
+sXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCe=
+C5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1d0x7T" style=3D"text-decorati=
+on: none;color:#333333; font-weight:400;font-size:14px; line-height:18px;le=
+tter-spacing:-0.016em;">Premieres August&nbsp;27</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1d0x7T" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up o=
+n Season&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"=
+8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" s=
+rc=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127=
+c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png=
+" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1b4r0h" sty=
+le=3D"text-decoration: none;"><img alt=3D"Truth Be Told" width=3D"200" heig=
+ht=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;=
+" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/c9/58/60/c=
+9586045-6926-09d5-964f-bbf28008a047/mza_15599707938252280686.jpg/600x338bb-=
+90.jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1b4r0h" sty=
+le=3D"text-decoration:none; color:#333333;">Truth Be Told</a><br/><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBn=
+kEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w=
+5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0I7I3C" style=3D"t=
+ext-decoration: none;color:#333333; font-weight:400;font-size:14px; line-he=
+ight:18px;letter-spacing:-0.016em;">Premieres August&nbsp;20</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0I7I3C" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Catch up o=
+n Season&nbsp;1 and watch the <nobr>Season&nbsp;2&nbsp;teaser<img width=3D"=
+8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:0 auto; border:0" s=
+rc=3D"https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/01/27/c3/0127=
+c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119.png/26x26bb-90.png=
+" /></nobr></a> </p>
+</div>
+</div>
+</div>
+<div class=3D"app_mob_hairline" style=3D"background-color:#E3E3E3;height:1p=
+x;"></div>
+<div class=3D"appl_pad appl_cat_header appl_locker">
+<h2>New Series Coming Later This&nbsp;Year</h2>
+<p>The most anticipated series, from mind-bending sci-fi to surprising dram=
+as and&nbsp;beyond.</p>
+<p style=3D"" class=3D"appl_headline_link">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0B1e5Y" cla=
+ss=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Explore <nobr=
+>more<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"margin:=
+0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features1=
+24/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_9624361562589445119=
+.png/26x26bb-90.png" /></nobr></a>
+</div>
+<div class=3D"appl_pad appl_apps">
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4n6v7P" sty=
+le=3D"text-decoration: none;"><img alt=3D"Invasion" width=3D"200" height=3D=
+"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/55/cd/48/55cd48=
+7e-7abd-eec2-a900-e014a05bf9e8/mza_5819829361784993318.png/600x338bb-90.jpg=
+" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4n6v7P" sty=
+le=3D"text-decoration:none; color:#333333;">Invasion</a><br/><a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZ=
+sdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2=
+BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7d3Q6v" style=3D"text-dec=
+oration: none;color:#333333; font-weight:400;font-size:14px; line-height:18=
+px;letter-spacing:-0.016em;">Premieres October&nbsp;22</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7d3Q6v" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the =
+<nobr>teaser<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"=
+margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Fe=
+atures124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258=
+9445119.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5d9j1p" sty=
+le=3D"text-decoration: none;"><img alt=3D"The Shrink Next Door" width=3D"20=
+0" height=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #=
+dddddd;" src=3D"https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/b1/=
+05/5f/b1055f20-ef3e-fc04-41de-c6a848da9c27/mza_9507566974198868318.png/600x=
+338bb-90.jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5d9j1p" sty=
+le=3D"text-decoration:none; color:#333333;">The Shrink Next&nbsp;Door</a><b=
+r/><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4w6v7v" =
+style=3D"text-decoration: none;color:#333333; font-weight:400;font-size:14p=
+x; line-height:18px;letter-spacing:-0.016em;">Premieres November&nbsp;12</a=
+>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m4w6v7v" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the =
+<nobr>teaser<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"=
+margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Fe=
+atures124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258=
+9445119.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+<div>=20
+<div>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9a4X9N" sty=
+le=3D"text-decoration: none;"><img alt=3D"Foundation" width=3D"200" height=
+=3D"113" style=3D"display:block; margin:0 auto; border:1px solid #dddddd;" =
+src=3D"https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bb/98/f6/bb9=
+8f643-133c-8f62-e873-88717388a6a3/mza_8239338349291594212.jpg/600x338bb-90.=
+jpg" /></a>
+<h3>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9a4X9N" sty=
+le=3D"text-decoration:none; color:#333333;">Foundation</a><br/><a href=3D"h=
+ttps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJ=
+OZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV=
+%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l9T5v" style=3D"text-d=
+ecoration: none;color:#333333; font-weight:400;font-size:14px; line-height:=
+18px;letter-spacing:-0.016em;">Premieres this&nbsp;fall</a>
+</h3>
+<p><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpu=
+lHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%=
+2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6l9T5v" =
+class=3D"appl-link" style=3D"color:#0070c9;text-decoration:none">Watch the =
+<nobr>teaser<img width=3D"8" alt=3D"" border=3D"0" class=3D"more" style=3D"=
+margin:0 auto; border:0" src=3D"https://is1-ssl.mzstatic.com/image/thumb/Fe=
+atures124/v4/01/27/c3/0127c317-7e3e-d2a9-7f24-3d055fa10d58/mza_962436156258=
+9445119.png/26x26bb-90.png" /></nobr></a> </p>
+</div>
+</div>
+</div>
+<div class=3D"app_mob_hairline" style=3D"background-color:#E3E3E3;height:1p=
+x;"></div>
+<div class=3D"appl_pad appl_cat_headline">
+<div class=3D"appl_cat_header">
+<p>Watch exclusively on the Apple&nbsp;TV app, available&nbsp;on:<br>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7l5N5h" sty=
+le=3D"text-decoration: none;"><img src=3D"https://is3-ssl.mzstatic.com/imag=
+e/thumb/Features125/v4/ed/06/6e/ed066efc-0a44-5397-ba51-d8aef5925187/mza_81=
+88290829943183503.jpg/1200x327bb-90.jpg" alt=3D"Apple TV | Roku | Amazon Fi=
+re TV | Android TV | Google TV | Samsung Smart TVs | Vizio | LG Smart TV | =
+Sony | PlayStation | Xbox" width=3D"600" border=3D"0"></a>
+<br>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8E6V7h" sty=
+le=3D"text-decoration: none;"><img src=3D"https://is3-ssl.mzstatic.com/imag=
+e/thumb/Features114/v4/90/ad/00/90ad006d-69b5-da09-3e9c-53bea212e4fa/mza_13=
+505067950637199411.png/240x240bb-90.png" alt=3D"Apple TV app icon" width=3D=
+"100" border=3D"0"></a></p>
+<p style=3D"" class=3D"appl_headline_link">
+<span class=3D"appl_button"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2Bp=
+ZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGP=
+plHiQB3&ct=3Dac0m5V8q7C" class=3D"appl-link" style=3D"color: #FFFFFF; text-=
+decoration:none">Watch Now</a></span>
+</p>
+</div>
+</div>=20
+<div class=3D"appl_pad appl_footer">
+ <div class=3D"appl_social">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m8d6N9P" sty=
+le=3D"text-decoration: none;"><img alt=3D"Facebook" src=3D"https://is1-ssl.=
+mzstatic.com/image/thumb/Features113/v4/27/3a/5f/273a5ff1-03ef-10c3-03ad-95=
+e7715f5021/mza_11943878494838960814.png/44x44bb-90.png" /></a>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m9u1u8P" sty=
+le=3D"text-decoration: none;"><img alt=3D"Twitter" src=3D"https://is4-ssl.m=
+zstatic.com/image/thumb/Features128/v4/95/f7/38/95f738ee-92f1-9a3c-f68a-c3d=
+fc88b423e/mza_1314635978973327631.png/44x44bb-90.png" /></a>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m0x9G4p" sty=
+le=3D"text-decoration: none;"><img alt=3D"YouTube" src=3D"https://is3-ssl.m=
+zstatic.com/image/thumb/Features113/v4/2e/72/31/2e7231c0-2af8-3518-4361-2bd=
+cda3fc991/mza_1576913678387322906.png/44x44bb-90.png" /></a>
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8n0l5N" sty=
+le=3D"text-decoration: none;"><img alt=3D"Instagram" src=3D"https://is1-ssl=
+.mzstatic.com/image/thumb/Features123/v4/d7/75/8a/d7758a56-7703-dd86-5471-2=
+507a1fac5b7/mza_7092787299653719094.png/44x44bb-90.png" /></a>
+</div>
+<p>
+Apple&nbsp;TV+ requires a&nbsp;subscription.
+<br><br>
+The Apple&nbsp;TV app is available on iOS&nbsp;12.3 or later, Apple&nbsp;TV=
+&nbsp;4K or Apple&nbsp;TV&nbsp;HD with tvOS&nbsp;12.3 or later, Apple&nbsp;=
+TV (3rd generation) with Apple&nbsp;TV Software Update 7.3 or later, macOS&=
+nbsp;Catalina or later, and on eligible smart TVs and streaming&nbsp;device=
+s.
+<br><br>
+Some content requires specific hardware or software. Internet access requir=
+ed; data fees may apply. Content prices and availability are subject to cha=
+nge.
+</p>
+<p>All rights reserved. Copyright &copy; 2021 Apple Inc. One Apple Park Way=
+, Cupertino, CA 95014</p>
+<div class=3D"appl_lowbrow_1">
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R8n2t3p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Privacy Policy=
+</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m6V5N5k" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Terms & Condit=
+ions</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0R1I7e0p" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Support</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m7c3W3h" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Account</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHz=
+y2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bm=
+rl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac0m5i9Q3M" cla=
+ss=3D"appl-link" style=3D"color:#555555;font-family: system-ui, -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, san=
+s-serif; font-size:11px;line-height:14px;white-space:nowrap">Subscribe</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3D1S7Z=
+pjhzjoZ6H0QdQS79xBG8P9H8B7i4Au8%2BH9begcJ%2ByiA3EgLnh81aZCCSYMz5afoVQJqlT%2=
+FYqiteMwnkODWcMcDcwCc0tIXqhkALYfXuB5wQ9WExcGjRRT%2FriZxX5vLyvHhjQWWr2h6xW2y=
+suPdJigq3I0fMWK4bH3Cux999PWVRI7y%2BA2obTD%2BTu35tURebfV3RW2H21Dh2alqAGfkK7Z=
+g0VCN73qDt9Aw3Je8Q%3D" class=3D"appl-link" style=3D"color:#555555;font-fami=
+ly: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Ne=
+ue', Helvetica, Arial, sans-serif; font-size:11px;line-height:14px;white-sp=
+ace:nowrap">Unsubscribe</a>
+</div>
+<div class=3D"appl_lowbrow_2">
+</div>
+</div>
+</div>
+<div class=3D"appl_desktop" style=3D" white-space:nowrap!important; font:15=
+px courier; color:#000000; line-height:0px;">&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div=
+>
+</body>
+</html>

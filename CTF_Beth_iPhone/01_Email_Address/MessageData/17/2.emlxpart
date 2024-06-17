@@ -1,0 +1,837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+=09=09=09=09<title>P0020728-465940</title>
+=09=09=09=09<meta name=3D"viewport" content=3D"width=3Ddevice-width, initia=
+l-scale=3D1.0">
+=09=09=09=09<meta http-equiv=3D"content-type" content=3D"text/html;charset=
+=3Dutf-8">
+=09=09=09=09<meta name=3D"format-detection" content=3D"date=3Dno">
+=09=09=09=09<meta name=3D"format-detection" content=3D"address=3Dno">
+=09=09=09=09<meta name=3D"format-detection" content=3D"email=3Dno">
+=09=09=09=09
+        <!--[if gte mso 9]>
+          <style type=3D"text/css">
+            table,td,tr,a,span,img,b,sup{line-height:normal !important; mso=
+-line-height-rule: exactly;}
+            sup{font-size:100% !important;}
+            h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-family=
+:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight:=
+ 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}
+            .outSemiBold, b,strong {line-height: inherit !important; font-f=
+amily:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-we=
+ight: 400 !important; mso-line-height-rule: exactly; }
+            .outBold {line-height: inherit !important; font-family: 'Segoe =
+UI', Arial, sans-serif !important; font-weight: 600 !important; mso-line-he=
+ight-rule: exactly; }
+            .fallback { display: block !important}
+            .animated { display: none !important}
+          </style>
+          <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+        <![endif]-->
+        <!--[if gte mso 15]>
+          <style type=3D"text/css">
+            h1 {mso-text-raise: 4px;}
+            h2,h3,h4,h5,h6 {mso-text-raise: 2px;}
+          </style>
+        <![endif]-->
+       =20
+=09=09=09<style type=3D"text/css">@media screen and (max-device-width:568px=
+){h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit!important;font-weight:inherit=
+!important}}</style><style type=3D"text/css">@media only screen and (max-de=
+vice-width:568px){.m-0{display:none!important}.m-1{display:block!important;=
+width:100%!important;height:inherit!important;overflow:visible!important}.m=
+-1 .m-14 span.m-107{display:block}.m-1 .m-14 span.m-108{margin-top:.8em;dis=
+play:block}.m-106>div{width:100%;border-color:#d2d2d7;border-top-style:soli=
+d;border-top-width:1px;height:0;line-height:0}}</style><style type=3D"text/=
+css">.m-0,.m-1,td{font-family:system-ui,-apple-system,BlinkMacSystemFont,'S=
+egoe UI','Helvetica Neue',Helvetica,Arial,sans-serif,'SF Pro Icons';font-si=
+ze:17px;font-weight:400;line-height:25px}.m-1,.m-1 div{box-sizing:border-bo=
+x}.m-2,.m-2 .m-3 a,.m-2 h1,.m-2 h2,.m-2 h3,.m-2 h4{color:#1d1d1f}.m-4 a,.m-=
+5{white-space:nowrap}.m-1 .m-6,img{max-width:100%}*{-webkit-font-smoothing:=
+antialiased;text-rendering:optimizelegibility}.m-0,.m-1{width:100%!importan=
+t}table{border-spacing:0}.m-7>p,b{font-weight:600}.m-1{display:none;margin:=
+0 auto;max-width:100%}.m-1 .m-8 img,.m-1 .m-9 img,img{display:block}.m-1 .m=
+-6 .m-10{max-width:414px;margin:0 auto}.m-1 .m-11{font-size:0;line-height:0=
+;margin:0 auto}.m-1 .m-12,.m-1 .m-13,.m-14,p{font-size:17px;line-height:25p=
+x}.m-15 img,.m-8 img,.m-9 img,.m-16{display:inline-block}.m-17,.m-18.m-19 d=
+iv,.m-6{margin:0 auto}.m-19{text-align:center}.m-19 img,.m-20 img,img.m-19{=
+margin-left:auto;margin-right:auto}.m-20{text-align:left}.m-20 img{margin-l=
+eft:0}.m-21 img,.m-18.m-21 div,img.m-21{margin-right:0;margin-left:auto}.m-=
+21{text-align:right}.m-22 a,.m-23 a,a img{border:0;outline:0}.m-23 .m-11,.m=
+-24>p,.m-25>p,.m-26>p{font-size:12px;line-height:16px}.m-2{border-color:#ff=
+f;background-color:#fff}.m-2 a,.m-2 a:hover,.m-2 a:visited{color:#06c}.m-2 =
+.m-27{border-top-color:#d2d2d7}.m-28 .m-2,.m-2.m-22,.m-2.m-23{color:#86868b=
+;background-color:#f5f5f7}.m-28 .m-2 .m-15,.m-28 .m-2 a,.m-28 .m-2 a.m-15,.=
+m-28 .m-2 a:hover,.m-28 .m-2 a:visited,.m-2.m-22 .m-15,.m-2.m-22 a,.m-2.m-2=
+2 a.m-15,.m-2.m-23 .m-15,.m-2.m-23 a,.m-2.m-23 a.m-15{color:#515154}.m-29,.=
+m-30,.m-31,.m-32,.m-33,.m-34{background-color:#f2f2f2}.m-2 .m-18,.m-2 .m-18=
+ td,.m-2 .m-18>div,.m-2 td.m-18{border-color:#d2d2d7;color:#d2d2d7}.m-15,a:=
+link{text-decoration:none}.m-14 a:focus,.m-14 a:hover,a.m-15:hover,a:focus,=
+a:hover,a:visited,a[x-apple-data-detectors]:hover,p a:focus,p a:hover{text-=
+decoration:underline!important}.m-4 a,.m-4 a:focus,.m-4 a:hover,.m-4 a:visi=
+ted{text-decoration:none!important;cursor:text!important;pointer-events:non=
+e!important}.m-14 a,a,p a{cursor:pointer;text-decoration:none}.m-4 a{color:=
+inherit}.m-15+.m-35,a img,h1,h2,h3,h4,h5,h6{display:inline-block}img.m-20{m=
+argin-right:auto;margin-left:0}.m-36{vertical-align:top}.m-37{vertical-alig=
+n:middle}.m-38{vertical-align:bottom}h1,h2,h3,h4,h5,h6{margin:0;font-family=
+:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Hel=
+vetica,Arial,sans-serif;font-weight:600}.m-14,a,p{font-family:system-ui,-ap=
+ple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,s=
+ans-serif,'SF Pro Icons'}.m-18.m-19,h1.m-19,h2.m-19,h3.m-19,h4.m-19,h5.m-19=
+,h6.m-19{margin:0 auto;text-align:center}.m-18.m-21,h1.m-21,h2.m-21,h3.m-21=
+,h4.m-21,h5.m-21,h6.m-21{margin-left:auto;margin-right:0;text-align:right}.=
+m-0 h1.m-39,.m-1 h1.m-40{font-size:48px;line-height:1.08349;letter-spacing:=
+-.003em}.m-0 h2.m-9,.m-1 h1.m-39{font-size:40px;line-height:1.1;letter-spac=
+ing:0}.m-0 h3.m-41,.m-1 h2.m-9{font-size:32px;line-height:1.125;letter-spac=
+ing:.004em}.m-0 h4.m-42,.m-1 h3.m-41{font-size:28px;line-height:1.14286;let=
+ter-spacing:.007em}.m-0 h4.m-43,.m-1 h4.m-42{font-size:24px;line-height:1.1=
+6667;letter-spacing:.009em}.m-0 h5.m-8,.m-1 h5.m-8{font-size:21px;line-heig=
+ht:1.19048;letter-spacing:.011em}.m-0 h1.m-40{font-size:64px;line-height:1.=
+0625;letter-spacing:-.009em}.m-14,p{font-weight:400;margin:0}.m-14 a.m-4:ho=
+ver,.m-14 a[x-apple-data-detectors],a[x-apple-data-detectors],p a.m-4:hover=
+,p a[x-apple-data-detectors]{text-decoration:none!important}.m-15.m-18>div,=
+.m-27{border-top-style:solid;border-top-width:1px}.m-14 a.m-4,p a.m-4{color=
+:inherit;cursor:text!important;font-size:inherit;line-height:inherit;pointe=
+r-events:none!important}.outSemiBold{line-height:inherit}a>span{letter-spac=
+ing:inherit}.m-15+.m-35{font-size:12px;padding:0 4px}.m-15.m-18>div{height:=
+0;line-height:0}.m-23 .m-15{display:inline}.m-44,.m-45,.m-46,.m-46>p,.m-47,=
+.m-47>p,.m-48,.m-48>p,.m-49{line-height:23px}.m-50,.m-51{vertical-align:mid=
+dle}.m-52 .m-53 .m-54,.m-55 .m-53 .m-54,.m-56 .m-53 .m-54,.m-57 .m-53 .m-54=
+{overflow:hidden;width:100%;margin:0;background-image:url(https://images.ap=
+ple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_logo_fitness_2x.p=
+ng)!important;background-size:108px 59px;background-position:left top;backg=
+round-repeat:no-repeat;max-width:414px;height:59px}.m-50{width:38%}.m-55 .m=
+-53 .m-54,.m-56 .m-53 .m-54,.m-57 .m-53 .m-54{background-image:url(https://=
+images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_logo_fit=
+ness_app_2x.png)!important;background-size:184px 59px;background-position:r=
+ight top}.m-51{width:62%}.m-58{padding:10.5px 4%}.m-59{padding:46px 6.25% 9=
+px}.m-56 .m-53 .m-54,.m-57 .m-53 .m-54{background-image:url(https://images.=
+apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_hero_2x.jpg)!im=
+portant;background-size:414px 225px;background-position:center top;height:2=
+25px}.m-60 .m-3 a,.m-61 .m-3 a,.m-62 .m-3 a,.m-63 .m-3 a,.m-64 .m-3 a,.m-65=
+ .m-3 a,.m-66 .m-3 a,.m-67 .m-3 a,.m-47 .m-3 a,.m-68 h5,.m-69 .m-3 a,.m-70 =
+.m-3 a,.m-71 .m-3 a{color:#000!important}.m-47,.m-47 a{color:#000;font-size=
+:17px}.m-48{font-size:17px;font-weight:700;padding:10px 6.25% 24px}.m-72,.m=
+-56,.m-47,.m-73{padding-left:6.25%}.m-48 a{font-size:17px}.m-47>p,.m-48>p{f=
+ont-size:17px;font-weight:700}.m-47{padding-right:6.25%;font-weight:700}.m-=
+7,.m-74,.m-44,.m-45,.m-46,.m-46>p,.m-75,.m-49{font-weight:600}.m-44,.m-45,.=
+m-46,.m-46 a,.m-49{color:#6e6e73}.m-76{width:100%;max-width:414px}.m-77,.m-=
+78,.m-79,.m-80{width:50%;vertical-align:top}.m-81{padding-top:30px;padding-=
+bottom:30px}.m-74{font-size:17px}.m-74 img{width:12px;height:12px}.m-72{pad=
+ding-right:6.25%;padding-bottom:33px}.m-56 .m-53 .m-54{background-image:url=
+(https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m=
+_world_class_workouts_2x.jpg)!important;background-size:414px 429px;backgro=
+und-position:left top;height:429px}.m-82 .m-53 .m-54,.m-83 .m-53 .m-54{over=
+flow:hidden;width:100%;margin:0;background-position:center top;background-r=
+epeat:no-repeat;max-width:414px}.m-44 .m-3 a,.m-45 .m-3 a,.m-46 .m-3 a,.m-4=
+9 .m-3 a,.m-84 .m-3 a,.m-85 .m-3 a,.m-86 .m-3 a,.m-87 .m-3 a{color:#6e6e73!=
+important}.m-45{padding-top:5px;font-size:17px}.m-44 a,.m-45 a,.m-49 a{colo=
+r:#6e6e73;font-size:17px}.m-44>p,.m-45>p,.m-49>p{font-size:17px;line-height=
+:23px;font-weight:600}.m-88{padding:10px 6.25% 35px}.m-82 .m-53 .m-54{backg=
+round-image:url(https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1=
+F4F0C6A7455/i/m_work_out_every_week_2x.jpg)!important;background-size:414px=
+ 484px;height:484px}.m-46{padding-top:4px}.m-89{padding:9px 6.25% 34px}.m-9=
+0 .m-53 .m-54{overflow:hidden;width:100%;margin:0;background-image:url(http=
+s://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_work=
+_out_how_2x.jpg)!important;background-size:414px 323px;background-position:=
+left top;background-repeat:no-repeat;max-width:414px;height:323px}.m-91,.m-=
+49{padding-top:10px;padding-right:6.25%}.m-49{padding-top:4px;font-size:17p=
+x}.m-92,.m-93,.m-94,.m-95,.m-96,.m-97,.m-98{padding-right:6.25%;padding-lef=
+t:6.25%}.m-7{padding:20px 6.25%}.m-99,.m-100,.m-75{padding-right:6.25%}.m-9=
+9,.m-100,.m-75,.m-34{padding-left:6.25%}.m-75 img{width:12px;height:10px}.m=
+-83{padding-top:20px}.m-83 .m-53 .m-54{background-image:url(https://images.=
+apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_apple_watch_2x.=
+png)!important;background-size:414px 219px;height:219px}.m-101 .m-53 .m-54,=
+.m-102 .m-53 .m-54,.m-103 .m-53 .m-54,.m-104 .m-53 .m-54{overflow:hidden;wi=
+dth:100%;margin:0;background-size:100px 100px;background-position:center to=
+p;background-repeat:no-repeat;max-width:414px;height:100px}.m-105{padding-t=
+op:66px;padding-bottom:70px}.m-68{padding-bottom:3px}.m-44{padding-top:3px;=
+padding-bottom:8px;font-size:17px}.m-102 .m-53 .m-54{background-image:url(h=
+ttps://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_l=
+ogo_apple_watch_2x.png)!important}.m-64,.m-65,.m-66,.m-67{color:#000;font-s=
+ize:14px;font-weight:700}.m-64 a,.m-65 a,.m-66 a,.m-67 a{color:#000;font-si=
+ze:14px}.m-64>p,.m-65>p,.m-66>p,.m-67>p{font-size:14px;font-weight:700}.m-7=
+7,.m-78{padding-bottom:30px}.m-103 .m-53 .m-54{background-image:url(https:/=
+/images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_logo_ap=
+ple_tv_2x.png)!important}.m-104 .m-53 .m-54{background-image:url(https://im=
+ages.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_logo_ipad_=
+2x.png)!important}.m-101 .m-53 .m-54{background-image:url(https://images.ap=
+ple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_logo_iphone_2x.pn=
+g)!important}.m-99{padding-bottom:44px}.m-106,.m-106>div{border-color:#d2d2=
+d7!important}.m-109 .m-15,.m-110 .m-15,.m-111 .m-15,.m-112 .m-15,.m-113 .m-=
+15{color:#515154!important}.m-110,.m-111,.m-112,.m-113{color:#515154;font-s=
+ize:12px;line-height:39px}.m-110{height:39px;max-height:39px;min-height:39p=
+x;vertical-align:top}.m-111,.m-112,.m-113{height:38px;max-height:38px;min-h=
+eight:38px}.m-100{padding-top:1px}.m-114,.m-115{padding-top:2px;padding-rig=
+ht:6.25%;padding-left:6.25%}.m-29{padding-bottom:19px}.m-24 .m-3 a,.m-25 .m=
+-3 a,.m-26 .m-3 a,.m-116 .m-3 a,.m-117 .m-3 a,.m-118 .m-3 a{color:#86868b!i=
+mportant}.m-24,.m-25,.m-26{color:#86868b;font-size:12px;line-height:16px}.m=
+-24 a,.m-25 a,.m-26 a{color:#86868b;font-size:12px}.m-31,.m-32{padding-bott=
+om:9px}.m-119 .m-15,.m-120 .m-15{color:#515154!important;margin-right:6px}.=
+m-119 .m-35,.m-120 .m-35{color:#d2d2d7!important;line-height:20px}.m-119,.m=
+-120{padding-right:6px}.m-109,.m-119,.m-120{color:#515154;font-size:12px;li=
+ne-height:20px}.m-34{padding-right:6.25%}.m-33{padding-top:9px;padding-bott=
+om:25px}.m-121{background-color:#f2f2f2!important;padding-bottom:32px}</sty=
+le></head><body id=3D"body" style=3D"margin: 0; padding: 0;"><i style=3D"ov=
+erflow: hidden; position: absolute; max-height: 0; font-size: 0;"><img src=
+=3D"https://c.apple.com/img/APPLE_EMAIL_LINK/spacer2.gif?v=3D2&a=3DKrNbMbA5=
+fCiw9qjCepjrRP7Uh6QUb2UTGJbkAwnRHs19KXpdOvMHf1ans1fD6EPDjJWt8zXRJEv1Uf350I3=
+%2FgjohZaeS%2Bk3gwsMU3gGWnNsmHgvmz6Ezm9frBlyE9VAFTF5HkvIxLHnXQoUN9Hz%2BIAmo=
+qXflvlDmBRewNMxnAU6MiZCDVMfso8HnCE5fbLzn" alt=3D"" width=3D"1" height=3D"1"=
+ ></i><div style=3D"display: none; max-height: 0px; overflow: hidden;">
+        Introducing a new fitness experience for everyone, powered by Apple=
+ Watch.
+        </div>
+
+        <!-- Adding spaces to prevent email copy from being visible -->
+        <div style=3D"display: none; max-height: 0px; overflow: hidden;">
+        =C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C
+        </div><div class=3D"m-1" style=3D"display:none;width:0;height:0;ove=
+rflow:hidden;"><div class=3D"m-2 m-6"><div class=3D"m-10"><div class=3D"m-1=
+1 m-58"><div class=3D"m-12 m-16 m-20 m-50"><div class=3D"m-52"><div class=
+=3D"m-53"><div class=3D"m-20 m-54"><span role=3D"img" aria-label=3D"Apple F=
+itness+"></span></div></div></div></div><div class=3D"m-12 m-16 m-21 m-51">=
+<div class=3D"m-55"><div class=3D"m-53"><div class=3D"m-21 m-54"><!----></d=
+iv></div></div></div></div></div></div><div class=3D"m-2 m-6 m-121"><div cl=
+ass=3D"m-10"><div class=3D"m-11"><div class=3D"m-12 m-76"><div class=3D"m-1=
+9 m-59"><h2 class=3D"m-9"><span style=3D"font-weight:700;">Powered by Apple=
+=C2=A0Watch. Designed<br> around=C2=A0you.</span></h2></div><div class=3D"m=
+-57"><div class=3D"m-53"><div class=3D"m-19 m-54"><!----><a href=3D"https:/=
+/c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12x=
+bGoofYjHA7%2Fps%2BSsSos9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxb=
+xCD9xQ9bK1SrnPK7jqFpuvUR1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2F=
+j3cQrzqNah%2Fq2C%2BAxqUmzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9e0n5e5v" style=
+=3D"display: block; max-width: 414px; height: 225px;"></a></div></div></div=
+><div class=3D"m-13 m-19 m-48"><p class=3D"m-14">Introducing a new fitness =
+experience for everyone. With personal metrics from your Apple=C2=A0Watch s=
+ynced to your iPhone, iPad, or Apple=C2=A0TV. The world=E2=80=99s most welc=
+oming trainers. And music from your favorite=C2=A0artists.</p></div><div cl=
+ass=3D"m-13 m-19 m-47"><p class=3D"m-14">Get 3 months of Apple=C2=A0Fitness=
++ free when you buy an Apple=C2=A0Watch.*</p></div></div></div><div class=
+=3D"m-11 m-72"><div class=3D"m-12 m-20"><div class=3D"m-81"><div class=3D"m=
+-19"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HW=
+CoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY355iBV39OaK8hyqh7nT9TvrHSj=
+Cm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsSNiQz4eEF6AC6aYr4MWz%2BXC=
+1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKrq0BTWPL0yZszczp7w%3D%3D&=
+ct=3Dac9X6n8T7P"><img alt=3D"Shop Apple Watch" src=3D"https://images.apple.=
+com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/m_cta_shop_apple_watch_=
+2x.png" data-dynamic-variable class=3D"m-36" height=3D"44" width=3D"208"></=
+a></div></div><div class=3D"m-17 m-19 m-74"><a href=3D"https://c.apple.com/=
+r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2F=
+ps%2BSsSos9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1Srn=
+PK7jqFpuvUR1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2F=
+q2C%2BAxqUmzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9e7q3L3h" class=3D"m-15">Lear=
+n more about Apple <span class=3D"m-5">Fitness+<img src=3D"https://images.a=
+pple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/icon_chevron_2x.pn=
+g" width=3D"12" height=3D"12" style=3D"display:inline; margin:0;" alt=3D" "=
+></span></a></div></div></div><div class=3D"m-11"><div class=3D"m-12"><div =
+class=3D"m-56"><div class=3D"m-53"><div class=3D"m-20 m-54"><!----></div></=
+div></div></div><div class=3D"m-12 m-88"><div class=3D"m-20"><h5 class=3D"m=
+-8"><span style=3D"font-weight:700;">World-class workouts by the world=E2=
+=80=99s best=C2=A0trainers.</span></h5></div><div class=3D"m-13 m-20 m-45">=
+<p class=3D"m-14">Apple=C2=A0Fitness+ trainers are welcoming, unique indivi=
+duals who are specialists in their areas of fitness. They work together to =
+create the workouts, and even appear in each other=E2=80=99s=C2=A0videos.</=
+p></div></div></div><div class=3D"m-11"><div class=3D"m-12"><div class=3D"m=
+-82"><div class=3D"m-53"><div class=3D"m-19 m-54"><!----></div></div></div>=
+</div><div class=3D"m-12 m-89"><div class=3D"m-20"><h5 class=3D"m-8"><span =
+style=3D"font-weight:700;">New workouts every=C2=A0week.</span></h5></div><=
+div class=3D"m-13 m-20 m-46"><p class=3D"m-14">With 10 workout types, and n=
+ew workouts added every week, there=E2=80=99s always something to keep you=
+=C2=A0motivated.</p></div></div></div><div class=3D"m-11"><div class=3D"m-1=
+2 m-73"><div class=3D"m-90"><div class=3D"m-53"><div class=3D"m-20 m-54"><!=
+----></div></div></div><div class=3D"m-20 m-91"><h5 class=3D"m-8"><span sty=
+le=3D"font-weight:700;">Work out how and where you=C2=A0want.</span></h5></=
+div><div class=3D"m-13 m-20 m-49"><p class=3D"m-14">Fitness+ workouts are d=
+esigned to work in spaces like your living room, your hotel room, the park,=
+ or the gym. It=E2=80=99s easy to turn any place into a state-of-the-art=C2=
+=A0studio.</p></div></div></div><div class=3D"m-11 m-105"><div class=3D"m-1=
+2"><div class=3D"m-19 m-97"><h3 class=3D"m-41"><span style=3D"font-weight:7=
+00;">Apple=C2=A0Watch. The=C2=A0ultimate workout=C2=A0partner.</span></h3><=
+/div><div class=3D"m-7 m-13 m-19"><p class=3D"m-14">Starting at $199</p></d=
+iv><div class=3D"m-17 m-19 m-75"><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos=
+9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvU=
+R1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqU=
+mzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9t6w6W5v" class=3D"m-15">Compare Apple =
+Watch <span class=3D"m-5">models<img src=3D"https://images.apple.com/dm/us/=
+20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/17_chevron_0066cc_2x.png" width=
+=3D"12" height=3D"10" style=3D"display:inline; margin:0;" alt=3D" "></span>=
+</a></div><div class=3D"m-83"><div class=3D"m-53"><div class=3D"m-19 m-54">=
+<!----></div></div></div></div></div><div class=3D"m-11 m-96"><div class=3D=
+"m-12"><div class=3D"m-20 m-68"><h5 class=3D"m-8"><span style=3D"font-weigh=
+t:700;">Apple=C2=A0Fitness+ requires an Apple=C2=A0Watch Series=C2=A03 or l=
+ater. Available when paired with iPhone=C2=A06s or=C2=A0later.</span></h5><=
+/div><div class=3D"m-13 m-20 m-44"><p class=3D"m-14">Apple=C2=A0Fitness+ re=
+quires an Apple=C2=A0Watch Series=C2=A03 or later with watchOS=C2=A07.2 or =
+later and one of the following Apple devices: iPhone=C2=A06s or later with =
+iOS=C2=A014.3 or later, iPad with iPadOS=C2=A014.3 or later, or Apple=C2=A0=
+TV with tvOS=C2=A014.3 or=C2=A0later.</p></div></div></div><div class=3D"m-=
+11 m-99"><div class=3D"m-12 m-16 m-19 m-77"><div class=3D"m-102"><div class=
+=3D"m-53"><div class=3D"m-19 m-54"><!----></div></div></div><div class=3D"m=
+-13 m-19 m-65"><p class=3D"m-14">Apple=C2=A0Watch</p></div></div><div class=
+=3D"m-12 m-16 m-19 m-78"><div class=3D"m-103"><div class=3D"m-53"><div clas=
+s=3D"m-19 m-54"><!----></div></div></div><div class=3D"m-13 m-19 m-64"><p c=
+lass=3D"m-14">Apple=C2=A0TV</p></div></div><div class=3D"m-12 m-16 m-19 m-7=
+9"><div class=3D"m-104"><div class=3D"m-53"><div class=3D"m-19 m-54"><!----=
+></div></div></div><div class=3D"m-13 m-19 m-67"><p class=3D"m-14">iPad</p>=
+</div></div><div class=3D"m-12 m-16 m-19 m-80"><div class=3D"m-101"><div cl=
+ass=3D"m-53"><div class=3D"m-19 m-54"><!----></div></div></div><div class=
+=3D"m-13 m-19 m-66"><p class=3D"m-14">iPhone</p></div></div></div><div clas=
+s=3D"m-11 m-30"><div class=3D"m-12 m-92"><div class=3D"m-18 m-106"><div></d=
+iv></div></div></div><div class=3D"m-11 m-29"><div class=3D"m-12 m-93"><div=
+ class=3D"m-17 m-19 m-110"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&l=
+c=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY355i=
+BV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsSNi=
+Qz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKrq0=
+BTWPL0yZszczp7w%3D%3D&ct=3Dac9r0G9B0h" class=3D"m-15">Shop <span class=3D"m=
+-5">Online</span></a><div class=3D"m-27"></div></div></div><div class=3D"m-=
+12 m-100"><div class=3D"m-17 m-19 m-113"><a href=3D"https://c.apple.com/r?v=
+=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%=
+2BSsSos9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7=
+jqFpuvUR1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C=
+%2BAxqUmzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9r0L8U7v" class=3D"m-15">Find a =
+<span class=3D"m-5">Store</span></a><div class=3D"m-27"></div></div></div><=
+div class=3D"m-12 m-114"><div class=3D"m-17 m-19 m-111"><a href=3D"tel:1-80=
+0-MY-APPLE" data-cid-disabled=3D"true" class=3D"m-15">1-800-MY-APPLE</a><di=
+v class=3D"m-27"></div></div></div><div class=3D"m-12 m-115"><div class=3D"=
+m-17 m-19 m-112"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ=
+9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=
+=3Dac9e7u4Q3M" class=3D"m-15">Get=C2=A0the=C2=A0Apple=C2=A0Store=C2=A0App</=
+a><div class=3D"m-27"></div></div></div></div><div class=3D"m-11 m-31"><div=
+ class=3D"m-12 m-98"><div class=3D"m-13 m-24"><p class=3D"m-14"><span class=
+=3D"m-107">* $9.99/month after free trial. No commitment. Plan automaticall=
+y renews after trial until=C2=A0cancelled.</span>
+<span class=3D"m-108">A subscription is required for Apple=C2=A0Fitness+.</=
+span>
+<span class=3D"m-108">The Fitness app on Apple=C2=A0TV requires tvOS=C2=A01=
+4.3 or later. The Fitness app on iPad requires iPadOS=C2=A014.3 or later.</=
+span></p></div></div></div><div class=3D"m-11 m-32"><div class=3D"m-12 m-95=
+"><div class=3D"m-13 m-20 m-25"><p class=3D"m-14">TM and =C2=A9 2020 Apple =
+Inc. One Apple Park Way, <span class=3D"m-5" style=3D"white-space: nowrap">=
+MS 96-DM</span>, Cupertino, CA 95014.</p></div></div></div><div class=3D"m-=
+11 m-20 m-34"><div class=3D"m-12 m-16"><div class=3D"m-17 m-20 m-119"><a hr=
+ef=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXz=
+BnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp=
+1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac9t6G3k9Y" class=3D=
+"m-15">All Rights <span class=3D"m-5">Reserved</span></a><span class=3D"m-3=
+5">|</span></div></div><div class=3D"m-12 m-16"><div class=3D"m-17 m-20 m-1=
+20"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYp=
+ulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY=
+%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac9t7d6M1Y"=
+ class=3D"m-15">Privacy <span class=3D"m-5">Policy</span></a><span class=3D=
+"m-35">|</span></div></div><div class=3D"m-12 m-16"><div class=3D"m-17 m-20=
+ m-109"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2Fh=
+WxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F=
+3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac9t7u6=
+t9p" class=3D"m-15">My Apple <span class=3D"m-5">ID</span></a></div></div><=
+/div><div class=3D"m-11 m-33"><div class=3D"m-12 m-94"><div class=3D"m-13 m=
+-20 m-26"><p class=3D"m-14">If you prefer not to receive commercial email f=
+rom Apple, or if you=E2=80=99ve changed your email address, please <a href=
+=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DtEQY0W39slG=
+yauyZP125yoXQ9vBgB7jFxtgO7F%2B2%2FU7PwheqGoRhM%2FAoe8QW7AdWWT0CfNOkZX5dIgIP=
+TT5E%2B%2FayZXz%2BWXV42gXAjWeKc2ZWIgLNhjJMUTRchS59gFNu%2B%2FNu26oaJiHXRt6oy=
+1wZhNR%2F2Qd0hnmOLBZ1saw5xaBtiU6MEMIYRmYJF6qFPtD2gpdl41y55cEPYOk3KcqKfTLTl4=
+fdqoM1CO%2FjjvmmAJM%3D" style=3D"border: 0; outline: 0; text-decoration: no=
+ne;color:#515154;">click=C2=A0here</a>.</p></div></div></div></div></div></=
+div><div class=3D"m-0"><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td a=
+lign=3D"center" style=3D"text-align: center;"><table width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presenta=
+tion"><tbody><tr class=3D"m-6"><td align=3D"center" class=3D"m-2" style=3D"=
+background-color: #ffffff;"><table cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" align=3D"center" role=3D"presentation" width=3D"712" style=3D"widt=
+h: 712px;"><tbody><tr class=3D"m-11"><td style=3D"padding: 19px 15px;"><tab=
+le width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D=
+"center" role=3D"presentation"><tbody><tr><td align width=3D"100%" class=3D=
+"m-12"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"100%" class=3D"m-12"><tbody><tr><td align=3D"lef=
+t" style=3D"text-align: left; vertical-align: top;"><img alt=3D"Apple Fitne=
+ss+" src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0=
+C6A7455/i/logo_fitness_2x.png" border=3D"0" data-dynamic-variable class=3D"=
+m-20" height=3D"37" width=3D"130" style=3D"display: block;"></td></tr></tbo=
+dy></table></td><td align valign=3D"middle" width=3D"234" class=3D"m-12" st=
+yle=3D"vertical-align: middle; width: 234px;"><table align border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"234" class=
+=3D"m-12"><tbody><tr><td class=3D"m-13" style=3D"color: #000000; text-align=
+: left; padding: 0px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"=
+color: #000000; font-size: 14px; font-weight: 600; line-height: 19px; margi=
+n: 0px auto 0px 0px;">Find it in the Fitness app on your iPhone, iPad, and =
+Apple=C2=A0TV.</p></td></tr></tbody></table></td><td align=3D"right" valign=
+=3D"middle" width=3D"55" class=3D"m-12" style=3D"vertical-align: middle; wi=
+dth: 55px;"><table align=3D"right" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" role=3D"presentation" width=3D"55" class=3D"m-12" style=3D"text-al=
+ign: right;"><tbody><tr><td align=3D"right" style=3D"text-align: right; ver=
+tical-align: middle;"><img src=3D"https://images.apple.com/dm/us/20/FFBF204=
+C-B83F-45CF-8E3A-1F4F0C6A7455/i/logo_fitness_app_2x.png" border=3D"0" data-=
+dynamic-variable class=3D"m-21" height=3D"52" width=3D"52" style=3D"display=
+: block;" alt=3D" "></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr><tr class=3D"m-6"><td align=3D"center" cla=
+ss=3D"m-2" style=3D"background-color: #ffffff;"><table cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" align=3D"center" role=3D"presentation" width=
+=3D"712" style=3D"background-color: #f2f2f2; width: 712px;"><tbody><tr clas=
+s=3D"m-11"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align=3D"c=
+enter" width=3D"100%" class=3D"m-12" style=3D"background-color: #f2f2f2;"><=
+table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" rol=
+e=3D"presentation" width=3D"100%" class=3D"m-12" style=3D"text-align: cente=
+r;"><tbody><tr><td style=3D"padding-top: 57px; text-align: center;"><h1 cla=
+ss=3D"m-39" style=3D"font-size: 48px; letter-spacing: -0.003em; line-height=
+: 52px; color: #1d1d1f;"><span style=3D"font-weight:700;">Powered by Apple=
+=C2=A0Watch.<br>Designed around you.</span></h1></td></tr><tr><td align=3D"=
+center" style=3D"padding-top: 14px; padding-bottom: 14px; text-align: cente=
+r; vertical-align: top;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY355iB=
+V39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsSNiQ=
+z4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKrq0B=
+TWPL0yZszczp7w%3D%3D&ct=3Dac9t3L7w2M" style=3D"display: inline-block; color=
+: #0066cc;"><img src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83F-45C=
+F-8E3A-1F4F0C6A7455/i/hero_2x.jpg" border=3D"0" data-dynamic-variable class=
+=3D"m-19" height=3D"340" width=3D"712" style=3D"vertical-align: top; displa=
+y: inline-block; border-top-left-radius: 20px; border-top-right-radius: 20p=
+x; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;" alt=
+=3D" "></a></td></tr><tr><td class=3D"m-13 m-71" style=3D"color: #000000; t=
+ext-align: center; padding: 0px 90px; margin: 0px;"><p class=3D"outSemiBold=
+ m-14" style=3D"color: #000000; font-size: 21px; font-weight: 700; margin: =
+0px auto; line-height: 26px;">Introducing a new fitness experience for ever=
+yone. With personal metrics from your Apple=C2=A0Watch synced to your iPhon=
+e, iPad, or Apple=C2=A0TV. The world=E2=80=99s most welcoming trainers. And=
+ music from your favorite=C2=A0artists.</p></td></tr><tr><td class=3D"m-13 =
+m-70" style=3D"color: #000000; padding: 33px 110px 0px; margin: 0px; text-a=
+lign: center;"><p class=3D"outSemiBold m-14" style=3D"color: #000000; font-=
+size: 21px; line-height: 26px; font-weight: 700; margin: 0px auto;">Get 3 m=
+onths of Apple=C2=A0Fitness+ free when you buy an Apple=C2=A0Watch.*</p></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-1=
+1"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" align=3D"center" role=3D"presentation"><tbody><tr><td align=3D"center" w=
+idth=3D"100%" class=3D"m-12" style=3D"background-color: #f2f2f2;"><table al=
+ign=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"100%" class=3D"m-12" style=3D"text-align: center;"><tbo=
+dy><tr><td align=3D"center" style=3D"padding-top: 29px; padding-bottom: 25p=
+x; text-align: center; vertical-align: top;"><a href=3D"https://c.apple.com=
+/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2=
+Fps%2BSsSos9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1Sr=
+nPK7jqFpuvUR1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2=
+Fq2C%2BAxqUmzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9e9b6i5C" style=3D"display: =
+inline-block; color: #0066cc;"><img alt=3D"Shop Apple Watch" src=3D"https:/=
+/images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/cta_shop_=
+apple_watch_2x.png" border=3D"0" data-dynamic-variable class=3D"m-19" heigh=
+t=3D"48" width=3D"216" style=3D"vertical-align: top; display: inline-block;=
+"></a></td></tr><tr><td class=3D"m-19" style=3D"text-align: center; font-we=
+ight: 600;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%=
+2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY355iBV39OaK8hyqh7nT=
+9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsSNiQz4eEF6AC6aYr4M=
+Wz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKrq0BTWPL0yZszczp7w=
+%3D%3D&ct=3Dac9X4l6e3v" class=3D"m-14 m-15" style=3D"font-weight: 600; colo=
+r: #0066cc;">Learn more about Apple <span style=3D"white-space:nowrap;">Fit=
+ness+<img src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-=
+1F4F0C6A7455/i/icon_chevron_2x.png" width=3D"12" height=3D"12" border=3D"0"=
+ style=3D"font-size: 0; display:inline; margin:0;" alt=3D" "></span></a></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-1=
+1"><td style=3D"background-color: #f2f2f2; padding-top: 38px;"><table width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center"=
+ style=3D"background-color: #f2f2f2;" role=3D"presentation"><tbody><tr><td =
+align=3D"left" valign=3D"top" width=3D"275" class=3D"m-12" style=3D"backgro=
+und-color: #f2f2f2; padding-left: 49px; vertical-align: top; width: 275px;"=
+><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" rol=
+e=3D"presentation" width=3D"275" class=3D"m-12" style=3D"text-align: left;"=
+><tbody><tr><td style=3D"padding-top: 221px; text-align: left;"><h5 class=
+=3D"m-8" style=3D"font-size: 21px; letter-spacing: 0.011em; line-height: 25=
+px; color: #1d1d1f;"><span style=3D"font-weight:700;">World-class workouts =
+by the world=E2=80=99s best=C2=A0trainers.</span></h5></td></tr><tr><td cla=
+ss=3D"m-13 m-85" style=3D"color: #6e6e73; text-align: left; padding: 5px 0p=
+x 0px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"color: #6e6e73;=
+ font-weight: 600; line-height: 23px; margin: 0px auto 0px 0px;">Apple=C2=
+=A0Fitness+ trainers are welcoming, unique individuals who are specialists =
+in their areas of fitness. They work together to create the workouts, and e=
+ven appear in each other=E2=80=99s=C2=A0videos.</p></td></tr></tbody></tabl=
+e></td><td align=3D"right" valign=3D"top" width=3D"100%" class=3D"m-12" sty=
+le=3D"background-color: #f2f2f2; vertical-align: top;"><table align=3D"righ=
+t" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" w=
+idth=3D"100%" class=3D"m-12" style=3D"text-align: right;"><tbody><tr><td al=
+ign=3D"right" style=3D"text-align: right; vertical-align: top;"><img src=3D=
+"https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/w=
+orld_class_workouts_2x.jpg" border=3D"0" data-dynamic-variable class=3D"m-2=
+1" height=3D"666" width=3D"375" style=3D"display: block; border-top-left-ra=
+dius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px;=
+ border-bottom-right-radius: 20px;" alt=3D" "></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr><tr class=3D"m-11"><td style=3D"background=
+-color: #f2f2f2; padding-top: 23px; padding-bottom: 63px;"><table width=3D"=
+100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" sty=
+le=3D"background-color: #f2f2f2;" role=3D"presentation"><tbody><tr><td alig=
+n valign=3D"top" width=3D"370" class=3D"m-12" style=3D"vertical-align: top;=
+ width: 370px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" role=3D"presentation" width=3D"370" class=3D"m-12" style=3D"text-align: =
+left;"><tbody><tr><td align=3D"left" style=3D"padding-left: 22px; text-alig=
+n: left; vertical-align: top;"><img src=3D"https://images.apple.com/dm/us/2=
+0/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/work_out_every_week_2x.jpg" border=
+=3D"0" data-dynamic-variable class=3D"m-20" height=3D"584" width=3D"336" st=
+yle=3D"display: block; border-top-left-radius: 20px; border-top-right-radiu=
+s: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;=
+" alt=3D" "></td></tr></tbody></table></td><td align=3D"left" valign=3D"top=
+" width=3D"100%" class=3D"m-12" style=3D"padding-right: 35px; padding-left:=
+ 23px; vertical-align: top;"><table align=3D"left" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-12=
+" style=3D"text-align: left;"><tbody><tr><td style=3D"padding-top: 230px; t=
+ext-align: left;"><h5 class=3D"m-8" style=3D"font-size: 21px; letter-spacin=
+g: 0.011em; line-height: 25px; color: #1d1d1f;"><span style=3D"font-weight:=
+700;">New workouts every=C2=A0week.</span></h5></td></tr><tr><td class=3D"m=
+-13 m-86" style=3D"color: #6e6e73; text-align: left; padding: 5px 24px 0px =
+0px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"color: #6e6e73; f=
+ont-weight: 600; line-height: 23px; margin: 0px auto 0px 0px;">With 10 work=
+out types, and new workouts added every week, there=E2=80=99s always someth=
+ing to keep you=C2=A0motivated.</p></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr><tr class=3D"m-11"><td style=3D"background-color: #f2=
+f2f2; padding-bottom: 38px;"><table width=3D"100%" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"center" style=3D"background-color: #f2f2f=
+2;" role=3D"presentation"><tbody><tr><td align=3D"left" width=3D"100%" clas=
+s=3D"m-12"><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-12" style=3D"text-al=
+ign: left;"><tbody><tr><td style=3D"padding-bottom: 3px; padding-left: 90px=
+; text-align: left;"><h5 class=3D"m-8" style=3D"font-size: 21px; letter-spa=
+cing: 0.011em; line-height: 25px; color: #1d1d1f;"><span style=3D"font-weig=
+ht:700;">Work out how and where you=C2=A0want.</span></h5></td></tr><tr><td=
+ class=3D"m-13 m-87" style=3D"color: #6e6e73; text-align: left; padding: 0p=
+x 170px 18px 90px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"col=
+or: #6e6e73; font-size: 17px; font-weight: 600; line-height: 23px; margin: =
+0px auto 0px 0px;">Fitness+ workouts are designed to work in spaces like yo=
+ur living room, your hotel room, the park, or the gym. It=E2=80=99s easy to=
+ turn any place into a state-of-the-art=C2=A0studio.</p></td></tr><tr><td a=
+lign=3D"left" style=3D"text-align: left; vertical-align: top;"><img src=3D"=
+https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/wo=
+rk_out_how_2x.jpg" border=3D"0" data-dynamic-variable class=3D"m-20" height=
+=3D"460" width=3D"712" style=3D"display: block; border-top-left-radius: 20p=
+x; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-b=
+ottom-right-radius: 20px;" alt=3D" "></td></tr></tbody></table></td></tr></=
+tbody></table></td></tr><tr class=3D"m-11"><td><table width=3D"100%" cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"backgr=
+ound-color: #f2f2f2;" role=3D"presentation"><tbody><tr><td align=3D"left" w=
+idth=3D"100%" class=3D"m-12"><table align=3D"left" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-12=
+" style=3D"text-align: left;"><tbody><tr><td style=3D"text-align: center;">=
+<h4 class=3D"m-42" style=3D"font-size: 28px; letter-spacing: 0.007em; line-=
+height: 32px; color: #1d1d1f;"><span style=3D"font-weight:700;">Apple=C2=A0=
+Watch. <br> The ultimate workout partner.</span></h4></td></tr><tr><td clas=
+s=3D"m-13 m-61" style=3D"color: #000000; text-align: center; padding: 19px =
+0px 17px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"color: #0000=
+00; font-weight: 600; line-height: 21px; margin: 0px auto;">Starting at $19=
+9</p></td></tr><tr><td class=3D"m-19" style=3D"font-weight: 600; padding-bo=
+ttom: 35px; text-align: center;"><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos=
+9RY355iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvU=
+R1CsSNiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqU=
+mzTKrq0BTWPL0yZszczp7w%3D%3D&ct=3Dac9e6a9N9P" class=3D"m-14 m-15" style=3D"=
+font-weight: 600; color: #0066cc;">Compare Apple Watch <span style=3D"white=
+-space:nowrap;">models<img src=3D"https://images.apple.com/dm/us/20/FFBF204=
+C-B83F-45CF-8E3A-1F4F0C6A7455/i/17_chevron_0066cc_2x.png" width=3D"12" heig=
+ht=3D"10" border=3D"0" style=3D"font-size: 0; display:inline; margin:0;" al=
+t=3D" "></span></a></td></tr><tr><td align=3D"center" style=3D"padding-bott=
+om: 0px; text-align: center; vertical-align: top;"><img src=3D"https://imag=
+es.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/apple_watch_mo=
+dels_2x.png" border=3D"0" data-dynamic-variable class=3D"m-19" height=3D"32=
+4" width=3D"712" style=3D"display: block;" alt=3D" "></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr><tr class=3D"m-11"><td style=3D"bac=
+kground-color: #f2f2f2; padding-left: 90px;"><table width=3D"100%" cellspac=
+ing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"backgrou=
+nd-color: #f2f2f2;" role=3D"presentation"><tbody><tr><td align=3D"left" wid=
+th=3D"100%" class=3D"m-12"><table align=3D"left" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-12=
+" style=3D"text-align: left;"><tbody><tr><td style=3D"text-align: left; pad=
+ding-top: 69px; padding-right: 94px;"><h5 class=3D"m-8" style=3D"font-size:=
+ 21px; letter-spacing: 0.011em; line-height: 25px; color: #000000;"><span s=
+tyle=3D"font-weight:700;">Apple=C2=A0Fitness+ requires an Apple=C2=A0Watch =
+Series=C2=A03 or later. Available when paired with iPhone=C2=A06s or=C2=A0l=
+ater.</span></h5></td></tr><tr><td class=3D"m-13 m-84" style=3D"color: #6e6=
+e73; text-align: left; padding: 5px 150px 16px 0px; margin: 0px;"><p class=
+=3D"outSemiBold m-14" style=3D"color: #6e6e73; font-weight: 600; line-heigh=
+t: 23px; margin: 0px auto 0px 0px; font-size: 17px;">Apple=C2=A0Fitness+ re=
+quires an Apple=C2=A0Watch Series=C2=A03 or later with watchOS=C2=A07.2 or =
+later and one of the following Apple devices: iPhone=C2=A06s or later with =
+iOS=C2=A014.3 or later, iPad with iPadOS=C2=A014.3 or later, or Apple=C2=A0=
+TV with tvOS=C2=A014.3 or=C2=A0later.</p></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr><tr class=3D"m-11"><td style=3D"background-colo=
+r: #f2f2f2; padding-left: 110px; padding-right: 120px; padding-bottom: 90px=
+;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" a=
+lign=3D"left" style=3D"background-color: #f2f2f2;" role=3D"presentation"><t=
+body><tr><td align=3D"center" width=3D"100" class=3D"m-12" valign=3D"top" s=
+tyle=3D"vertical-align: top; width: 100px;"><table align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"1=
+00" class=3D"m-12" style=3D"text-align: center;"><tbody><tr><td align=3D"ce=
+nter" style=3D"padding-bottom: 4px; text-align: center; vertical-align: top=
+;"><img height=3D"76" src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83=
+F-45CF-8E3A-1F4F0C6A7455/i/logo_apple_watch_2x.png" width=3D"76" border=3D"=
+0" data-dynamic-variable class=3D"m-19" style=3D"display: block;" alt=3D" "=
+></td></tr><tr><td class=3D"m-13 m-62" style=3D"color: #000000; text-align:=
+ center; padding: 0px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D=
+"color: #000000; font-size: 14px; font-weight: 700; margin: 0px auto;">Appl=
+e=C2=A0Watch</p></td></tr></tbody></table></td><td align=3D"center" valign=
+=3D"top" width=3D"100" class=3D"m-12" style=3D"vertical-align: top; width: =
+100px;"><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"100" class=3D"m-12" style=3D"text-ali=
+gn: center;"><tbody><tr><td align=3D"center" style=3D"padding-bottom: 4px; =
+text-align: center; vertical-align: top;"><img height=3D"76" src=3D"https:/=
+/images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F4F0C6A7455/i/logo_ipho=
+ne_2x.png" width=3D"76" border=3D"0" data-dynamic-variable class=3D"m-19" s=
+tyle=3D"display: block;" alt=3D" "></td></tr><tr><td class=3D"m-13 m-63" st=
+yle=3D"color: #000000; text-align: center; padding: 0px; margin: 0px;"><p c=
+lass=3D"outSemiBold m-14" style=3D"color: #000000; font-size: 14px; font-we=
+ight: 700; margin: 0px auto;">iPhone</p></td></tr></tbody></table></td><td =
+align=3D"center" valign=3D"top" width=3D"100" class=3D"m-12" style=3D"verti=
+cal-align: top; width: 100px;"><table align=3D"center" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100" class=3D"m=
+-12" style=3D"text-align: center;"><tbody><tr><td align=3D"center" style=3D=
+"padding-bottom: 4px; text-align: center; vertical-align: top;"><img height=
+=3D"76" src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83F-45CF-8E3A-1F=
+4F0C6A7455/i/logo_ipad_2x.png" width=3D"76" border=3D"0" data-dynamic-varia=
+ble class=3D"m-19" style=3D"display: block;" alt=3D" "></td></tr><tr><td cl=
+ass=3D"m-13" style=3D"color: #000000; text-align: center; padding: 0px; mar=
+gin: 0px;"><p class=3D"outSemiBold m-14" style=3D"color: #000000; font-size=
+: 14px; font-weight: 700; margin: 0px auto;">iPad</p></td></tr></tbody></ta=
+ble></td><td align=3D"center" valign=3D"top" width=3D"100" class=3D"m-12" s=
+tyle=3D"vertical-align: top; width: 100px;"><table align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"1=
+00" class=3D"m-12" style=3D"text-align: center;"><tbody><tr><td align=3D"ce=
+nter" style=3D"padding-bottom: 4px; text-align: center; vertical-align: top=
+;"><img height=3D"76" src=3D"https://images.apple.com/dm/us/20/FFBF204C-B83=
+F-45CF-8E3A-1F4F0C6A7455/i/logo_apple_tv_2x.png" width=3D"76" border=3D"0" =
+data-dynamic-variable class=3D"m-19" style=3D"display: block;" alt=3D" "></=
+td></tr><tr><td class=3D"m-13" style=3D"color: #000000; text-align: center;=
+ padding: 0px; margin: 0px;"><p class=3D"outSemiBold m-14" style=3D"color: =
+#000000; font-size: 14px; font-weight: 700; margin: 0px auto;">Apple=C2=A0T=
+V</p></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr clas=
+s=3D"m-11"><td style=3D"background-color: #f2f2f2; padding-right: 26px; pad=
+ding-left: 26px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ border=3D"0" align=3D"center" style=3D"background-color: #f2f2f2;" role=3D=
+"presentation"><tbody><tr><td align width=3D"100%" class=3D"m-12" style><ta=
+ble align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presenta=
+tion" width=3D"100%" class=3D"m-12" style><tbody><tr><td class=3D"m-18" sty=
+le=3D"border-top-width: 1px; border-color: #d2d2d7; width: 660px;"><table c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tbod=
+y><tr><td width=3D"660" valign=3D"top" align=3D"center" class=3D"m-18" styl=
+e=3D"border-color: #d2d2d7; border-top-style: solid; border-top-width: 1px;=
+ font-size: 0px; line-height: 0; width: 660px; margin: 0px auto;"></td></tr=
+></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td><=
+/tr><tr class=3D"m-11"><td style=3D"background-color: #f2f2f2; padding-top:=
+ 7px; padding-bottom: 16px;"><table width=3D"100%" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"center" style=3D"background-color: #f2f2f=
+2;" role=3D"presentation"><tbody><tr><td align width=3D"100%" class=3D"m-12=
+"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"100%" class=3D"m-12"><tbody><tr><td class=3D"m-13" styl=
+e=3D"color: #515154; text-align: center; padding: 8px 0px 0px; margin: 0px;=
+"><p class=3D"m-14" style=3D"color: #515154; font-size: 14px; line-height: =
+18px; margin: 0px auto;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY355iB=
+V39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsSNiQ=
+z4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKrq0B=
+TWPL0yZszczp7w%3D%3D&ct=3Dac9X4L9D1h" data-footer-eyebrow=3D"eyebrow" style=
+=3D"border:0; outline:0; text-decoration:none;color:#515154;">Shop Online</=
+a>=C2=A0=C2=A0=C2=A0=C2=A0<span class=3D"m-35" style=3D"color: #D2D2D7">|</=
+span>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"https://c.apple.com/r?v=3D2&la=3Den=
+&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Fps%2BSsSos9RY35=
+5iBV39OaK8hyqh7nT9TvrHSjCm97sNKhPXM02kDQoVH4zxbxCD9xQ9bK1SrnPK7jqFpuvUR1CsS=
+NiQz4eEF6AC6aYr4MWz%2BXC1wfBHRMkBQ2UmP9gr3Y7%2Fj3cQrzqNah%2Fq2C%2BAxqUmzTKr=
+q0BTWPL0yZszczp7w%3D%3D&ct=3Dac9r4l4B7k" data-footer-eyebrow=3D"eyebrow" st=
+yle=3D"border: 0; outline: 0; text-decoration: none;color:#515154">Find a S=
+tore</a>=C2=A0=C2=A0=C2=A0=C2=A0<span class=3D"m-35" style=3D"color: #D2D2D=
+7
+                        ">|</span>=C2=A0=C2=A0=C2=A0=C2=A0<a data-footer-ey=
+ebrow=3D"eyebrow" data-cid-disabled=3D"true" class=3D"m-4 m-14" style=3D"fo=
+nt-size: 14px; line-height: 18px; white-space: nowrap; color: #515154">1-80=
+0-MY-APPLE</a>=C2=A0=C2=A0=C2=A0=C2=A0<span class=3D"m-35" style=3D"color: =
+#D2D2D7">|</span>=C2=A0=C2=A0=C2=A0 <a href=3D"https://c.apple.com/r?v=3D2&=
+la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5o=
+CMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZ=
+dmlL1lGPplHiQB3&ct=3Dac9r8E6L4P" data-footer-eyebrow=3D"eyebrow-last" style=
+=3D" border: 0; outline: 0; text-decoration: none;color:#515154">Get=C2=A0t=
+he=C2=A0Apple=C2=A0Store=C2=A0App</a></p></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr><tr class=3D"m-11"><td style=3D"background-colo=
+r: #f2f2f2; padding-bottom: 17px; padding-right: 26px; padding-left: 26px;"=
+><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ali=
+gn=3D"center" style=3D"background-color: #f2f2f2;" role=3D"presentation"><t=
+body><tr><td align width=3D"100%" class=3D"m-12"><table align border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" cl=
+ass=3D"m-12"><tbody><tr><td class=3D"m-18" style=3D"border-top-width: 1px; =
+border-color: #d2d2d7; width: 660px;"><table cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" role=3D"presentation"><tbody><tr><td width=3D"660" vali=
+gn=3D"top" align=3D"center" class=3D"m-18" style=3D"border-color: #d2d2d7; =
+border-top-style: solid; border-top-width: 1px; font-size: 0px; line-height=
+: 0; width: 660px; margin: 0px auto;"></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-11"><td s=
+tyle=3D"background-color: #f2f2f2; padding-right: 26px; padding-bottom: 9px=
+; padding-left: 26px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" style=3D"background-color: #f2f2f2;" r=
+ole=3D"presentation"><tbody><tr><td align width=3D"100%" class=3D"m-12"><ta=
+ble align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presenta=
+tion" width=3D"100%" class=3D"m-12"><tbody><tr><td class=3D"m-13 m-116" sty=
+le=3D"color: #86868b; text-align: left; padding: 0px; margin: 0px;"><p styl=
+e=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 0px auto 0=
+px 0px; padding: 0px;">* $9.99/month after free trial. No commitment. Plan =
+automatically renews after trial until=C2=A0cancelled.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;">A subscription is required for Apple=C2=A0Fit=
+ness+.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;">The Fitness app on Apple=C2=A0TV requires tvO=
+S=C2=A014.3 or later. The Fitness app on iPad requires iPadOS=C2=A014.3 or =
+later.</p></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr=
+ class=3D"m-11"><td style=3D"background-color: #f2f2f2; padding-right: 26px=
+; padding-bottom: 9px; padding-left: 26px;"><table width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"backgroun=
+d-color: #f2f2f2;" role=3D"presentation"><tbody><tr><td align width=3D"100%=
+" class=3D"m-12"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" role=3D"presentation" width=3D"100%" class=3D"m-12"><tbody><tr><td clas=
+s=3D"m-13 m-117" style=3D"color: #86868b; text-align: left; padding: 0px; m=
+argin: 0px;"><p class=3D"m-14" style=3D"color: #86868b; font-size: 12px; li=
+ne-height: 16px; margin: 0px auto 0px 0px;">TM and =C2=A9 2020 Apple Inc. O=
+ne Apple Park Way, <span class=3D"m-5" style=3D"white-space: nowrap">MS 96-=
+DM</span>, Cupertino, CA 95014.</p></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr><tr class=3D"m-11"><td style=3D"background-color: #f2=
+f2f2; padding-right: 26px; padding-bottom: 9px; padding-left: 26px;"><table=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter" style=3D"background-color: #f2f2f2;" role=3D"presentation"><tbody><t=
+r><td align width=3D"100%" class=3D"m-12"><table align border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"=
+m-12"><tbody><tr><td class=3D"m-13" style=3D"color: #86868b; text-align: le=
+ft; padding: 0px; margin: 0px;"><p class=3D"m-14" style=3D"color: #86868b; =
+font-size: 12px; line-height: 16px; margin: 0px auto 0px 0px;"><a href=3D"h=
+ttps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJ=
+OZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV=
+%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac9t6G3k9Y" data-footer-leg=
+al=3D"legal" style=3D"border: 0; outline: 0; text-decoration: none;color:#5=
+15154;">All Rights Reserved</a>=C2=A0=C2=A0=C2=A0<span class=3D"m-35" style=
+=3D"color: #D2D2D7;">|</span>=C2=A0=C2=A0=C2=A0<a href=3D"https://c.apple.c=
+om/r?v=3D2&la=3Den&lc=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFC=
+J5YV%2Ber5oCMpN%2BpZDeo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2h=
+udUqsTdcluZdmlL1lGPplHiQB3&ct=3Dac9t7d6M1Y" data-footer-legal=3D"legal" sty=
+le=3D"border: 0; outline: 0; text-decoration: none;color:#515154;">Privacy =
+Policy</a>=C2=A0=C2=A0=C2=A0<span class=3D"m-35" style=3D"color: #D2D2D7;">=
+|</span>=C2=A0=C2=A0=C2=A0<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3D4aI%2FhWxYpulHzy2zXzBnkEIuJOZsdHYKsXygSmTFCJ5YV%2Ber5oCMpN%2BpZD=
+eo%2FIkQ9%2F4Fz%2F3LJY%2Bmrl6yp1w5FcbV%2BzHCeC5349yM2hudUqsTdcluZdmlL1lGPpl=
+HiQB3&ct=3Dac9t7u6t9p" data-footer-legal=3D"legal" style=3D"border: 0; outl=
+ine: 0; text-decoration: none;color:#515154;">My Apple ID</a></p></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-11"><td =
+style=3D"background-color: #f2f2f2; padding-right: 26px; padding-bottom: 25=
+px; padding-left: 26px;"><table width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" align=3D"center" style=3D"background-color: #f2f2f2;" =
+role=3D"presentation"><tbody><tr><td align width=3D"100%" class=3D"m-12"><t=
+able align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"present=
+ation" width=3D"100%" class=3D"m-12"><tbody><tr><td class=3D"m-13 m-118" st=
+yle=3D"color: #86868b; text-align: left; padding: 0px; margin: 0px;"><p cla=
+ss=3D"m-14" style=3D"color: #86868b; font-size: 12px; line-height: 16px; ma=
+rgin: 0px auto 0px 0px;">If you prefer not to receive commercial email from=
+ Apple, or if you=E2=80=99ve changed your email address, please <a href=3D"=
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DtEQY0W39slGyauy=
+ZP125yoXQ9vBgB7jFxtgO7F%2B2%2FU7PwheqGoRhM%2FAoe8QW7AdWWT0CfNOkZX5dIgIPTT5E=
+%2B%2FayZXz%2BWXV42gXAjWeKc2ZWIgLNhjJMUTRchS59gFNu%2B%2FNu26oaJiHXRt6oy1wZh=
+NR%2F2Qd0hnmOLBZ1saw5xaBtiU6MEMIYRmYJF6qFPtD2gpdl41y55cEPYOk3KcqKfTLTl4fdqo=
+M1CO%2FjjvmmAJM%3D" style=3D"border: 0; outline: 0; text-decoration: none;c=
+olor:#515154;">click=C2=A0here</a>.</p></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></=
+tr></tbody></table></div>
+</body></html>

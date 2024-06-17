@@ -1,0 +1,99 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:ad4:47a9:0:0:0:0:0 with SMTP id a9csp12797qvz; Mon, 28 Dec
+ 2020 10:46:35 -0800 (PST)
+X-Received: by 2002:a37:8e06:: with SMTP id q6mr36683816qkd.402.1609181195518;
+ Mon, 28 Dec 2020 10:46:35 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1609181195; cv=none; d=google.com;
+ s=arc-20160816;
+ b=iPr4thToTzNiCcOdc8/fKxIIHecoiN+QxW/b9RmH4WGGH/+2HQ8Q2F0w+1qdzYa2Eg
+ EVw9IYqIOjCf0emXmo/4R7SMqSvfbDFSeBt/WPGVmxOTrjwTh634N1RAOvYhuB7nap9w
+ j5xV9Tyum9TsR6ssMaDPMm6nBOGBIspKmAqLij/uVoosDDZIGHr/LmK1pGoj4LjvQuTW
+ QeQdP+tbJ+UQWeXNc0x3pUfvGVKd9J++rQnbuZ7fs+O5vXFl1tRLMNY1pICpdHrfE9CA
+ Wm1RCYdnT6m4uFPXNnB0MVp3DIYDnLXVJP/vXSgv+T6Qk633CPfjBXKMjTrRLspkWK9h JQVg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=to:from:subject:message-id:list-id:feedback-id:list-unsubscribe
+ :precedence:reply-to:date:mime-version:dkim-signature;
+ bh=FaPmrY0kWN9kyVfo5XL1VB4QAWgRF8oK3avxNJqbdJY=;
+ b=hJcw3D0LtoCW2iXYxl1Pr6c74GLq7CXSLM6a6d0IliB0e45Num41PPeRObsL/CbPyB
+ hR/mqXVjyfn2GRCEOT4uOhlP4XKS/aKys9Cjn6MUIwUWg4dyPb35e/c537PgYRtg3oQX
+ dbq/FyhgPMCTxnasXLoWotWk/d/pqhvc8w8xpFVLI+dELTfY/WvST1yvU4rMR7if5RcF
+ ComLTOfpNZq9xYqAuiP/930FQYSCdsQp4x7UOliI/7Ise9pGIsLZFM54nXHer7hMQ0QC
+ M8qYxTXke/+vX0baOOETF4jd5Nm49OzOW9EcYno2QdyO1ANd/tBsxpe/WKYqs7Njwf0D Xc5g==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@google.com
+ header.s=20161025 header.b="b5r/JN6j"; spf=pass (google.com: domain of
+ 3cijqxxukcwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com
+ designates 209.85.220.69 as permitted sender)
+ smtp.mailfrom=3CijqXxUKCwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com;
+ dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+Return-Path: <3CijqXxUKCwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com.
+ [209.85.220.69]) by mx.google.com with SMTPS id
+ d4sor14820918qkn.167.2020.12.28.10.46.35 for <tornadobeth@gmail.com> (Google
+ Transport Security); Mon, 28 Dec 2020 10:46:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ 3cijqxxukcwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com
+ designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com; dkim=pass header.i=@google.com
+ header.s=20161025 header.b="b5r/JN6j"; spf=pass (google.com: domain of
+ 3cijqxxukcwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com
+ designates 209.85.220.69 as permitted sender)
+ smtp.mailfrom=3CijqXxUKCwkpxxpunjllx3w2-wx0nyu7pxxpun.lxv2x0wjmxkn2qpvjru.lxv@scoutcamp.bounces.google.com;
+ dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=20161025;
+ h=mime-version:date:reply-to:precedence:list-unsubscribe:feedback-id
+ :list-id:message-id:subject:from:to;
+ bh=FaPmrY0kWN9kyVfo5XL1VB4QAWgRF8oK3avxNJqbdJY=;
+ b=b5r/JN6jt68VxvFF3NGtIwz3E1ZrgkDviUZJJfajRx2kYS5tM7pDweRTlh9UkOnRBP
+ M+XD1z/H0exeXbq2jypW8e/7Gd4s8Gx1qOGEnEwtFKAN7Q+q2EHMEZwWau3pjRaG0+vI
+ O9wEEcL0dvT8ixD3wnfZoiJJCXkdw0n6VOO9LpA6uKQe9q6CuuXcMpgYtQoqxWqsc+CC
+ AMGt1qGIYClTJ8LbLqZb4G35EOSkXlh4lk3UYFo9yXQrmfq4+Szb5rZPq2JAGj4idHA7
+ kqcfx1FJyBrBU0B2QKham4atg0oUM5zkBkrYrZyleS7CkYx9MdMyz+TWzDC4PKhtIx+9 T7kg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+ s=20161025; h=x-gm-message-state:mime-version:date:reply-to:precedence
+ :list-unsubscribe:feedback-id:list-id:message-id:subject:from:to;
+ bh=FaPmrY0kWN9kyVfo5XL1VB4QAWgRF8oK3avxNJqbdJY=;
+ b=YH4fBAZmBeKv57e/ceCcrzd/ctZJDaUdvLwVkSsmlv7IDiCc6u48sqlzJS4VUv/XYK
+ uBA5fqXohnESvQcVqhZ6I/MBpbRKzt9VBP9KCjbTk0wCXU46fD4lGybPQbvP2FI/zJ6X
+ hp42ZuX9no169gt/WfBmpdS5Eme/llg6be9zHfxEnq28nFDjRCu+rkz9+es0bA9gXGDX
+ kb2f68A4Mz7l8O0ovTUXzY5dQEohGroMCCYHZZolfUnetP3xtZRlKoVBjHfxq0Shvx3m
+ 22ht8LtGjoGoPnA7D975QcEMaAHgWEbLNS66QsuYoKLhyzcLcdOQGo/nLknmz0x1RW37 Oyng==
+X-Gm-Message-State: AOAM533wbkhV1xiG8BW0bl8JV+z81Mj2mkNJBP2CIfilFLUuW+WDRpwK
+ Z0R/ME3HtSt0q8g1/66iVOgN
+X-Google-Smtp-Source: ABdhPJywK7b3Bq+9koldHWDTzPzVBz+AV/Vr04ToMiR1SAB4gUjeZMvwhcox/8lZG8gF39Pt/n7MkBw=
+MIME-Version: 1.0
+X-Received: by 2002:a37:ad0d:: with SMTP id
+ f13mr46116173qkm.355.1609181194974; Mon, 28 Dec 2020 10:46:34 -0800 (PST)
+Date: Mon, 28 Dec 2020 10:46:34 -0800
+Reply-To: Google Account <googleaccount-noreply@google.com>
+X-Google-Id: 4053796
+Precedence: bulk
+List-Unsubscribe: <https://www.google.com/appserve/mkt/optout/AD-FnEzrwHZpxY60_fzWPuxUGVzZPK-MJT2ouC2K2P9j0zVZVJ1ayn3iubTyVYxH3r-rVzT5XMQ6IgnMWep3OCm4ipiOO78Xp64dLwPMNOFzrxSJXPCe6A?hl=en>
+Feedback-ID: P2602--955068252:C20140242:M110382488-en:gamma
+List-Id: <237e027d68f04974f4e3466fb8dd2afbda7df02d.google.com>
+X-Notifications: GAMMA:<217f04f346138bae2ff74dd5a486fe025be006c4-20140242-110885664@google.com>
+Message-ID: <217f04f346138bae2ff74dd5a486fe025be006c4-20140242-110885664@google.com>
+Subject: Beth, you have new privacy suggestions
+From: Google Account <googleaccount-noreply@google.com>
+To: tornadobeth@gmail.com
+Content-Type: multipart/alternative; boundary="0000000000008177e305b78ab129"
+
+
+--0000000000008177e305b78ab129
+Content-Type: text/plain;
+	charset=UTF-8;
+	delsp=yes;
+	format=flowed
+Content-Transfer-Encoding: base64
+X-Apple-Content-Length: 1962
+
+
+--0000000000008177e305b78ab129
+Content-Type: text/html;
+	charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 16879
+
+
+--0000000000008177e305b78ab129--

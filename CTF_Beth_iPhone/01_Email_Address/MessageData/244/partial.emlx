@@ -1,0 +1,80 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:ab0:28cf:0:0:0:0:0 with SMTP id g15csp5001902uaq; Tue, 6 Jul
+ 2021 10:18:40 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJzN7erKPAXReAqTNPps4ctwN4vM0sU6gDEMVIcTC/uy9Abrmn9hRTB8ZnKS1OajFdS6G1kR
+X-Received: by 2002:a25:8093:: with SMTP id
+ n19mr27235663ybk.414.1625591920134; Tue, 06 Jul 2021 10:18:40 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1625591920; cv=none; d=google.com;
+ s=arc-20160816;
+ b=TgJLpVeT7toerp6ya/QW8mhOOxolJnqUXvXVs3Fihhxl/xvRiRj4ARXna49AU8ecpt
+ kbGpK4H7YjCqw7eqCxTj6S5iLGeO/MWAsbQe4Q0KFbNxohAWNIlvOvdcJW+lSz4Rq6f9
+ WolXvO+T1Hptj+DF544TXZ5XOlfEcwR0bbSrx4ve8NavyOzvtQDl+VXeCtXByUvXfsF0
+ JK1AI0PxUBnf+5QvfAp3cqcEP/mvZmGu0q1tDguJ6SOvk62LQoARtXrfjuxft6L/bhpF
+ H+Akv8JAd54iVubhyHpb+eda3OJsyrc4SpVgSnxWmhZfPQu7YLIPGPghdliPk3NUx1mc Vs5A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=content-transfer-encoding:mime-version:subject:from:to:message-id
+ :sender:date:dkim-signature:dkim-signature;
+ bh=pSlpQKIgpgEk+q5DKyCYOdKeHOmPRaUfcy8FJt0IUUA=;
+ b=u+vvYBmcnew7VgnfkyMAXG91HPdJqSc0ygNCHAy/5ZB6RfqpZsY+EDMq1UbTl7kCJz
+ eeP3AY14MTEvR/cof9jiJ87Snd1bhWTDQ5Zz+tYoyrpRUwEpwpnDH7SamMyJkr3gmRUI
+ XSjKFrs4AhOE7fP4acSX4Gp5Bs/7Gn468cwZucKB9wj4tdOxk79vJiNp3Uk0oRa+g333
+ PU7znk+QjVSS0+m3rZoHlVFzBr2b7ZfBw+xX9ufQFilJrL/j55ISQutTimCtSRzXKjRv
+ vocSTnf3LMOJfXxlFwuk8Vwzzmil4SDOL6GPAQpMyz7ysK+n676JF1PuTyzTN1RRvrxo I22A==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@gettr.com
+ header.s=krs header.b=jVFStPhM; dkim=pass header.i=@mailgun.org header.s=mg
+ header.b=gjjslvBm; spf=pass (google.com: domain of
+ bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com designates
+ 161.38.195.146 as permitted sender)
+ smtp.mailfrom="bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com";
+ dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gettr.com
+Return-Path: <bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com>
+Received: from m195-146.mailgun.net (m195-146.mailgun.net. [161.38.195.146])
+ by mx.google.com with UTF8SMTPS id l19si14315405ybf.467.2021.07.06.10.18.30
+ for <tornadobeth@gmail.com> (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256
+ bits=128/128); Tue, 06 Jul 2021 10:18:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of
+ bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com designates
+ 161.38.195.146 as permitted sender) client-ip=161.38.195.146;
+Authentication-Results: mx.google.com; dkim=pass header.i=@gettr.com
+ header.s=krs header.b=jVFStPhM; dkim=pass header.i=@mailgun.org header.s=mg
+ header.b=gjjslvBm; spf=pass (google.com: domain of
+ bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com designates
+ 161.38.195.146 as permitted sender)
+ smtp.mailfrom="bounce+6f3c07.eb0099-tornadobeth=gmail.com@gettr.com";
+ dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=gettr.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=gettr.com; q=dns/txt;
+ s=krs; t=1625591919; h=Content-Transfer-Encoding: Mime-Version: Content-Type:
+ Subject: From: To: Message-Id: Sender: Date: X-Feedback-Id;
+ bh=pSlpQKIgpgEk+q5DKyCYOdKeHOmPRaUfcy8FJt0IUUA=;
+ b=jVFStPhM2kMBbyUQJ156MJb1DPpLSPCbJnobTxoHz8Xl87bXxDg7U9tPqHILKU/dTj/oM6Z6
+ +8W6QNoU9cJojN1uaMZVS11YD97Ev39/M9e3bU42omUfeleYqJmGs29/Cc8FEDbU/6YLZwP7
+ g+LCDnoPLDYw+kHQ9C20hycaEFM=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org;
+ q=dns/txt; s=mg; t=1625591919; h=Content-Transfer-Encoding: Mime-Version:
+ Content-Type: Subject: From: To: Message-Id: Sender: Date: X-Feedback-Id;
+ bh=pSlpQKIgpgEk+q5DKyCYOdKeHOmPRaUfcy8FJt0IUUA=;
+ b=gjjslvBmFmfeae2M+y0rVvIdFXG+Vo39VsDu0HPFTmG5PO1sMuuVZ+dVHmEuUyX/bYICL1NO
+ GtR1k9Yc/UlWwvr90tp5iY1QZGH9ZlGAzvgwUXJ9QVn7GWSzEwsCEF5p77f8yGmzNtRSA5UG
+ kfXqCaq6tp2v1pBZy0VH5RaPmbI=
+X-Feedback-Id: 60c642381aba7fc685f11e69:mailgun
+X-Mailgun-Sending-Ip: 161.38.195.146
+X-Mailgun-Sid: WyJkZGEyNiIsICJ0b3JuYWRvYmV0aEBnbWFpbC5jb20iLCAiZWIwMDk5Il0=
+Received: by luna.mailgun.net with HTTP; Tue, 06 Jul 2021 17:18:22 +0000
+Date: Tue, 06 Jul 2021 17:18:22 +0000
+Sender: noreply@gettr.com
+Message-Id: <20210706171822.1.415C8AF5FCCCC75C@gettr.com>
+X-Mailgun-Variables: {"code":"610387"}
+X-Mailgun-Drop-Message: false
+X-Mailgun-Template-Name: new_gettr_verification_en
+To: tornadobeth@gmail.com
+From: noreply@gettr.com
+Subject: 610387 is your verification code from GETTR
+Content-Type: text/html; charset="utf-8"
+Mime-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 9142
+

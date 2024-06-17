@@ -1,0 +1,89 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:238d:0:0:0:0:0 with SMTP id 13csp1170371uao; Thu, 4 Feb
+ 2021 07:57:43 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJwBX5SkeJxmOYRbC/xKf7I++brgN2pvjGmTDY4lKc5Q2+RZkNH1k8G3/eBI6yXIGYerpsga
+X-Received: by 2002:a05:6638:12cf:: with SMTP id
+ v15mr162300jas.77.1612454263126; Thu, 04 Feb 2021 07:57:43 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1612454263; cv=none; d=google.com;
+ s=arc-20160816;
+ b=HEPwTowNxsn+z31NSpQAkEkjI40jvcdxp4CamK6Z78y35OWA/mMmQR0vkWGmbMz8+U
+ c2EqFYYsqE+p7aA6q4V6BgPmJxpz41HGV4D9Tf5XVOlqOjl+/p8Iei4CenbdLBvBfypI
+ Zbzfs7k/1g+EBEuHUuJf60weVvZku00Q3fYysfaLnFUKXVGAl0u1av18FEl8O8vRoR8o
+ Tr8WpqdRCAoIYd2PzoRJPE9TiP2bHhGUs1TMtdNbGJ3As8iNvDApIdRoPvLWVYhLQsf3
+ eX14YfEXHwleWU9vS2OWDWf6PHLtWe8tvTDXLh7xkLpdQheBqNflpwLn24Pcx8234j3i +q3Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816; h=date:subject:message-id:to:from:reply-to:mime-version
+ :dkim-signature:dkim-signature;
+ bh=eW76ZdtNi3f4RVpCsNnB+rQ8210zOniSpkKa8lstVcY=;
+ b=cuznSNj3tlknCSjT7+R58Qr2RJEx7NaCo3aLnolodEWACnTyvgjj4VYmGErASlzcXI
+ klnbcwrPpfMk46EohTsAxI7xhsJIgeHRPEco90PyoPsP0x0uVx59XwQxpWgusQjP66zH
+ RjosACZ05hSOrQvItuX0MV+FK8arKwpxQ7vec3hVWvorf8zS6RdF3xCdLOXo4YlWt2qK
+ vgxHpZQidqTLde2O3vOy/p7uB/5aXGfsf3LbAjCgRQSF5Gz2FWDpMankmtj68PJh0Cp5
+ xLkVJZEIab4eL01MC3m1pFGPte12R8F1edpUzxOkEUH+9FtEF91CXs4Xjn2iUZINZe5b 496w==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@account.tiktok.com header.s=s1 header.b=PkzaXDE4; dkim=pass
+ header.i=@sendgrid.info header.s=smtpapi header.b=o4Q4GyUL; spf=pass
+ (google.com: domain of
+ bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com
+ designates 167.89.14.4 as permitted sender)
+ smtp.mailfrom="bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com";
+ dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiktok.com
+Return-Path: <bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com>
+Received: from o2.ptr4323.i.account.tiktok.com
+ (o2.ptr4323.i.account.tiktok.com. [167.89.14.4]) by mx.google.com with ESMTPS
+ id b15si4929802ioa.26.2021.02.04.07.57.42 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Thu, 04
+ Feb 2021 07:57:43 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com
+ designates 167.89.14.4 as permitted sender) client-ip=167.89.14.4;
+Authentication-Results: mx.google.com; dkim=pass header.i=@account.tiktok.com
+ header.s=s1 header.b=PkzaXDE4; dkim=pass header.i=@sendgrid.info
+ header.s=smtpapi header.b=o4Q4GyUL; spf=pass (google.com: domain of
+ bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com
+ designates 167.89.14.4 as permitted sender)
+ smtp.mailfrom="bounces+15212870-e559-tornadobeth=gmail.com@em8618.account.tiktok.com";
+ dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiktok.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=account.tiktok.com;
+ h=mime-version:reply-to:from:to:subject:content-type; s=s1;
+ bh=eW76ZdtNi3f4RVpCsNnB+rQ8210zOniSpkKa8lstVcY=; b=PkzaXDE4VS3I6
+ /gVOCvHLNiDnRwLO5St5D7eqii7p7StEibu+9SkLxhGJoyF7C6WfK6VX4In+SZSK
+ uyZX837oWTvh1k7FRdk9ylW7P5KAf72JI8ggTtsKmEPEJQb5JusH+x9peLcgYerX
+ bkvdGMiR1ij2Z96y8OTkB/9WPeT8Nc=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+ h=mime-version:reply-to:from:to:subject:content-type:x-feedback-id;
+ s=smtpapi; bh=eW76ZdtNi3f4RVpCsNnB+rQ8210zOniSpkKa8lstVcY=; b=o4
+ Q4GyULQ2NTpCbdWwygtroHfJRL4sg47SeuquwTGJYfrDcw12Ydnqi38vKSSwcXeN
+ 5pYSLRrhFCXgrWXGHN47wY2iuFbV37Fe/G1dtWB+9zRzM+Bw1JVvpEOlCaqEsSmv
+ 7Jg1horGZtphVUsMe+3bT1I/iVs/lB7vWKWqrVCWc=
+Received: by filter2764p1mdw1.sendgrid.net with SMTP id
+ filter2764p1mdw1-22956-601C1976-27 2021-02-04 15:57:42.669585646 +0000 UTC
+ m=+158127.885448479
+Received: from localhost (unknown) by ismtpd0089p1iad2.sendgrid.net (SG) with
+ ESMTP id 8OvcmdrSS92oEdP-yTXt-A for <tornadobeth@gmail.com>; Thu, 04 Feb 2021
+ 15:57:42.638 +0000 (UTC)
+Mime-Version: 1.0
+Reply-To: noreply@account.tiktok.com
+From: "TikTok" <noreply@account.tiktok.com>
+To: tornadobeth@gmail.com
+X-AliDM-Trace: eyJPcGVuVHJhY2UiOiIxIiwiVGFnTmFtZSI6Im9wZW50YWcifQ==
+Message-ID: <51f527d6-d08d-4ada-a3f4-b541dc10a84b.noreply@account.tiktok.com>
+Subject: Verify your email address with TikTok
+Content-Type: multipart/alternative; boundary="GoBoundary"
+Date: Thu, 04 Feb 2021 15:57:42 +0000 (UTC)
+X-SG-EID: PlK13cIW1uVvuLUPFf1+srNxwUfE5oLGMBorOEeCKu23uUu6eK9C6Ch0SaTp+HEJFhBE/iQcQAED1c
+ G4aXyMdEEoUH0MXRQVqWYcVA4c+DqUzK+/4v2LQOk82UPscTy5Y7D+HC/U+GbX1eJkhLuikjG6f3F2
+ WzV3XBfF3Ydux+yGKU7FmY3+Bvw9A6nHalNqy3eBgFm9Koo4d8FDzXY8yQl4zYLBlXk9HpDm0LrjGf
+ c=
+X-Entity-ID: /iZ+76rxFgdu7mfOm3BSYQ==
+X-Feedback-ID: 15212870:kGz1T4EpeX+E3H041/A5He9JwmeplJsgTx6gAmOk5KM=:kGz1T4EpeX+E3H041/A5He9JwmeplJsgTx6gAmOk5KM=:SG
+
+
+--GoBoundary
+Content-Type: text/html;
+	charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Apple-Content-Length: 4909
+
+
+--GoBoundary--

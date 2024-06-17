@@ -1,0 +1,91 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:3767:0:0:0:0:0 with SMTP id a36csp3250138uae; Tue, 19
+ Jan 2021 04:56:23 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJzHl0LiJ60ZiBjN/Mr27vUGGjcicGixKbB7ldDzTuNuK5Tu/+2kLkXRW24dhYQgTC6d00NG
+X-Received: by 2002:a92:6a10:: with SMTP id f16mr3300553ilc.146.1611060983277;
+ Tue, 19 Jan 2021 04:56:23 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1611060983; cv=none; d=google.com;
+ s=arc-20160816;
+ b=yq7BikcV6rexWgjTIEPiV/IfEKAf81OUOefv2LLMPbQTMybpGx1PG5ZlswPz/cyAST
+ nZNwG/j6FmPHi2fEV3xRU9FrpELdbOq+5/xfgD2IDYoQWzhZk1vq7F5ePCWj2TFYhcXn
+ BQFmyiy8u7vvmg6sieyxdX26+StvrWAIwOE10kM/L213Pgtw9XBHt4KaxHQpXkXGGHVU
+ b5Rk26gfbuqXcjMzRjyDytdHRu7AEwDE+P3iCBJhLvaeNwGV+Rdp1xjvl54W4eXPqCsT
+ 22RHgidOZmzpS2KL8kPm8IfIY5CbtUHJjQmLxx7id/Bc+dRUZHG87O0sktTDb8g0kt2Q QkhQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=Q0/xMuAZahELFdBk+bGJGoUO9Q4yemI3GcMvBTvyj8E=;
+ b=oaxNfYQ5+shn5X+4yLDa0kVCqtaJS9Mwzei3lDs3yuKsJ4W806OhWfoG4AKpxfipRi
+ zB6T9qyLjXYWNeINwHzXHahEwA5V87AFHRS2Ug9vUJD3C27coYBn5YsDV/E5ejQ0ihvL
+ kfuLnVLeXwrrA0fiY+E+47/f01l3Dmh8Xtyz2emcBpWAL2VIxE4FSXRUTJ5/CiRBU47k
+ jSylPVmzQSgGDR/AStAO64osEZCOb5l3XHVfstPG4oLsm17ab741/VHvsCMCRPtT2p7e
+ 4cpF9jqwHm52ml+e9r5GYJ0/z1uQ2KQWOU+wGQ+lZCmERzNJELXv/klyrywpTfGxQSIg p+2Q==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=Sg3uXRuK;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.166 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <newsdigest_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger12105.apple.com (rn2-msbadger12105.apple.com.
+ [17.179.250.166]) by mx.google.com with ESMTPS id
+ o1si5853504ilc.38.2021.01.19.04.56.22 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Tue, 19
+ Jan 2021 04:56:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ newsdigest_i_bounces@insideapple.apple.com designates 17.179.250.166 as
+ permitted sender) client-ip=17.179.250.166;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=Sg3uXRuK;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.166 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1611060982;
+ bh=Q0/xMuAZahELFdBk+bGJGoUO9Q4yemI3GcMvBTvyj8E=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=Sg3uXRuKXM8LHX8Y/sl903JSB2vJnlRdYnZqcXFe2FoMoDImRG2IiYEmXyVmF3PnN
+ odn/Og1WA0Qwhxy41zpRXVYzS3bBaUvOuZp7ntyyDi1xTgqNVli4gIImpUVzZUnTTG
+ iLh0NoNngwUxjKP/zppjCraFoYLqC4DtIvOgceNn1bDPDIxtEyLNq7DPLnCkVb8I0k
+ XpWovfw6wwaCtmI3G1+e9daMBxXXXJL9wWpsKBMJkVMVp05aUVyAPQhrZiUjNr6Vyy
+ eNODUZAg528T1nw8mtvDnn/3n6QxZFzATf6SkPhFr+dGQQaVI/6z4tvXR9oDCkgStm
+ Pvc/iIcVHt9xA==
+Date: Tue, 19 Jan 2021 12:56:22 +0000 (GMT)
+From: Apple News <newsdigest@insideapple.apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <1939089452.979496036.1611060982568@email.apple.com>
+Subject: Senate begins confirmation hearings for Biden nominees, the 7 kinds
+ of bad bosses, and more from Apple News
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_979496034_2071961320.1611060982568"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7NyWcgR3V71%2BN%2BaSGGFQXQM0a2ahNtvdFTy6pwKCNpD0WDb%2Fq9KPOmMWUaCpDns4pviZZPSU862Y4qjGHu0WRrmGoV6nQk%2BwxNkZwrnNdoc5za1c76zwkxPjgG7B4xoVYPly%2FprbY%2FXpMo1c1HDMyvC%2FQevLWKObqCFsuwlt9WcUxm6OV8t%2BuXENNbb4I5qHcLQ%3D%3D
+X-TXN_ID: d0ec740e-097d-4f31-8ff0-cb8c9fff13f4
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 1953881
+X-Business-Group: Apple News US
+X-Broadcast-Id: 1953881
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=EN_US&a=NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7NyWcgR3V71%2BN%2BaSGGFQXQM0a2ahNtvdFTy6pwKCNpD0WDb%2Fq9KPOmMWUaCpDns4pviZZPSU862Y4qjGHu0WRrmGoV6nQk%2BwxNkZwrnNdoc5za1c76zwkxPjgG7B4xoVYPly%2FprbY%2FXpMo1c1HDMyvC%2FQevLWKObqCFsuwlt9WcUxm6OV8t%2BuXENNbb4I5qHcLQ%3D%3D>
+X-mp: d
+
+
+------=_Part_979496034_2071961320.1611060982568
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 6172
+
+
+------=_Part_979496034_2071961320.1611060982568
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 91291
+
+
+------=_Part_979496034_2071961320.1611060982568--

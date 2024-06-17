@@ -1,0 +1,83 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:ad4:47a9:0:0:0:0:0 with SMTP id a9csp1108168qvz; Thu, 10 Dec
+ 2020 05:57:02 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJxV0W9kWXrqlPjjHf69yQ/QdVFdt3D0pCb7uWgtbgQMtlIzRE9VJ4daaxY9ZBRYLqQl8F2k
+X-Received: by 2002:a63:c1e:: with SMTP id b30mr5414832pgl.72.1607608622639;
+ Thu, 10 Dec 2020 05:57:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1607608622; cv=none; d=google.com;
+ s=arc-20160816;
+ b=Xj7xNbByfIDbJDfTbRj2aNyV+MdQCgXqjrjq+8cE29v01yJxjoOrhifVg8y1F/6p/l
+ hz45qAzKyau5CZazogEt4qHQFRsGBidhQ0GnIqhQlvRhDQzoXdeaYx2eiWxk2oebAoyi
+ lU/ZpxHmajeIUKfBGTGIkiUXX2bXU2l6TxK14+SyxDH7qErrhDs13q74CUTzFgHuWXin
+ d0HeCICkzjs1qW2W7PYTfM58MUblmb33z6rI7PEHKn2mc+YhrIl7CdOZ6FRORRdZEKTR
+ 3zmKWJZHwAS6DOtVaMlMYiQygFuctoa7z26UKdeI39HcU+W6rpWmaxDBmmxpwvpwLSXz P4/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816; h=mime-version:subject:message-id:to:reply-to:from:date
+ :dkim-signature; bh=8EyiXVQ+Az0ygNpGiB4VwWp0rcNkxVxcuWySPP6ov6s=;
+ b=X5sZvFU2/CkWnjOSK3TQ5iaqVY3v1f2quWZz4txXPWRhIEDWdf3elSZOYJd0CHaKuJ
+ afYqSWKW38iAGR9V1IUCpmeXWVCX1kYX0WH9WxP9fdh02YJmkWrB/FH1mFt9RCqN8XAC
+ /cNGxjzmXB86Mw5ZOZYuZVv1bEpXW1/r6mNYs+jDZQKF2k+C46QcmcXq2LEJzrTbRiFO
+ ZGODPV9++Lgo21ue6EtELKEhejJxOTTW8CntBZrBV4Z/76gBpRqAKYjcEqhSLwst1BbY
+ Sq8fil/VXIdgurvu8+lkOUtgW/7kyldFZeAvV3PqHGQbnUvyLJJoIJz9UWX8RkGp+Rrh X4eQ==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@apple.com
+ header.s=apple0517 header.b=UOByMN9U; spf=pass (google.com: domain of
+ noreply@apple.com designates 17.151.1.86 as permitted sender)
+ smtp.mailfrom=noreply@apple.com; dmarc=pass (p=QUARANTINE sp=REJECT dis=NONE)
+ header.from=apple.com
+Return-Path: <noreply@apple.com>
+Received: from nwk-txn-msbadger0801.apple.com (nwk-txn-msbadger0801.apple.com.
+ [17.151.1.86]) by mx.google.com with ESMTPS id
+ r11si4453287pls.222.2020.12.10.05.57.02 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Thu, 10
+ Dec 2020 05:57:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@apple.com designates
+ 17.151.1.86 as permitted sender) client-ip=17.151.1.86;
+Authentication-Results: mx.google.com; dkim=pass header.i=@apple.com
+ header.s=apple0517 header.b=UOByMN9U; spf=pass (google.com: domain of
+ noreply@apple.com designates 17.151.1.86 as permitted sender)
+ smtp.mailfrom=noreply@apple.com; dmarc=pass (p=QUARANTINE sp=REJECT dis=NONE)
+ header.from=apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=apple.com;
+ s=apple0517; t=1607608620; bh=8EyiXVQ+Az0ygNpGiB4VwWp0rcNkxVxcuWySPP6ov6s=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=UOByMN9UjSC7MhEin3kIqUxU0/5yZrYB/qebb3gmhvpJF6/sj9JW/Kv6JndlYZ2bw
+ sxvE8uTJRUYwOpGwbLsFEMJy6ShRpVy5+Z15VIZGOGOtTq8fue2nT4tiIYAclyLXzY
+ igj0e7FbmWD84oyMyrktfhBol4kXH3NHM9uILDyK/TD6im/6RTYMAdOmZ0zvnR4fWV
+ X6416elcm0cq2DtOI6fOy5boV8GCi5ktjm6uxql+K9+g1W00faZRx3T6h3hTwo/5DD
+ /3PkQytax0hGakUn9oqPnOOsX/kyQtFHhd5ewaiPMALEu0BYOoap+qb0Qia7vTN6Fl
+ nEgmpDGbsSpbg==
+Date: Thu, 10 Dec 2020 13:57:00 +0000 (GMT)
+From: Apple <noreply@apple.com>
+Reply-To: noreply@apple.com
+To: tornadobeth@gmail.com
+Message-ID: <990879176.76514345.1607608620704@email.apple.com>
+Subject: Verify your email address.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_76514343_533368220.1607608620704"
+X-Attach-Flag: N
+X-COMMS-C: N
+X-Sent-To: tornadobeth@gmail.com,2,LIuKMDhJtZTBm8mpTS%2BVQkPni%2BJhwtlGqVtiEH%2F14ctIUZNdkxlyJLn4BGgNXpxuzK%2BBiqZJzhbdGgXT2Aps%2BnTffNWkvi5kp4c64s49DeV%2BKRUc4CR2uIcmjZPBsWB8JRU%2BNEbX5umnDrVYbkewZSzx31EYLcnS6LrmUXrxcRbUGCoYV%2Btoa2ismZ2Jpm462ewXUa85gR8eW%2FK5DguwWjnMQmWLoQmoom8cOYT9N9pm3%2BMzyjB5d%2F48dCXrTU%2FRuJCsqmNR0rSefuhFHKLxKQLRHSylwO%2BkkC%2Bnb69vmpt8weGnyvTFxiTYW5vGdS6dSugxRibXfytsv3M5M0Lf7D2MLtgvIwG2jRlya8%2FVtA6EavsW7V08EVB3qLp%2FpWptPv5hU6EJV3%2BO7yP8CksyEghkgxbDRp56oc%2BdUpDRgMGw59WBmieIJsW%2B2FL8v3MS6fOB5MZU2j01r9weBhMyhwhcNZo%2B1IiL8AS0T4Fl7hILuyXGi4xV6e3QfX5Z3Rm1
+X-TXN_ID: bb1d447f-c3f5-43c7-b4e7-4437951e0a0b
+X-DKIM_SIGN_REQUIRED: YES
+X-EmailType-Id: 1000107221
+X-Business-Group: DS
+
+
+------=_Part_76514343_533368220.1607608620704
+Content-Type: text/plain;
+	charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 884
+
+
+------=_Part_76514343_533368220.1607608620704
+Content-Type: text/html;
+	charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 13657
+
+
+------=_Part_76514343_533368220.1607608620704--

@@ -1,0 +1,91 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a05:6214:a73:0:0:0:0 with SMTP id ef19csp2290587qvb; Fri, 4
+ Dec 2020 04:35:45 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJwS4ZEHwHHzOROnCfAe1UllH5YjA6oyHmT+WbfD+nBRoXryZStqZ9dW5QBDTteMQMRMjQAZ
+X-Received: by 2002:a92:2a01:: with SMTP id r1mr6519465ile.213.1607085345618;
+ Fri, 04 Dec 2020 04:35:45 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1607085345; cv=none; d=google.com;
+ s=arc-20160816;
+ b=xJ//00d8W5brmw2NhMPjI33Nkql1NvZGlFSqaajXJcMiGV6lBasyQu0DJjSmJ15Hdd
+ SDqd5yIi1mQCzjAmQJe88+aAlI5+tWEBca//UMDmcCfjfY9FkBa/Fa9Qr1knjs+pPjMA
+ M4H8Z70lrpeAdX1zwKlcGlsrtPuOwf/9WvUf3p2qa5AYPxUzVQQwGXeXGf+JqgO8yv37
+ RXO2p6dGUJvZjjY8GhumwMzTze46CqTkz54f3O1xLn1QYi5281/jtROGRQJpA0RNWYMb
+ qFH4+cBMLq0aAQovIq7AvDD8RUifc2k+SYdS6dbcw1Vh/OQvPqlOcGBWhfPf5YL0FSQZ dGAg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=180hz3c4bGJ+0Ng+gRwxlS8ed+MK+f1cDVhuI+aUfZc=;
+ b=yhcWpsyA+PeFdXg6spWDj1JnHKvOgW6b16z6lVlE9t7zsN9Wbg9aiZ+4euPwVq+zxy
+ Hzk5yg/XGYJAZdQ7oqF2GKAIfs/rSORJB2B8+f8JB0dxfPwJzOalRcpKVUGv2ZwRLdZw
+ MoCEKGjehn+nBezRSTI1np+igHXekmxohZWOtK1A+OzD4VrfMcIvjbM7YKu3JINNXtAO
+ WetZhY8RfmNt/8ZJa9lXhuSTQZuEpwSkWdFJxq+Z0KJK8dWo60MEvLWs0mbstZhn3G7I
+ PedGjoTNJsCyv83x980lQckrlGIqGwzyw/NdcrDXmknAzRbArk8zq341RLNKo6FAyHB0 4jLQ==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=QiqIpChv;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.52 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <newsdigest_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger02101.apple.com (rn2-msbadger02101.apple.com.
+ [17.179.250.52]) by mx.google.com with ESMTPS id
+ d1si2111178ilu.117.2020.12.04.04.35.44 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Fri, 04
+ Dec 2020 04:35:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ newsdigest_i_bounces@insideapple.apple.com designates 17.179.250.52 as
+ permitted sender) client-ip=17.179.250.52;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=QiqIpChv;
+ spf=pass (google.com: domain of newsdigest_i_bounces@insideapple.apple.com
+ designates 17.179.250.52 as permitted sender)
+ smtp.mailfrom=newsdigest_i_bounces@insideapple.apple.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1607085344;
+ bh=180hz3c4bGJ+0Ng+gRwxlS8ed+MK+f1cDVhuI+aUfZc=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=QiqIpChvt3SISZv47I7q7PXopxiVgQIngfKxm40mpqyeBwnddXUqPGt8QT/PgI7jj
+ hvcD4bk/ycBgGRxd0cO+TpfBSjrOclagRBHcCFTTgxW5sF3c7zbM+t8lbtNsqPg7a9
+ 5G/nkg8DuC52ZpxETCmpYjipvSIRaMZY0IdIkEqU/QNiTjzJ/0BKzAi26B5c7f55SW
+ BbyEIHwjZdun9F4oHx81hg88Ahixv8tVq87TOeat3LPnsFyH5LC2Qr+p0vrB5YcQM4
+ niua1U/inlcqE2l+n5WjppN+w7mo6GI2kAosz0IU+x9rE95vrtZyIef0zrmf51eWEj
+ mhp4+SXY9JBJg==
+Date: Fri, 4 Dec 2020 12:35:44 +0000 (GMT)
+From: Apple News <newsdigest@insideapple.apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <1809583060.940182090.1607085344173@email.apple.com>
+Subject: California hunkers down, the dark side of wine-mom culture, and more
+ from Apple News
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_940182086_29522909.1607085344173"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7NyWcgR3V71%2BN%2BaSGGFQXQM0a2ahNtvdFTy6pwKCNpD0WQsj1hky6gM8WBF%2BciapahhMkx29jhUGl5hsr51KN%2F2o%2BXH978sa3PEbpFTLQXyv5a1c76zwkxPjgG7B4xoVYPpemrC7mZZS8Gy5bXDQvn%2BMVMt7BRQDjFwNS39a0Q9hyiR13JjeSXtOefAvV7whNSg%3D%3D
+X-TXN_ID: b221745a-c976-415b-abea-b9c1472a51e4
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 1953881
+X-Business-Group: Apple News US
+X-Broadcast-Id: 1953881
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=EN_US&a=NB7Qgfsk6g9uMLB8D9iaJ838AtUyAhv8bTICXmMc01hFLoj81igqDVhAnrqp2LeduIqHqdtSrehHZ3COscI7NyWcgR3V71%2BN%2BaSGGFQXQM0a2ahNtvdFTy6pwKCNpD0WQsj1hky6gM8WBF%2BciapahhMkx29jhUGl5hsr51KN%2F2o%2BXH978sa3PEbpFTLQXyv5a1c76zwkxPjgG7B4xoVYPpemrC7mZZS8Gy5bXDQvn%2BMVMt7BRQDjFwNS39a0Q9hyiR13JjeSXtOefAvV7whNSg%3D%3D>
+X-mp: d
+
+
+------=_Part_940182086_29522909.1607085344173
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 6313
+
+
+------=_Part_940182086_29522909.1607085344173
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 96418
+
+
+------=_Part_940182086_29522909.1607085344173--

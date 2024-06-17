@@ -1,0 +1,87 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:238d:0:0:0:0:0 with SMTP id 13csp1960232uao; Fri, 5 Feb
+ 2021 06:59:27 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJycur6vNJbhkPnVQeNPfoxSuYCw3ZJ53TExzYkGXbcedV44jCF2/mn1tGfngImkb6MZmhqk
+X-Received: by 2002:aa7:c647:: with SMTP id z7mr3859256edr.177.1612537167832;
+ Fri, 05 Feb 2021 06:59:27 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1612537167; cv=none; d=google.com;
+ s=arc-20160816;
+ b=QhTHgCSrQL4VzeuuY+kF3zQLwe4yxoX5HGKSipL4781E4fYBcdVzh5QuXJefHH/zGt
+ HOIXo61fZauSrzWLrejQfYyxX2YJaqjmAzQGxBu0LK0PXAR2BEfGv0fPtzCs8yPvuuk3
+ 51A43Op6msnUidMwwvB0K7WxzB7B+1UtbomMpl5ViSggaBUnZrLsQncvPVyfUicGjtB1
+ aIvO+u7HaYZflE/9p2++xHP0LeXNOtqrcxcCYrjXF4f3XMklBPXx2vAnk4N/g+rIvF0z
+ 8gnHlNVhcRnrodL2fp0GU9UoigFV9fW9UdqSl74SQVsJE3DFeo45KxbRY6hg2UDvxH3G dosQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=PPApyDB6zx0a3Qa4zlU9zFmNlWrnOQTJoTbvHZmBQlg=;
+ b=YaZ8Bxzdy3yq8tvbBhpxbSKdgcsLsmv6o9D2rhIv3L9iEHi2AW1qP8ncsObTce923m
+ Oj3NxXpGJduWDNUXxlpGDhH+bSLOk/4R4WNZjNMlfVhiIKjJd1WiI9UT54uXyj1ju/s0
+ g81TyRSgozMOeL9ykv8KG+ErBeAG39cWIySS/byDCtNOL/UvYYcKPGmos/g5LySAwdyA
+ 8+k57bsbZ4NeDvMiJsYdFiY2ablB8tJCHZKGt3yRas0pAQ9C/joSD3r4dv4j94pq47Hb
+ jReaBqVSi4LMrvmW7Kkd3elXisLmnv7di2k2gE5odrusZxmwJQfts+1w5hRyzaAuiV8M vEng==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@applemusic.com header.s=applemusic0517 header.b=1PZ5XeeW; spf=pass
+ (google.com: domain of new_ndt_bounces@applemusic.com designates 17.32.227.76
+ as permitted sender) smtp.mailfrom=new_ndt_bounces@applemusic.com; dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=applemusic.com
+Return-Path: <new_ndt_bounces@applemusic.com>
+Received: from mdn-epsmtap-mkt-lsndr04101.apple.com
+ (mdn-epsmtap-mkt-lsndr04101.apple.com. [17.32.227.76]) by mx.google.com with
+ ESMTPS id y10si2921459edv.110.2021.02.05.06.59.27 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Fri, 05
+ Feb 2021 06:59:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of new_ndt_bounces@applemusic.com
+ designates 17.32.227.76 as permitted sender) client-ip=17.32.227.76;
+Authentication-Results: mx.google.com; dkim=pass header.i=@applemusic.com
+ header.s=applemusic0517 header.b=1PZ5XeeW; spf=pass (google.com: domain of
+ new_ndt_bounces@applemusic.com designates 17.32.227.76 as permitted sender)
+ smtp.mailfrom=new_ndt_bounces@applemusic.com; dmarc=pass (p=REJECT sp=REJECT
+ dis=NONE) header.from=applemusic.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=applemusic.com;
+ s=applemusic0517; t=1612537163;
+ bh=PPApyDB6zx0a3Qa4zlU9zFmNlWrnOQTJoTbvHZmBQlg=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=1PZ5XeeWTUTlz89WFZPK3uU3Ra/lIrnMkolxCyRjwzeX+B8y8ISAgZpIu04+bZdsa
+ VT05ka468YcRTrnh+3VhZFw+oH1JM/WJl7bW1Cj9SbpNo4Ne5nZI7ZjJVb29oMy8zN
+ +XTRMjfF0g1e0Tu+rzMvFkhS+zhuKE+x4dCo5KTN6LZ6QJluT8ZRv7EeS+tT0til7E
+ V24Qsew+Ojbiko7KByBLNLdZMLybe0R3rp+GFfXbPC0A0TRJnmsqwLl5QyfDy0Xnqy
+ ZpIZvFFwH0SW8Bteub72v8vj04N0j9jOEyWHUaVDGurUxkP3VETwPGD4XCVyeQORZh
+ v2cc4Scn2AGbQ==
+Date: Fri, 5 Feb 2021 14:59:23 +0000 (GMT)
+From: Apple Music <new@applemusic.com>
+To: tornadobeth@gmail.com
+Message-ID: <294589469.113848393.1612537163035@Insideapple.apple.com>
+Subject: For you: 3 free months of Apple Music.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_113848385_1719195515.1612537163034"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,%2FOTrj3%2BlAsCgyPmIKdUvWZkxatpjO0%2Fcs%2BTXFLUEiWk6M7dGvBU%2BBKsXi56QwyOVjgZ4g8PCbBgxNIS6%2FFp%2FWLItd94f4UCCyhbGR7Amk4d%2Ba8UQOWeyuAf7UWRteLE4VCQ%2Bo1AWdh%2BXrkDlgZTklTAdRKWpcnDpnS0u4BHVRvP2Jo9YTkrpTfg3j5HbaId9gDQsrtPMan%2BgKR532qisSg%3D%3D
+X-TXN_ID: 6ed19834-dc6f-4fd5-86a4-d9dce4bd7da1
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2048831
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2048831
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=YhAI2injUVrYL6okXP3K9YaaQ2COgpwxgszSphifxLHHKNvtZ0FTr1NXUhf4Swm%2BpMZ%2FF7tv0Pe6peLPpDqH8N%2Ft7T33vuZJCJhmAbdfOUXL8%2F1f%2BXgeYJTU8IundeF8YZR2Y2YeuGE9cwtWHjaBDJDy%2BCg94dLZYhqn62tJSVb%2FOd9l8FO681LuZlj2RVjfRyoghTf3i6oDs%2F7m%2Fk9bIQMLOEsy7faJyo4agli%2Ftxc%3D>
+X-mp: d
+
+
+------=_Part_113848385_1719195515.1612537163034
+Content-Type: text/plain;
+	charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 3508
+
+
+------=_Part_113848385_1719195515.1612537163034
+Content-Type: text/html;
+	charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 36500
+
+
+------=_Part_113848385_1719195515.1612537163034--

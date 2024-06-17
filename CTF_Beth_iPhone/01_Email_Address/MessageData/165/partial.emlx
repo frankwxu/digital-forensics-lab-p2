@@ -1,0 +1,89 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:3052:0:0:0:0:0 with SMTP id i18csp1559832uab; Fri, 23
+ Apr 2021 09:45:50 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyN2BqCO6oe+5rdXDQnmXi9O+wbK0X+35ZC0l0JSfwbaFFqxxhAL4A0ffuEiC4yrEQ50kyq
+X-Received: by 2002:a6b:be06:: with SMTP id o6mr3924961iof.193.1619196350281;
+ Fri, 23 Apr 2021 09:45:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1619196350; cv=none; d=google.com;
+ s=arc-20160816;
+ b=TrRTEDpb7FVpH1ErktD0DKGztEgHM8L3zbmyZaDqjmDXiZwwq5KgSQc/3CviX9ryS1
+ 4s7RvzohqGHdg/Mcidjhqx6e0z1k3FVuEr3jWcXX4rNHqEQncggTxYSm2mzgqVPv749l
+ lwSDY2kEVpIzFyDOafZYT7Q+cUpzICzRvC3i7h1K9w5Hc4LFxNRgZ7i/rPliC2ND1pcJ
+ WtptNFvx8kaYbhUJipJvzrQadLFdGcs3RUCqEoxVHNmnzngEIgYp5/FxnBNNb1/wtLKD
+ JroIgWp4wJdS6Kmou2PRlE+FXQ9w63bE9HQUZlkEOyCF7VFYxE+lyDqHdql1Bcw79xCV FBqQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=list-unsubscribe:mime-version:subject:message-id:to:from:date
+ :dkim-signature; bh=yBHm8RlvZiHfj11l9Fwku57PW2aawh/mG4rQXbCeKUs=;
+ b=BRJirvkbSpGS6GE/uWdnXpfpG/anibmjuOmglWSpGl3hFstli7UugehToZlmPaSqrw
+ YXOd+LmydbwOAes2hZnwHUSENgpU8/7LhDK8PWp7UvRrgLRLBBRvY4udvWsZnkaXRrkf
+ dwS4JCGAO9TZdoasZhX/3EHncUIBOsD4CiGVuWMU54xw/hq3tcYURGUhZU0T9QpuFAfv
+ 7Hz8o2RTIk2SlORlW0TUEfQ3XDHT9zQG6SN6FiU5EOKDXeFkcF2AMFR0LXtWe0PNSAsh
+ AW/Eg1auPdEGj85atjEydFQRL157dkXzp1L7TVowRpitAbMi+NsVPmP1S0OhUnUsdzNe cr5Q==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=mkAMyvMt;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.229 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Received: from rn2-msbadger19103.apple.com (msbadger19103.apple.com.
+ [17.179.250.229]) by mx.google.com with ESMTPS id
+ j8si6681799jat.114.2021.04.23.09.45.49 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Fri, 23
+ Apr 2021 09:45:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of n_i_bounces@insideapple.apple.com
+ designates 17.179.250.229 as permitted sender) client-ip=17.179.250.229;
+Authentication-Results: mx.google.com; dkim=pass
+ header.i=@insideapple.apple.com header.s=insideapple0517 header.b=mkAMyvMt;
+ spf=pass (google.com: domain of n_i_bounces@insideapple.apple.com designates
+ 17.179.250.229 as permitted sender)
+ smtp.mailfrom=n_i_bounces@insideapple.apple.com; dmarc=pass (p=REJECT
+ sp=REJECT dis=NONE) header.from=insideapple.apple.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=insideapple.apple.com;
+ s=insideapple0517; t=1619196349;
+ bh=yBHm8RlvZiHfj11l9Fwku57PW2aawh/mG4rQXbCeKUs=;
+ h=Date:From:To:Message-ID:Subject:Content-Type;
+ b=mkAMyvMtn5lhVXUEyQoGq6/G760TivnKdrnJevs1972R4qMnOYEd0/dYZuxhRnJ4A
+ 7g9lSgm27PSpAMOyezsMpMtoLGN/wUn+wam8lPHMWqcHoxtbHJ1lU7FflEWjzjnbOv
+ iIizMjpPqDszPxeeNX0apEQZI7c6WZ31YNmS6hoc8w1aDAsXMnmK91m2evluPfhgH8
+ gdC+/69sCurgbKhsn3kX1qRXyMJTZpBoyKCidBSGiVe4YfBK5ln85g4Frl0BhCHeWZ
+ ZdKffgTAiaquuLidGKbzfIDGWvOZBd8qz0CM4jMcIXpf1P7yKT5DDfvaCAjG++IkPs
+ uwuzIeFYjLEFw==
+Date: Fri, 23 Apr 2021 16:45:49 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: tornadobeth@gmail.com
+Message-ID: <936954266.534961086.1619196349854@Insideapple.apple.com>
+Subject: The purple iPhone 12. Pre-order now.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="----=_Part_534961084_1970316201.1619196349854"
+X-Attach-Flag: N
+X-Sent-To: tornadobeth@gmail.com,2,5%2BxGJ0ORibJPmfXmJY0CsTqrfoxih51vpX7lZXfoKNgSEjC2PMOnu0LQJt1n6eNwQGpdRcl%2F%2Buh%2Fxl%2BLewAcGnnjfczT1d2KTOC8ipFCU2RgJtvLHt%2BAX%2BHMHxKyH8VbustMq4Na6ROBiTS78mbqrXV8JtIa0IQdMRdvTPyxi8adpFmk0OlatrkwNamGdnIWlN3fOiNPp9lieRHbHKFPXw%3D%3D
+X-TXN_ID: cd32cbb2-da3b-4366-ac1d-4a328094005d
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 2179521
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2179521
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=oGjCDbl%2FptcvNoLjVrUo3GyeqqnIh%2FGiwPFnUVTNQjq%2BxCtMAsrWqJANxu3P7hoRWKiwYI9KRFklxc8DTD2svKO7%2BoB2%2BidTSyVbl6mtjAHhnGDJV1QR1gmHcDfC6HS7FoPBra5RTpzoqNerR76r0uBE5%2FloILQ%2F2U%2Bv5tulfID3RRi3Pno3jffffY464ImOoJDyhsbDglDuqKVUhoHPgfH94wgxATwbDfiLyMaUGHo%3D>
+X-mp: d
+
+
+------=_Part_534961084_1970316201.1619196349854
+Content-Type: text/plain;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 17024
+
+
+------=_Part_534961084_1970316201.1619196349854
+Content-Type: text/html;
+	charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Apple-Content-Length: 82144
+
+
+------=_Part_534961084_1970316201.1619196349854--

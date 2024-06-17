@@ -1,0 +1,92 @@
+Delivered-To: tornadobeth@gmail.com
+Received: by 2002:a9f:384d:0:0:0:0:0 with SMTP id q13csp2475668uad; Thu, 18
+ Feb 2021 14:39:48 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJyv6xPWuzLDmsxxDpRlU1qRx5jf0ZtMny35uFR1e7qXaqANSmbEXyj3ZA2C9te3gaq8r8C5
+X-Received: by 2002:a17:906:6952:: with SMTP id
+ c18mr1648611ejs.233.1613687987864; Thu, 18 Feb 2021 14:39:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1613687987; cv=none; d=google.com;
+ s=arc-20160816;
+ b=AFjrx/BWrZ+jKoN3BpV+E3OeyLHNGvsmET8XrjfNiT25BFjXSwIQx0CYozsKHbbk75
+ QSGIl2qxUjN1yM2rVZnIPgUq2pWhtgNY2fcqS55J5zdTnfGt/2P4w7EPzlx+DQ8420iL
+ WryNfn5Mdwrngnr0MX3o9mqNEF3LMQTX1kMFNk0r6mbxRcqYOhzdNNzX97vWfRfinfJN
+ M9djACHb9mFymN7mBPAVFapS9Ct27xZmndugLqQqwM55A9F+5QUyoA1n8YHDytqKo+Rx
+ PViEIBtsZeBvZCCkDHsVJacN/f+SHSo3iM46FDGwBHs2i/fBmFjWXQ3wo0tAY2xVpDTk fYug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816; h=list-unsubscribe:feedback-id:date:message-id:to:reply-to
+ :list-unsubscribe-post:subject:from:mime-version:dkim-signature
+ :dkim-signature; bh=TFLocr3WGpHsDXXnUb4/FEg5qqobkONsCcZDzi8ymfY=;
+ b=ZlZjvQ4foX6dUZ2zDRdB6OoCrlm8tFEvYZJr2l5Um3d3aX2V1WxciFJ7fo0MmNWwWA
+ WDh3GXZCsqQ90yxGjtrrfea7d7s+KvH0anLbgFUYoVwIh6rHtNzh06JdHw69x7ZnWbk+
+ aisTw+OUoh6Q3XKAwxYnUifPC+5GSM+CHTY0D0pdpZPMF0CHuvnrVta54mroM0CIY8zz
+ P1HIMBjz7QgN4la0oCwxB8nOYHCfjryRi6Fz1E01wiZCeiWvWsF4kQ/0BjRg9opCKjtq
+ rgiHAyFPFmXxCU3TpWrEl0radXbBFpUK9xdSXGC8UzxO8UvD6q9jB1y7VvhaTs+GuPWN LDcQ==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@service.tiktok.com header.s=s1 header.b=ciggXLlo; dkim=pass
+ header.i=@sendgrid.info header.s=smtpapi header.b=bs44iHUH; spf=pass
+ (google.com: domain of
+ bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com
+ designates 149.72.239.242 as permitted sender)
+ smtp.mailfrom="bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com";
+ dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiktok.com
+Return-Path: <bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com>
+Received: from o17.ptr1147.service.tiktok.com (o17.ptr1147.service.tiktok.com.
+ [149.72.239.242]) by mx.google.com with ESMTPS id
+ y5si5004966edm.43.2021.02.18.14.39.47 for <tornadobeth@gmail.com>
+ (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Thu, 18
+ Feb 2021 14:39:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of
+ bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com
+ designates 149.72.239.242 as permitted sender) client-ip=149.72.239.242;
+Authentication-Results: mx.google.com; dkim=pass header.i=@service.tiktok.com
+ header.s=s1 header.b=ciggXLlo; dkim=pass header.i=@sendgrid.info
+ header.s=smtpapi header.b=bs44iHUH; spf=pass (google.com: domain of
+ bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com
+ designates 149.72.239.242 as permitted sender)
+ smtp.mailfrom="bounces+13619310-1e3b-tornadobeth=gmail.com@em2279.service.tiktok.com";
+ dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=tiktok.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=service.tiktok.com;
+ h=mime-version:from:subject:reply-to:to:content-type:list-unsubscribe; s=s1;
+ bh=TFLocr3WGpHsDXXnUb4/FEg5qqobkONsCcZDzi8ymfY=; b=ciggXLl
+ oQyK2NTMlrN9lK8niEs8DnKmq71rsztv++AC15tNNcCAt37qvY+9WDZylKVlIOHX
+ 6l31b2hynOCTTUoAkn7Pr97RJg2wsyfjtA7pW76ABMpToaJQ8qsoonFGjIwxeDTo
+ XBQOUvVqWOREVDsBWCAIinigMEUe5GjJeawI=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+ h=mime-version:from:subject:reply-to:to:content-type:list-unsubscribe:x-feedback-id;
+ s=smtpapi; bh=TFLocr3WGpHsDXXnUb4/FEg5qqobkONsCcZDzi8ymfY=; b=bs
+ 44iHUH20iBrSbXFo/15v4QPPtQQZOMnLSzEGlJhdvoZiApB9ZSWYwqxwfMAG2L8t
+ 8HBM7d8zRN6z8bclPDhpfzo4SdPHbRMKAcAIB43CIYSYgFJBRdBJYtZjLtwCiePz
+ PWXk6FbwKvViB0wkQyz8uhvc5xRRIs8ofRkYoYUl8=
+Received: by filter2321p1las1.sendgrid.net with SMTP id
+ filter2321p1las1-27581-602EECB1-1A 2021-02-18 22:39:45.809253175 +0000 UTC
+ m=+79656.353125387
+Received: from localhost (unknown) by ismtpd0084p1mdw1.sendgrid.net (SG) with
+ ESMTP id F4Wo-jSwQiCtjoKy_1vYsw for <tornadobeth@gmail.com>; Thu, 18 Feb 2021
+ 22:39:45.670 +0000 (UTC)
+Mime-Version: 1.0
+From: "TikTok" <notification@service.tiktok.com>
+X-AliDM-Trace: eyJPcGVuVHJhY2UiOiIxIiwiVGFnTmFtZSI6Im9wZW50YWcifQ==
+Subject: user156314810284: @Georgie Boy posted 5 new videos
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: notification@service.tiktok.com
+To: tornadobeth@gmail.com
+Message-ID: <ef97d9b5-9e77-40f6-9db4-57122eaf56df.notification@service.tiktok.com>
+Content-Type: multipart/alternative; boundary="GoBoundary"
+Date: Thu, 18 Feb 2021 22:39:45 +0000 (UTC)
+Feedback-ID: 0:notification
+List-Unsubscribe: <https://m.tiktok.com/edm/email/unsubscribe?email=U8yUTfhUBzWjvDX6%2Fd0B%2BEftVLddlwcEhQh7sxHenjbQFQqkoqX%2FyqnV6E5QZhXI&type=0&token=49445a4c971f7cda87e16738d00b0e6b5b01660a>
+X-SG-EID: PlK13cIW1uVvuLUPFf1+srNxwUfE5oLGMBorOEeCKu2NDePx7oQ2vDSqHUvGwxcoZJ1cQMD78jMKc/
+ TIxqKQBZOKyel/FGa8jXh1eXBLvrLI2UErqSnvFeQez1FbDjBbbB4xjJurOoNLyrDJ20bCx0Mmt/vm
+ fJ3QZNhcKCxuPZhGGaWNLuczGzVy+LyXcBqxQ99iVS8UCUBVKkRvUN91I33/1BpunmGIZ5WuMXiIKO
+ o=
+X-Entity-ID: I3+IAUu718NrNsNQLZGgqg==
+X-Feedback-ID: 13619310:UqejBfrUUl5c9KXyAF83emDSoCutS707abwetBjEqTo=:UqejBfrUUl5c9KXyAF83emDSoCutS707abwetBjEqTo=:SG
+
+
+--GoBoundary
+Content-Type: text/html;
+	charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Apple-Content-Length: 24940
+
+
+--GoBoundary--
